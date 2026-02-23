@@ -1,0 +1,896 @@
+[
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0000971160.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"R&D QUALITY IMPROVEMENT SUGGESTION/ SOLUTION FORM\", \"Have you contacted your Manager/ Supervisor?\"], \"Suggestion\": \"Discontinue coal retention analyses on licensee submitted product samples (Note : Coal Retention testing is not performed by most licensees. Other B&W physical measurements as ends stability and inspection for soft spots in ciparettes are thought to be sufficient measures to assure cigarette physical integrity. The proposed action will increase laboratory productivity . )\", \"Date\": \"9/ 3/ 92\", \"R&D Group\": \"Licensee\", \"Name / Phone Ext.\": \"M. Hamann P. Harper, P. Martinez\", \"Supervisor / Manager\": \"J. S. Wigand\", \"Suggested Solutions (s)\": \"Delete coal retention from the list of standard analyses performed on licensee submitted product samples. Special requests for coal retention testing could still be submitted on an exception basis.\", \"Manager Comments\": \"Manager, please contact suggester and forward; comments to the Quality Council.\"}}",
+    "doc_id": "0000971160",
+    "num_fields": 7
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0000989556.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Weights\", \"Adhesive:\", \"RESTRICTED BROWN & WILLIAMSON INTERNATIONAL TOBACCO PRODUCT SPECIFICATION\", \"CIGARETTE MAKING\", \"Physical Characteristics\", \"Tipping Paper:\", \"Application Pattern:\"], \"Brand\": \"PHOENIX\", \"Style\": \"HLB- KS\", \"Company\": \"B. A. T. CYPRUS\", \"Country\": \"CYPRUS\", \"Place of Manufacture\": \"NICOSIA\", \"Supplier(s)\": \"Ecusta\", \"Color\": \"Imitation Cork\", \"Porosity\": \"(coresta)\", \"substance\": \"36 gm/ m2\", \"Supplier Code No(s).\": \"E.30639\", \"Perforation Type and No. of lines\": \"None\", \"Type\": \"Printed Imitation cork\", \"Overall\": \"x\", \"Dimension\": \"mm x mm\", \"Positioning\": \"mm from mouth end\", \"Supplier (s)\": \"Swift\", \"Glue Pree Area\": \"N/A\", \"Date\": \"May 1, 1985\", \"Replaces\": \"New\", \"Overall Cigarette Length\": \"84 mm\", \"Tobacco Rod Length\": \"64 mm\", \"Filter Plug Length\": \"20 mm\", \"Filter Plug Pressure Drop (unencap.)\": \"56 mm\", \"Filter Plug Pressure Drop encap.\": \"56 mm\", \"Cigarette Circumference\": \"24.75 mm\", \"Total Pressure Drop (unencap.)\": \"90 mm\", \"Total Pressure Drop (encap.)\": \"110 mm\", \"Tipping Length\": \"25 mm\", \"Print Position (from filter end)\": \"27 mm\", \"Moisture content (ex-catcher)\": \"13.5 %\", \"Filter ventilation Rate\": \"Nil %\", \"Total Cigt. Wt.\": \"974 mg\", \"Net Net Tobacco\": \"749 mg\", \"Net Tob. Rod Density\": \"245 mg/cc\", \"Print Description\": \"Brown on yellow\", \"Bobbin Width\": \"50 mm mm\", \"Robbin Length\": \"2700 m\", \"Supplier Code No (s)\": \"T.K. 9220\", \"Prepared by\": \"M. HAMERTON / enm\", \"Approved by\": \"Director of Technical Operations, Brown & Williamson International Tobacco\"}}",
+    "doc_id": "0000989556",
+    "num_fields": 40
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0000990274.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"SERVICE REQUEST FROM R & D BY INTERNATIONAL LICENSEE OPERATIONS\"], \"DATE\": \"March 27, 1984\", \"INITIATED\": \"P. H. HARPER PHH\", \"BY\": \"P. H. HARPER PHH\", \"COUNTRY\": \"BELGIUM\", \"PRODUCT\": \"LUCKY STRIKE Filter and VICEROY\", \"NOTES\": \"a) Nature of work should be specified in exact terms.; b) R & D should advise if completion date cannot be met.; c) Two copies of this form to be sent to R & D by initiator and R & D is to return to T. O. one completed copy.\", \"RECEIVED\": \"APR 2 1984 P. H. H.\", \"REQUEST NO.\": \"25- 84\", \"TARGET DATE\": \"April 13, 1984\", \"NATURE OF WORK\": \"Advise if locally obtained Yucatan Honey (sample enclosed) is an acceptable substitute for HALWAY.\", \"R & D COMMENTS\": \"Target the P A 29Mar 84\"}}",
+    "doc_id": "0000990274",
+    "num_fields": 11
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0000999294.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Total\", \"Female\", \"35+\", \"TOP- LINES MENTHOL PRODUCT TEST\", \"21- 34\"], \"SUBJECT\": \"KOOL Lights KS vs. Bright KS Product Monitor\", \"SAMPLE\": \"408 Menthol Lights / 105 Menthol Ultra, 111 Non- Menthol Lights / 92 Non- Menthol Ultras)\", \"CIGARETTES\": \"# 839 / 869\", \"TAR\": \"5. 5; 9.1\", \"KOOL Lights KS- white tip- ping masked\": \"14.0; .4 4; 9.1; .88\", \"NIC\": \".55; .88\", \"MOIST\": \"14.0; 13. 5\", \"MENT\": \".4 4; .841\", \"Bright KS white tipping-\": \".841; .55; 5. 5; 13. 5\", \"Bright\": \"4.45; 3.46; 4.61; 2.08; 2.82; 3.39; 3.99\", \"Total (205)\": \"53+++; 39; 8; 200\", \"Male (99)\": \"100; 6; 34; 60+++\", \"Female (106)\": \"100; 11; 46; 43\", \"21- 34 (96)\": \"35; 56+++; 100; 9\", \"35+ 109\": \"42; 8; 100; 50\", \"No Preference\": \"8; 9; 11; 6; 8\", \"KOOL Lights\": \"56+++; 50; 53+++; 60+++; 46\", \"Male\": \"KL\", \"KL\": \"4.27; 3.58; 3.65***; 2.34**; 3.08**; 3.60*; 3.94\", \"STRENGTH (7= Stronger)\": \"4.74; 4.27; 4.45; 4.51; 4.45; 4.09**; 4.59; 4.31***; 4.71; 4.35**\", \"SMOOTHNESS (7= 5moother\": \"3.38; 3.58; 3.61*; 3.47; 3.43; 3.46; 3.41; 3.60**; 3.42; 3.73**\", \"AMT MENTHOL (7= More)\": \"5.31; 3.65***; 3.70***; 4.61; 4.85; 5.02; 3.64***; 3.63***; 3.58***; 4.94\", \"MENTHOL TASTE (7= Better\": \"3.04; 3.46***; 2.99; 3.02; 2.34**; 3.33**; 2.08; 3.06; 3.39***; 3.45***\", \"SATISFYING (7= More\": \"3.28***; 2.78; 2.74; 2.78; 3.08**; 2.97*; 2.82; 2.78; 3.12***; 3.17***\", \"APTERTASTE (7= Pleasant)\": \"3.52***; 3.24; 3.69***; 3.07; 3.21; 3.44; 3.60*; 3.39; 3.26; 3.56***\", \"EASE OF DRAW 17 Easier\": \"4.07**; 3.96; 4.02; 3.92; 3.95; 3.99; 3.94; 3.99; 3.96; 4.00\", \"PDC #\": \"C273- 82- 7\", \"PROJECT #\": \"1982 102KL\", \"PAGE #\": \"1 of 4\", \"FIELD DATE\": \"September 13, 1982\", \"Directional Difference\": \"66 79% confidence Level\", \"Marginal Difference\": \"80- 94% confidence Level\", \"Significant Difference\": \"95+% confidence Level\"}}",
+    "doc_id": "0000999294",
+    "num_fields": 33
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0001118259.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"B&W\", \"Allowable Grade Substitutions for Export CPCL\"], \"Allowable Substitutions\": \"WCC; RPCFS or RPCFS-O; RPCBS OT RPCBS- O; MC -4 -S; MC -4 -PH; MC -4 -RC; MC -4 -W; MC -1; C Stem; RRXF or RRXF -O; RRXM -B; RRXM -T; RRBF or RRBF -O; RRB -B; RRB -L; RRB -T\", \"Standard Grade Mark\": \"PCFS Flue cured fines; PCBS Burley fines; MC- 4 Manufacturing fines; MC -6 Stem Meal; MC -7 Winnowers; RXF Fine flue cured stem; RBF Fine Burely stem\"}}",
+    "doc_id": "0001118259",
+    "num_fields": 2
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0001123541.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Implement:\", \"QUALITY IMPROVEMENT SUGGESTION OUR MISSION IS SUPERIOR CONSUMER SATISFACTION\", \"RESEARCH & DEVELOPMENT\", \"Quality Coord Only\"], \"DATE\": \"June 21, 1993\", \"DEPARTMENT\": \"R&D Library\", \"Type\": \"EQPR\", \"SUBMITTED BY\": \"Carol S. Lincoln\", \"SUBMITTER'S SS#\": \"407- 64- 3484\", \"Date Rec'd\": \"6/ 21/ 93\", \"QIP Log #1\": \"93- 0301\", \"SUGGESTION: (Describe Current Situation and Idea)\": \"The current system of managing records is too complex. The trend seems to be increasingly specific, when we should be getting more general. Right now, people must work to understand the system. We must spend too much time adninistering the system, labeling and cleaning our files. Complying is a real burden, both for the individual and for the records coordinators.\", \"Describe Possible Solutions And Benefits\": \"1. Drop the category specifications altogether.; 2. Use moregeneral categories.; hote: I have passed this to Scott Appleton for the task force to use in streamlining the records management program.\", \"PROFIT IMPROVEMENT\": \"(If Applicable)\"}}",
+    "doc_id": "0001123541",
+    "num_fields": 10
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0001129658.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Confirmation:\", \"WINSTON & STRAWN\", \"Fax Cover Sheet\", \"Please Deliver as soon Possible To:\"], \"FAX\": \"917 -663 -5796; 917- 663 5979\", \"DATE\": \"10/ 13/ 99\", \"FROM\": \"Kevin Narko\", \"CHARGEBACK\": \"4162/ 158\", \"RECIPIENT\": \"John Mulderig; Gregory Little\", \"COMPANY\": \"Philip Morris; Philip Morris\", \"No.\": \"917 -663 -5796; 917- 663 5979\", \"Fax Number\": \"305 400- 6107\", \"PHONE No.\": \"917- 663 3056\"}}",
+    "doc_id": "0001129658",
+    "num_fields": 9
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0001209043.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"PM6\", \"SEX:\", \"AGE:\", \"MAGAZINE SCORES AUDIENCE STUDIES\", \"PROVED RECALL\", \"BRAND SMOKED:\"], \"Brand\": \"SALEM (RJR)\", \"Title\": \"\\\"HEAD IN WATER\\\"\", \"Size\": \"FULL PAGE\", \"Magazine\": \"TIME\", \"Location\": \"MEMPHIS, PHILADELPHIA, PITTSBURGH; CHICAGO, DALLAS/ FORT WORTH, INDIANAPOLIS, LOS ANGELES\", \"SCORE\": \"33; 29; 33; 30; 31; 31; 31\", \"BASE\": \"(86); (42); (125); (167); (83); (84); (81)\", \"COMMENTS\": \"Tested among a half sample of smokers. Sub- group scores subject to wide variation because of small sample size and should be averaged across several ads for meaningful infor- mation.\", \"OVERALL\": \"1.0; (.97); 31; (167)\", \"Male\": \"31; (51); 2.0; (83)\", \"Female\": \"(84); 31; (46); 0.0\", \"Total Sample\": \"214\", \"Under 35\": \"33; (42); 2.4; (81)\", \"35 & Over\": \"(86); 29; (55); 0.0\", \"Date Sent\": \"4/19/74\", \"Test Brand Smokers\": \"33; (42)\", \"All Other Smokers\": \"(125); 30\", \"Project #\": \"74- 80\", \"Field Date\": \"WEEK OF MARCH 25, 1974\", \"Sample Description\": \"MALE AND FEMALE MENTHOL SMOKERS\"}}",
+    "doc_id": "0001209043",
+    "num_fields": 20
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0001239897.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"CIGARETTES\", \"ATTRIBUTES\", \"Competitive\", \"TOP- LINES NON- MENTHOL PRODUCT TEST\"], \"SUBJECT\": \"25% Replacement of Propylene Glycol With SORBITOL\", \"SAMPLE\": \"250 VICEROY/ 125 Marlboro/ 125 Winston\", \"PROJECT\": \"# 19 4- 26A\", \"REFERENCE\": \"(#627/ 647; (#647/ 627); Current VICEROY 84 25% PG with SORBITOL\", \"VICEROY\": \"25% PG w/ SORBITOL #647/ 627; Current VICEROY 84 (#627/ 647)\", \"Competitive\": \"54%; 46%46%\", \"Current VICEROY 84 (#647/ 647\": \"-13; -7; +14\", \"25% PG w/ SORBITOL (#647/ 627)\": \"-4; +7*; +26*\", \"STRENGTH\": \"+1; -15*\", \"AFTERTASTE\": \"+21; +22\", \"HARSHNESS\": \"+5; -5\", \"#627/ 647 -\": \"Current VICEROY B4\", \"#647/ #627 -\": \"Current VICEROY 84 except with 25% of the propylene glycol replaced with SORBITOL.\"}}",
+    "doc_id": "0001239897",
+    "num_fields": 13
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0001438955.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"SEX:\", \"AGE:\", \"BRAND SMOKER\", \"PM6\", \"COMMENTS\", \"NEWSPAPER SCORES AUDIENCE STUDIES\", \"PROVED RECALL\"], \"Title\": \"\\\" KALEIDOSCOPE - - GONE WITH THE WIND \\\" *\", \"OVERALL\": \"3.4%; (224); 7%; (222)\", \"Male\": \"7; (101); 1.9; (104)\", \"Female\": \"7; (121); 5.0; (120)\", \"Test Brand Smokers\": \"6; (17)\", \"SCORE\": \"3.4%; 3.1; 4.2; 3.2; 3.0; 4.4; 4.0; 1.9; 5.0\", \"All Other Smokers\": \"7; (205)\", \"BASE\": \"(224); (129); (95); (63); (66); (46); (49); (104); (120)\", \"Under 35 35 & Over\": \"3.1; 4.2; (129); (95); 5; 9; (117); (105)\", \"Under 25\": \"3.2; (63)\", \"25- 34\": \"3.0; (66)\", \"35- 44\": \"4.4; (46)\", \"45 & Over\": \"4.0; (49)\", \"Brand\": \"BELAIR\", \"Total Sample\": \"285\", \"Project #\": \"72- 31\", \"Code #\": \"R/ BSS- 71- 19\", \"Type of Ad\": \"PARADE, 1 Page, 4- Color\", \"Newspaper (Date)\": \"Dayton DAYTON NEWS (4 /23 /72); Birmingham BIRMINGHAM NEWS (4 /23 /72); Pittsburgh Pittsburgh PUTSBURGH PRESS (4 /23 /72; San Diego SAN DIEGO UNION (4 /23 /72\"}}",
+    "doc_id": "0001438955",
+    "num_fields": 19
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0001456787.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Weights\", \"CHAMP S/ L TRIAL SPECIFICATION\", \"CIGARETTE MAKING\", \"Physical Characteristics\", \"Tipping and Tipping Application\", \"Tipping Paper:\"], \"Supplier(s)\": \"ECUSTA/ B&W; ECUSTA/ B & W\", \"Porosity\": \"Non Porous; Non Porous\", \"Substance\": \"36 nm/ M2; 36 nm /47M2\", \"Filter Plug Pressure Drop (unencap.)\": \"62 mm; mm\", \"BWIT Suggestion\": \"58.5 mm; mm; 99 mm; mm; 72 mm; mg; 27 mm; 243.6 mg/; 858 mg; 32 mm; 35 mm; 13 %; 24.8 mm\", \"Total Pressure Drop (unencap.)\": \"mm; mm\", \"HK Trial\": \"24.8 mm; 58.5 mm; 62 mm; 27 mm; 72 mm; 99 mm; mm; 13%; mg; 243.6 mg/ cc; 858 mg; 35 mm; 32 mm\", \"Moisture content (Packing)\": \"13%; 13 %\", \"Total Cigarette Weight\": \"mg; mg\", \"Perforation Type & No. of lines\": \"N/A; N/A\", \"Print Description\": \"N/A; N/A\", \"Overall Cigarette Length\": \"99 mm; 99 mm\", \"Tobacco Rod Length\": \"72 mm; 72 mm\", \"Filter Plug Length\": \"27 mm; 27 mm\", \"Filter Plug Pressure Drop (encap.)\": \"58.5 mm; 58.5 mm\", \"Cigarette Circumference\": \"24.8 mm; 24.8 mm\", \"Tipping Length\": \"32 mm; 32 mm\", \"Print Position (from filter end)\": \"35 mm; 35 mm\", \"Net Net Tobacco\": \"858 mg; 858 mg\", \"Tobacco Rod Density\": \"243.6 mg/ cc; 243.6 mg/\", \"Bobbin Width\": \"64 mm; 64 mm\", \"Dobbin Length\": \"2500 M; 2500 M\"}}",
+    "doc_id": "0001456787",
+    "num_fields": 22
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0001463282.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Budgeted:\", \"PROJECTED:\", \"MARKETING RESEARCH AUTHORIZATION\", \"Research Request Attached:\", \"Competitive Proposals Obtained:\", \"Summary of MRD Budget\"], \"Description\": \"Y- 1 Ultra 100' s vs. Winston Ultra 100' s\", \"Yes\": \"x\", \"Original Budgeted Amount\": \"23.3\", \"Supplier\": \"Market Facts; Kapuler\", \"Cost\": \"$ 33,675 + 10% Est.; $ 35,000 + 10 % Est.\", \"Est.\": \"$ 2000; $ 2000\", \"Date\": \"5/ 3/ 90\", \"cc\": \"S. Willinger (3); K. A. Hutchison S. A. Howard\", \"Total Area Budget\": \"370,000.00\", \"Current Bal. Available\": \"199,900.00\", \"This Change: (From Current Budget\": \"-35,675,00\", \"This Amount\": \"-O-\", \"New Balance\": \"164,225.00\", \"Commited to Date: (Current Year)\": \"205,775.00\", \"Project Type\": \"Product; Test\", \"Sample Size\": \"400\", \"Recommended Supplier\": \"Kapuler\", \"Budget Check\": \"Howard\", \"Account Name\": \"BARCLAY\", \"No.\": \"6\", \"Requested By\": \"W. T. Carpenter\", \"Total Cost\": \"$ 37000; $ 35,675\", \"Cost Per Interview\": \"$ 84.2; $ 87.5\", \"Internal Init. Date\": \"4/\", \"Ext. Auth. Date Wave (s)\": \"12/ 90\", \"Field Complete Wave (s)\": \"6/ 10/ 90\", \"Final Report Due (Supplier Rpt.) Wave (s)\": \"7/ 9/ 90\", \"Reason (s) for Recommendation\": \"Lowest project costs\", \"Submitted by\": \"L. E. Gravely\", \"Original -\": \"Project File\", \"Project No.\": \"1990- 488\"}}",
+    "doc_id": "0001463282",
+    "num_fields": 31
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0001463448.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"BROWN & WILLAMSON 1994 COLLECTION PROTOCOPYING VARIANCE FORM\"], \"This form was placed before Bates ID\": \"6708105266\", \"NG DOCUMENTS WERE FOUND WITHIN THE ORIGINAL\": \"FILE FOLDER; REDROPE EXPANDABLE FILE; HANGING FILE; ENVELOPE; OTHER (SPECIFY)\"}}",
+    "doc_id": "0001463448",
+    "num_fields": 2
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0001476912.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"SEX\", \"AGE\", \"BROWN & WILLIAMSON TOBACCO CORPORATION FILTER SCORES\"], \"COMMENTS\": \"This commercial was tested in color.\", \"Brand\": \"RALEIGH (BELAIR portion not tested)\", \"Commercial\": \"LAKE- NEW PACK: 40 (with BELAIR Badmin- ton: 20)\", \"Supplier\": \"AUDIENCE STUDIES\", \"Sample\": \"336\", \"Chicago\": \"8/8\", \"TEST DATES\": \"8/5 and 6; 8/8\", \"PM6 Base\": \"(234)\", \"Overall\": \"1.7\", \"CITY\": \"Los; Chicago; 0.0; 3.3\", \"Male\": \"0.0\", \"Female\": \"3.3\", \"16-25\": \"0.0\", \"26-35\": \"0.0\", \"36-45\": \"0.0\", \"PM6 SCORES\": \"0.0; 3.3; 0.0; 3.3; 0.0; 0.0; 0.0; 9.3; 0.0; 5.0\", \"46 & Over\": \"9.3\", \"35 & Under\": \"0.0\", \"36 & Over\": \"5.0\", \"Project #\": \"1969- 105\", \"Code #\": \"BW- RT- 69-\", \"L. Angeles\": \"8/5 and 6\"}}",
+    "doc_id": "0001476912",
+    "num_fields": 22
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0001477983.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Note:\", \"STATE OF RHODE ISLAND AND PROVIDENCE PLANTATIONS\", \"Monthly Organization/ Employer Report\", \"Compensation/ Expenditure Information:\"], \"Retainer\": \"$\", \"lobbyist for lobbying? (yes or no)\": \"No.\", \"Compensation received lobbying\": \"$\", \"Part of salary received for lobbying\": \"$\", \"Amount earned but not received\": \"$\", \"Contractual or agreed fee\": \"$\", \"Reporting Period\": \"Month of May\", \"Organization/ Employer Name\": \"R. J. Reynolds Tobacco\", \"Lobbyist Name\": \"Peter J. McGinn\"}}",
+    "doc_id": "0001477983",
+    "num_fields": 9
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0001485288.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"BROWN & WILLIAMSON TOBACCO CORPORATION LOUISVILLE, KENTUCKY 40201\", \"To Sample Stock\"], \"SPECIAL SAMPLE MANUFACTURE\": \"☑\", \"R & D\": \"20; Free\", \"Quantity, Cartons of 200 each\": \"20\", \"Signed\": \"B. D. WINGLER\", \"Tax Status Paid or Free\": \"Free\", \"Date of Request\": \"6/ 25/ 81\", \"Account Number\": \"22 244 00\", \"Copies to\": \"Factory Cost Dept. Writer Development Center Sue Livesay\", \"Cigarette Description\": \"KS 1 mg grooved product using 4. 3/ 37 filter material. Cigarette code 244131\", \"Completion Date\": \"6/ 25/ 81\"}}",
+    "doc_id": "0001485288",
+    "num_fields": 10
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/00040534.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"ACUTE TOXICITY IN MICE\", \"ROUTE OF COMPOUND ADMINISTRATION\", \"COMPOUND\"], \"COMPOUND\": \"3-Hydroxy-3-methylbutanoic acid (Tur 13)\", \"SOURCE\": \"Research; Camm\", \"INVESTIGATOR(S)\": \"H. S. Tong & M. S. Forte'\", \"REPORTED\": \"5/3/79 10/6/80 , Update\", \"TESTED\": \"12/28/78\", \"MALE\": \"X\", \"DATE RECEIVED\": \"Unk.\", \"P.O.\": \"☑\", \".5 % METHYL CELULOSE\": \"☑\", \"% SOLUTION\": \"5; 10; 10; 10; 10\", \"GROUP NO.\": \"1; 2; 3; 4; 5\", \"DOSAGE (mg/ kg BODY WEIGHT)\": \"3732; 4479; 1800; 2160; 2592\", \"CONCLUSION\": \"of respiratory depression, constriction of blood vessels, and in- activity. Survivors recovered in 48 hours. The recommended safe dose for a single trial by inhalation in man is 0.3 mg.; This compound appears to act as a CNS depressant with symptons\", \"LORILLARD NO\": \"OR39- 23\", \"NOTEBOOK PAGE\": \"B1014- 23\", \"STRAIN OF MICE\": \"Swiss- Webster\", \"RESULTS (NO TESTED)\": \"1/ 6; 0/ 6; 0/ 6; 3/ 6; 6/ 6\", \"REFERENCE FOR CALCULATION\": \"and Exper. Ther. , 90: 99 , 1948.; Litchfield, J. T. and Wilcoxin F. , J. of Pharmacol\", \"LD50 (95% CONFIDENCE LIMITS)\": \"3.5 (3.1 to 3.9 g /kg\", \"Copies to the Following\": \"Dr. H. J. Minnemeyer Ms. L. B. Gray\"}}",
+    "doc_id": "00040534",
+    "num_fields": 20
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/00070353.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"TOBACCO SCIENCE\"], \"AUTHORS\": \"Andrew G. Kallianos, Richard K. Means, James D. Mold\", \"TITLE\": \"\\\"Effect of Nitrates in Tobacco on the Catechol Yield in Cigarette Smoke\\\"\", \"RECOMMENDATION\": \"x\", \"Registration No\": \"533\", \"Date\": \"March 18, 1968\", \"REVIEW COMPLETED\": \"3/ 29/ 68\", \"(Give reasons below)\": \"APPROVE TENTATIVELY\"}}",
+    "doc_id": "00070353",
+    "num_fields": 7
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/00093726.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Cigarettes\", \"Filters\", \"Responsibility\", \"apping\", \"Requirements\", \"Reports\"], \"Date\": \"September 21, 1976\", \"on\": \"September 21, 1976\", \"BLEND\": \"OGS\", \"CASING\": \"OGS\", \"RECASING\": \"OGS\", \"Sample No.\": \"6030\", \"FINAL FLAVOR\": \"OGS\", \"Maker\": \"AMF\", \"Circumference\": \"25.\", \"Paper\": \"554\", \"Tobacco Blend\": \"Ammons\", \"Filter Production\": \"Wicker\", \"Shipping\": \"Routh\", \"Sample Requisition [Form 02: 02: 06]\": \"\\\"\", \"Labels\": \"White\", \"Closures\": \"Blue\", \"Tear rape\": \"White\", \"Cartons\": \"\\\"\", \"Length\": \"85 mm\", \"Weight\": \"To be det. (803 mg tobacco)\", \"Markings\": \"Sample No. on overwrap\", \"Laboratory\": \"3 cartons\", \"Other\": \"20, 000 cigts.\", \"Kind\": \"20 mm True plastic rod\", \"Type of Cigarette\": \"85 mm Filter\", \"Batch Size\": \"50 lbs.\", \"Original Request Made By\": \"Dr. A. W. Spears\", \"Sample Specifications Written By\": \"W. E. Routh\", \"Additional Spray\": \"3. 4% PMO in EtoH\", \"Tipping Paper\": \"30 mm\", \"Filter Length\": \"20 mm\", \"Pressure Drop\": \"To be determined\", \"Making & Packing\": \"Brown /Routh\", \"Laboratory Analysis\": \"Smoke Analysis PMO Analysis\", \"Written by\": \"P. D. Schickedantz\", \"Original to\": \"Dr. A. W. Spears\", \"Copies to\": \"Dr. F. J. Schulz Dr. H. J. Minnemeyer\", \"Special Requirements\": \"Spray 50 lbs. tobacco with solution of 880 g (= 1. 94 lbs.) PMC in 1175 ml of denatured alcohol. This should give 3. 4% PMO add- on (3. 3% PMO contained) assuming 88% spraying efficiency. PMO delivery from 85 mm cigarette smoked to 30 mm butt should be 6. 5 mg/ cig.\"}}",
+    "doc_id": "00093726",
+    "num_fields": 38
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0011505151.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"PAID OUT OF 1989 BUDGET\"], \"DESCRIPTION\": \"CAPRI EXPANSION A&U - CALIFORNIA - WAVE 4.\", \"SUPPLIER\": \"Kapuler Marketing Research\", \"PAID 1987\": \"47,218\", \"DEC 1987 ACCRUAL\": \"9,442\", \"CARRYOVER TO 1988\": \"14,165\", \"CUMULATIVE\": \"77.900\", \"YEA -\": \"9.442\", \"CAPRI -\": \"21.240\", \"PROJECT NO.\": \"1987- 115- CA\", \"MR PERSONNEL\": \"B. R. Pellett\", \"AUTHORIZED COST\": \"70,825 + +10 % (TOTAL 1987) +7.075 (2 -23 -88 77,900 TOTAL\", \"Ext. Autho. Date\": \"11- 16- 87\", \"Field Complete\": \"12- -7 -87\", \"Final Rpt. Due\": \"1- 11- 88\", \"RELEASED TO ACCTG\": \"2- 25- 88\"}}",
+    "doc_id": "0011505151",
+    "num_fields": 15
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0011838621.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"PROJECTED:\", \"INTERNATIONAL MARKETING RESEARCH CHANGE OF AUTHORIZED COST\", \"Sumary of IMRD Budget\"], \"Date\": \"4/ 22/ 90\", \"Description\": \"Hong Kong: Cigarette Market Monitor\", \"Supplier\": \"MDR. HK\", \"No.\": \"27\", \"Reasons\": \"Original MRA did not include cost for the first month of the study (see L. Lee memo of September 11, 1989)\", \"1990 Cost\": \".08; $ 0.00; .08\", \"Adjusted Total Cost of Project\": \".08; $ 47.711.47\", \"Current Bal. Available\": \"1.488.126.23\", \"This Change: (From Current Budget)\": \".08\", \"New Balance\": \"1.488.126.15\", \"Committed to Date: (Current Year)\": \"1.471.873.85\", \"cc\": \"MRA File N. W. Kremer\", \"Account Name\": \"International.\", \"Submitted By\": \"MD Davis\", \"Total Cost\": \"$ 4.376.47; $ 47.711.47; $ 43.335.00\", \"Previous Commitments This Project\": \"$ 0.00; $ 43.335.00\", \"Amt. of Change\": \"Increase X\", \"Total Area Budget\": \"$ 2.960.000.00\", \"Project No.\": \"1989- 29\", \"Original-\": \"Project File\"}}",
+    "doc_id": "0011838621",
+    "num_fields": 20
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0011845203.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"INSTRUCTIONS\", \"BROWN & WILLIAMSON BID REQUEST FORM\", \"OTHER INFORMATION\"], \"TO\": \"Mr. Johnny Pedersen - Gallup\", \"FAX\": \"1- 502- 568- 8092\", \"NUMBER\": \"1- 502- 568- 8092\", \"PROJECT NUMBER\": \"1991- 18\", \"B&W ORIGINATOR\": \"Mary D. Davis\", \"DATE REQUESTED\": \"2/ 22 by courier\", \"DEADLINE FOR BID RECEIPT\": \"3/1/91\", \"IF YOU HAVE ANY QUESTIONS, PLEASE CONTACT THE FOLLOWING PERSON\": \"Mary D. Davis\", \"FAX MUMBER\": \"1- 502- 568 8092\"}}",
+    "doc_id": "0011845203",
+    "num_fields": 9
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0011856542.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"PROJECT INITIATION FORM\"], \"DATE\": \"1/4/90\", \"PROJECT CODE\": \"BD-FF\", \"WORK REQUESTED BY\": \"Marketing\", \"cc\": \"RSS RDC PHL PRC DRB Records Project Leader Other Personnel Assigned\", \"PROJECT NAME\": \"BULL DURHAM Full Flavor King Size Cigarettes\", \"PROJECT LEADER\": \"J. F. Anders/ J. E. Mann\", \"PROJECT OBJECTIVE\": \"Develop 14- mg \\\"tar\\\" delivery king size cigarette for generic pricing directed toward young male smokers. Cigarette dimensions- 85 mm x 24.9 mm circumference- 20 mm filter- 24 mm tipping. Offshore tobacco blend with unique flavor formulation. Cork tipping.\"}}",
+    "doc_id": "0011856542",
+    "num_fields": 7
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0011859695.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"AMERICAN BROADCASTING COMPANY TELEVISION NETWORK\"], \"Agency\": \"SSC&B, Inc\", \"Contact\": \"Larry Odum\", \"Date\": \"September 25, 1969\", \"Client\": \"American Tobacco Company\", \"Address\": \"575 Lexington Avenue, New York, New York 10022\", \"Product\": \"Pall Mail Filter tip\", \"Film Cleared\": \"VIDEO TAPE APPROVAL; \\\"Presenter/ Girl Rev\\\" AT-M B-T-64 :60 \\\"Pall Mall Filter Tip\\\" AT-P/ F-T-317 :30; TAPE WILL FOLLOW AS SOON AS I RECEIVE IT FROM THE TAPE LIBRARY.\", \"RECEIVED\": \"SEP 30\", \"CF\": \"cb\"}}",
+    "doc_id": "0011859695",
+    "num_fields": 9
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0011899960.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"PRESS QUERY\"], \"Attention\": \"DR. HUGHES, MESSRS. ALAR, SANDEFUR,; BLOTT, BUTLER, MIDDLETON, CHRISTENSEN, PEPPLES, SACHS FREEDMAN\", \"Copies\": \"T. HUMBER, M. BATEMAN\", \"Department\": \"CORPORATE AFFAIRS\", \"Subject\": \"L&M Lawsuit\", \"Publication\": \"ADWEEK - Midwest\", \"Time\": \"1: 45 P. M.\", \"Date\": \"7/ 9/ 84\", \"RECEIVED\": \"JUL 10 1984 JOHN ALAR\", \"Reporter/ Editor\": \"Fran Brock (312) 467- 6500\", \"Received by\": \"Mark Ahearn\", \"Deadline for response\": \"Already handled\"}}",
+    "doc_id": "0011899960",
+    "num_fields": 11
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0011906503.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Purpose\", \"Status\", \"BROWN & WILLIAMSON TOBACCO CORPORATION CAPITAL BUDGET PROJECT R&D\", \"Estimate Cost\", \"Project Dates\", \"ESTIMATED SPENDING SCHEDULE\", \"Balance to Spend\"], \"Title\": \"CICARETTE TEST STATION (CT5400)\", \"Proposed\": \"x\", \"TOTAL\": \"80\", \"CAPITAL\": \"80\", \"EXPENSE\": \"0\", \"Completion\": \"88; 11\", \"Mo.\": \"7\", \"Yr.\": \"88\", \"Submission\": \"88\", \"Start\": \"88; 7\", \"Spent Prior to\": \"1989\", \"YEAR\": \"Beyond 1993; 1990; 1991; 1992; 1993\", \"PROJECT DESCRIPTION\": \"The Cigarette Test Station (CTS400) combines many of the stand- alone instruments that R&D currently uses to measure cigarette weight, pressure drop, ventilation, and hardness into one compact module. The CTS400 has the additional measurement of cigarette hardness in comparison with the CTS300. With this added, measurement R&D will be able to replace the Firmness Integrator that measures cigarette firmness in addition to other measurements that are mentioned above. The Firmness Integrator is no longer manufactured and parts are becoming difficult to obtain. Lastly, purchase of this instrument would provide similar capability as the Macon Plant and help facilitate comparisions between laboratories.\", \"Submitted by\": \"W. O. Crain\"}}",
+    "doc_id": "0011906503",
+    "num_fields": 14
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0011973451.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"APPROVALS:\", \"TIMETABLE:\", \"NEW EXPORT PRODUCT DEVELOPMENT CHARTER\", \"SOURCE OF BUSINESS:\", \"INITIAL MATERIALS REQUIRED:\"], \"Date\": \"6/ 24/ 94\", \"OBJECTIVE\": \"Generate incremental volume for B& W by providing a low price brand to various international duty- free markets.\", \"Cartons\": \"On Hand\", \"Cases\": \"500\", \"Major Competitive Brands\": \"TBD\", \"Est. Monthly Ongoing\": \"TBD\", \"COST OR RETAIL PRICING\": \"TBD\", \"VOLUME\": \"TBD\", \"Qty In Units\": \"500; On Hand; On Hand\", \"Dollar Cost\": \"$250\", \"BRAND/PROJECT NAME\": \"RICHLAND Kings (Soft Pack) -Duty Free (Phoenix)\", \"MARKET (S)\": \"World- wide Duty Free\", \"Target Audience\": \"Value- conscious Smokers\", \"Pack Flats Labels\": \"On Hand\"}}",
+    "doc_id": "0011973451",
+    "num_fields": 14
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0011974919.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"RESPONSE CODE REQUEST CONFIRMATION\"], \"To\": \"Joe Leinster\", \"From\": \"Joyce Bagby\", \"Date\": \"September 10, 1996\", \"Brand\": \"Eclipse\", \"Title\": \"Sneak Preview Confirmation Call- Charlotte Tests\", \"Description\": \"Record of confirmation calls for sneak preview appointments\", \"Fullfillment Data Entry at\": \"APAC\", \"Circulation Quantity\": \"300\", \"Estimated Responders\": \"300\", \"Response Code Assigned\": \"W25\", \"DE Fullfillment Vendor\": \"APAC\", \"C\": \"Suzi Hicks RJR- IR; Karen Giddens; Drew Huyett; Jackson Roper; Debbie Lockery; Vanessa Oakley; Melissa Andrews - TBM; Tammi LaManna - M/ B\", \"PPS Program #\": \"602399\", \"Estimated Response\": \"100.00 %\", \"Distribution Drop Date\": \"10/ 03/ 96\"}}",
+    "doc_id": "0011974919",
+    "num_fields": 15
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0011976929.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"SPECIAL EVENTS\"], \"Dates\": \"March 3rd, 4th & 5th,\", \"Estimated Attendance\": \"700\", \"City/ Town\": \"Dundee\", \"State\": \"Illinois\", \"Type of Event\": \"Beauty Contest\", \"Name of Event\": \"Mrs. Illinois Beauty Pageant\", \"Contact (Name/ Telephone)\": \"Ms. Joy Weathers (Sales) 312/ 426 - 8000\", \"Audience Concentration\": \"90 % White - 10 % Black Age category 21 yrs. to 45 yrs.\", \"Recommended Brand(s) and Promotional Activity\": \"BARCLAY sampling; 2 - 12M cases mixed.; To be placed on tables by B & W Reps.\"}}",
+    "doc_id": "0011976929",
+    "num_fields": 9
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0012178355.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Attachment II\", \"SPECIFICATION CHANGE PROPOSAL\", \"TYPE OF SPECIFICATION CHANGE (Check all that apply)\", \"*Cost Summary-\", \"COST SUMMARY\", \"ATTACHMENTS (Check if Included)\"], \"BRAND\": \"ELI CUTTER KS\", \"Domestic\": \"X\", \"Description\": \"ELI CUTTER KS, for test market, using AMELIA \\\"B\\\" Blend (XLF -680G)\", \"Date\": \"10/ 10/ 84\", \"New Product\": \"X\", \"Product Specification List\": \"X\", \"Processing Detail\": \"X\", \"REQUESTED IMPLEMENTATION DATE\": \"9 /17 /84\", \"Prepared By\": \"D. M. Frank\"}}",
+    "doc_id": "0012178355",
+    "num_fields": 9
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0012199830.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"AARBERG -STRAHAN INKS & COATINGS CORP.\"], \"Customer\": \"B&W\", \"RECEIVED\": \"DEC 1 1 1989\", \"Technician\": \"DLR 12/ 5/ 89\", \"Total Solids\": \"Solvent Composit to % V. O. C. s; Toluene; Isopropyl Acetate; N- Propyl Acetate\", \"Formula No.\": \"SKGC-4518\", \"Solids Composit\": \"Lecithin (Food Grade); Epoxidized Soy Bean Oil; Cellulose Nitrate Wet w /2 Propanol; Pigment, Yellow 34; Pigment, Blue 15: 4; Ester of Modified Tricyclic Carboxylic Acid Jonrez IM824\", \"Total V. O. C. s\": \"100. 00%\"}}",
+    "doc_id": "0012199830",
+    "num_fields": 7
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0012529284.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"PROJECTED:\", \"CHANGE OF AUTHORIZED COST\", \"Amt. of Change:\", \"Summary of Research Budget\"], \"Date\": \"12 -4 -87\", \"Description\": \"WAVE 3 (87 –114) AND WAVE 4 (87 -115) .; CAPRI A&U EXPANSION - CALIFORNIA: WAVE 2 (87 -113) ,\", \"No.\": \"C -5-51\", \"Supplier\": \"Kapuler Marketing Research\", \"Reasons\": \"Adjustment due to timing of projects falling into 1988.\", \"1987\": \"+14, 165. 00; (886, 220. 53)\", \"cc\": \"S. Willinger (3); G. D. Raphael; V. Hansberry (If Int.)\", \"Previous $ Commitments This Project\": \"$ 212, 475 + 10%\", \"Adjusted Total Cost of Project\": \"$ 212, 475 + 10%\", \"Current Balance Available\": \"(886, 220. 53)\", \"This Change: (From Current Budget)\": \"+14, 165. 00\", \"This Amount\": \"-14, 165. 00\", \"Start plete FR\": \"87 -113 (70, 825) 9 /23 10 /11 11 /16 87 -114 (70. 825) 10 /13 10 /29 12 /7 87 -115 (70, 825 11 /16 12 /7 1 /11\", \"New Balance\": \"(872, 055. 53)\", \"Committed To Date\": \"1, 652, 955. 53\", \"Project No.\": \"1987 -113 /114 /115 -CA\", \"Original -\": \"Project File\", \"Submitted By\": \"S. L. Willinger\"}}",
+    "doc_id": "0012529284",
+    "num_fields": 18
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0012529295.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Projected:\", \"MARKET RESEARCH AUTHORIZATION\", \"Research Request Attached:\", \"Competitive Proposals Obtained:\", \"Summary of Research Budget\"], \"Date\": \"10/ 13/ 87\", \"Supplier\": \"Kapuler Market Research; Market Facts, Inc.\", \"Yes\": \"x\", \"Est. Travel\": \"-0-; -O-\", \"Original\": \"Project File\", \"cc\": \"G. D. Raphael; V. Hansberry (If Int.); S. Willinger (3)\", \"No.\": \"C- 40\", \"Account Name\": \"CAPRI\", \"Description: CAPRI Expansion\": \"California- A&U Wave II\", \"Requested By\": \"S. H. Trebilcock\", \"Cost ($)\": \"$70 70,825 +/ - 10%; $112, 000 +/ - 10%\", \"Total Cost\": \"$112 000 +/ - 10%; $70 ,825 + - 10%\", \"Cost Per Interview\": \"$47 .22; $74 .67\", \"Initiation Date\": \"8/ 3/ 87\", \"Field Start\": \"9/ 23/ 87*\", \"Field Complete\": \"10/ 11/ 87\", \"Final Report Due\": \"11/ 16/ 87\", \"Total Area Budget\": \"780, 900. 00\", \"Current Bal. Available\": \"(381, 583. 08)\", \"This Change (From Current Budget)\": \"-70, 825. 00\", \"New Balance\": \"(452 ,408, 08)\", \"Committed to Date: (Current Year)\": \"1, 233, 308. 08\", \"Sample Size\": \"1. 500\", \"Recommemded Supplier\": \"Kapuler Marketing Research\", \"Reason(s) for Recommendation\": \"Low bidder.\", \"Submitted By\": \"L J L. J. Spurtier\", \"Approved By\": \"L. E. Gravely\", \"Budget Check\": \"K. F. Lyle\", \"Project No.\": \"1987- 113CA\"}}",
+    "doc_id": "0012529295",
+    "num_fields": 29
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0012602424.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"PROJECTED:\", \"CHANGE OF AUTHORIZED COST\"], \"DATE\": \"12 -11\", \"SUPPLIER\": \"BURKE MARKETING RESEARCH\", \"REASONS\": \"REVISED COST DUE TO A QUESTION ADDED TO THE SECOND WAVE AND CHANGES MADE IN WORDING OF OTHER QUESTIONS. THIS COVERS THE COST OF ADDITIONAL TELEPHONE INTERVIEW LENGTH, CODING OF THE OPEN- END, PROGRAMING CHANGES, TABULATION AND ANALYSIS.\", \"ORIGINAL\": \"- PROJECT FILE\", \"CC\": \"S. WILLINGER (3) ☑ RESEARCH GROUP MANAGER\", \"AUTHORIZATION NO.\": \"NP -75\", \"PROJECT NAME\": \"GEMINI AWARENESS ATTITUDE & USAGE MONITOR. - PORTLAND\", \"AMOUNT OF CHANGE INCREASE ): (CIRCLE ONE)\": \"+1 ,000 (0 .5% CHANGE)\", \"ADJUSTED TOTAL COST OF PROJECT\": \"221, 000\", \"Field Start\": \"Aug. 1984\", \"Field Complete\": \"Dec. 1984\", \"Final Report Due\": \"Jan. 1985\", \"TOTAL AREA BUDGET\": \"1984 (REV) 3, 488, 000. 00\", \"CURRENT BAL. AVAILABLE\": \"17 195. 66\", \"THIS CHANGE: (From Current Budget)\": \"-800. 00\", \"THIS AMOUNT\": \"200. 00\", \"NEW BALANCE\": \"16, 395. 66\", \"APPROVED BY\": \"B a\", \"PROJECT No.\": \"1984- 175NP\", \"ACCOUNT NAME\": \"New Products\"}}",
+    "doc_id": "0012602424",
+    "num_fields": 20
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0012947358.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"VIA:\", \"VIA:\", \"C T SYSTEM The Corporation Trust Company C T Corporation System and Associated Companies\"], \"TO\": \"The Corporation Trust Company\", \"FROM\": \"C T Corporation System\", \"Per\": \"V. Colvellm Asst. Secy. 277 Park Avenue\", \"DATE\": \"1- -27 -69\", \"RE\": \"PROCESS SERVED\", \"FOR\": \"THE AMERICAN TOBACCO COMPANY\", \"IN\": \"FLORIDA\", \"Served\": \"Summons and Complaint\", \"Court\": \"Circuit Court, Dade County, Florida. No. 69 -1351\", \"BY\": \"THE CORPORATION TRUST COMPANY\", \"Certified Mail\": \"(X)\", \"Certified Air Mail\": \"(X)\", \"Title of Action\": \"Reuben Sunstein, Plaintiff, v. The American Tobacco Company, a New Jorsey corporation, Defendant.\", \"Nature of Action\": \"Strike\\\" cigarettes manufactured by defendant, wherein plaintiff alleges breach of was- anties, seeks damages in excess of $5, 000 and demands trial by jury.\", \"On Whom Process was Served\": \"Phyllis G. Jonnings, Asst. Socy,. The Corporation Company, Jacksonville, Florida\", \"Date and Hour of Service\": \"January 27, 1969 9: 00 a. m.\", \"Appearance or Answer Dues\": \"Within 20 days after service, exclusive of day of service.\", \"Plaintiff's Attorney(s)\": \"Max A. Goldfarb 414 Biscayne Building Miami, Florida\", \"RECEIVED AND FORWARDED ON\": \"1 29/29/ 69 (Date)\"}}",
+    "doc_id": "0012947358",
+    "num_fields": 19
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0013255595.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"PUBLIC COMMUNICATIONS APPROVAL SHEET The Tobacco Institute\", \"Attachment A\", \"Legal Approval Recommended/ Required:\"], \"APPROVALS\": \"Division Head; Bill Kloepfer; Sam Chilcote\"}}",
+    "doc_id": "0013255595",
+    "num_fields": 1
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/00283813.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Cigarettes:\", \"Wrappings:\", \"Requirements:\", \"Responsibility:\", \"Reports:\"], \"Date\": \"7/ 16/ 68\", \"on\": \"7/ 10/ 68\", \"Sample No.\": \"5031\", \"Brand\": \"OLD GOLD STRAIGHT\", \"Length\": \"85 mm.\", \"Circumference\": \"25. 3 mm.\", \"Paper\": \"Ecusta 556\", \"Firmness\": \"OLD GOLD STRAIGHT\", \"Draw\": \"OLD GOLD STRAIGHT\", \"Weight\": \"OLD GOLD STRAIGHT\", \"Print\": \"OLD GOLD STRAIGHT\", \"Labels\": \"OLD GOLD STRAIGHT\", \"Closures\": \"Standard Blue\", \"Cartons\": \"OLD GOLD STRAIGHT\", \"Markings\": \"Sample number on each pack and carton\", \"Tear Tape\": \"Gold\", \"Laboratory\": \"One Tray\", \"Original request made by\": \"Mr. C. L. Tucker, Jr.\", \"Sample specifications written by\": \"John H. M. Bohlken\", \"Laboratory Analysis\": \"Tars and Nicotine, Taste Panel, Burning Time, Gas Phase Analysis,; Benzo (A) Pyrene Analyses\", \"Tobacco Blend\": \"Manufacturing - A. Kraus\", \"Making & Packing\": \"Product Development, John H. M. Bohlker\", \"Written by\": \"John H. M. Bohlken\", \"Original to\": \"Mr. C. L. Tucker, Jr.\", \"Copies to\": \"Dr. A. W. Spears\"}}",
+    "doc_id": "00283813",
+    "num_fields": 25
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0030031163.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"SPORTS REGISTRATION\", \"LORILLARD TOBACCO COMPANY\", \"BROWN & WILLIAMSON TOBACCO CORPORATION\"], \"GOLF TOURNAMENT\": \"(Ladies & Men) . . . Friday, August 16, Tee off at 8:00 A. M. SHARP (no green fee)\", \"TENNIS TOURNAMENT\": \"(Ladies & Men) . . . Friday, August 16, starting time is 3:00 P. M.\"}}",
+    "doc_id": "0030031163",
+    "num_fields": 2
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0030041455.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"KOOL & GPC GOLF BAG SURVEY\"], \"Please place the following order for KOOL and/ or GPC Golf Bags for my Section\": \"5; 0; GPC Golf Bags; KOOL Golf Bags\", \"Section Number\": \"2\", \"Section Sales Manager's Name\": \"Peter Hatch\"}}",
+    "doc_id": "0030041455",
+    "num_fields": 3
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0060000813.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"LASER PERFORATED TIPPING APPEARANCE CHECK HOLE DEPTH, SCORCHING, CRATERING\", \"FRONT CIGARETTES\", \"BACK CIGARETTES\", \"FRONT CIGARETTES\", \"BACK CIGARETTES\"], \"Brand\": \"CARLTON Filter 100's - 4 Mg Laser; Mfg. for Taiwan\", \"Modules\": \"412\", \"Scorching\": \"Insignificant.\", \"Cratering\": \"None to insignificant.\", \"Comments\": \"Excellent appearance (18 holes).\", \"P. S.\": \"73 -91\", \"Date Received\": \"1 /25 /91\", \"Hole Depth\": \"<1 mm 13 .0 mm from end\"}}",
+    "doc_id": "0060000813",
+    "num_fields": 8
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0060007216.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"PROJECT INITIATION FORM\"], \"DATE\": \"April 30, 1985\", \"PROJECT CODE\": \"PMRM\", \"Cigarette\": \"84 x 24.9 mm circum-; ference.\", \"cc\": \"RSS; RDC; PHL; PRC; BMC; Records; Other Personnel Assigned; Project Leader\", \"PROJECT NAME\": \"PALL MALL Regular Menthol\", \"PROJECT LEADER\": \"J. F. Anders\", \"WORK REQUESTED BY\": \"R. S. Sprinkle, III\", \"PROJECT OBJECTIVE\": \"To develop a nonfilter menthol cigarette delivering 21- 24 mg \\\"tar\\\" as a menthol companion to PALL MALL Famous Cigarettes.\", \"OTHER PERSONNEL ASSIGNED\": \"E. P. Barbee\", \"Approved by\": \"R. S. Sprinkle III\"}}",
+    "doc_id": "0060007216",
+    "num_fields": 10
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0060024314.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"CITY OF REIDSVILLE CHEMICAL MANAGEMENT PLAN 1993 INVENTORY CHEMICAL USAGE FACT SHEET\", \"CHEMICAL DESCRIPTION\", \"CHEMICAL USAGE\"], \"Facility\": \"The American Tobacco Company\", \"Permit#\": \"0001\", \"DESCRIPTION\": \"Liquid Adhesive\", \"CAS#\": \"108 -05 -4\", \"MANUFACTURER\": \"H. B. Fuller Company\", \"PRODUCT CLASSIFICATION (Circle Dne)\": \"Organic\", \"MSDS ON FILE? (Circle One)\": \"Yes\", \"1993 ANNUAL USAGE (LBS.)\": \"74880\", \"1993 AVG. MONTHLY USAGE (LBS.)\": \"6240\", \"PRODUCT (CHEMICAL) NAME\": \"Fuller G2315 DC\", \"CHEMICAL FORMULA\": \"Vinyl Acetate\", \"PERCENT ACTIVES (Non -water)\": \".5%\", \"Producion Process\": \"label adhesive\"}}",
+    "doc_id": "0060024314",
+    "num_fields": 13
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0060025670.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"TEST ADHESIVE EVALUATION\"]}}",
+    "doc_id": "0060025670",
+    "num_fields": 0
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0060029036.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"SPORTS MARKETING ENTERPRISES DOCUMENT CLEARANCE SHEET\"], \"Brand(s)\": \"Camel/ Winston\", \"Company\": \"SPEVCO, INC.\", \"DATE\": \"1-11-94\", \"SIGNATURE\": \"B J. Powell\", \"NAME\": \"Michael Wright; John Powell\", \"Originator\": \"Michael Wright\", \"Manager\": \"John Powell; B J. Powell; 1-11-94\", \"SECTION(S)\": \"13 Plaza\", \"PAGE(S)\": \"SME\", \"Date Routed\": \"January 11, 1994\", \"Contract No.\": \"4011 00 00\", \"Contract Subject\": \"Joe's Place Exhibits\", \"Current Year Cost\": \"1994-1995\", \"Total Contract Cost\": \"$ 1,340,000.00\", \"Brief Description\": \"2 Joe's Place Exhibits for use at Winston Cup, Winston Drag and Camel Super Bike Events.\", \"Return To\": \"MARY SEAGRAVES Ext 1485\"}}",
+    "doc_id": "0060029036",
+    "num_fields": 16
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0060036622.png",
+    "ground_truth": "{\"gt_parse\": {\"TO\": \"Mr. G. J. Schramm; Mr. W. P. Myhan; Mr. F. X. Whelan; Mr. R. H. Stinnette; Mr. J. B. McCarthy\", \"From\": \"E. E. Curtin\", \"Contribution\": \"☑\", \"Requested\": \"Harvard Medical School and Dr. Gary Huber Boston, Massachusetts\", \"Message\": \"Letter 8/ 1/ 76\", \"Payment -\": \"1973 91, 630. 53 A. B., Inc.; 1976 $ 40, 921. 30 by A. B., Inc.; 1975 84, 309. 94 A. B., Inc.; 1974 92, 131. 29 A. B., Inc.\", \"Remarks -\": \"For confirmation by the Committee. Check for $ 43, 910. 30 representing the ninth semi- annual installment to the Harvard Project transmitted August 1976.\", \"Declined - Send letter\": \"YES NO\", \"Committee meeting\": \"8/ 26\"}}",
+    "doc_id": "0060036622",
+    "num_fields": 9
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0060068489.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"APPROVALS\", \"ADVERTISING AND SELLING AUTHORIZATION\", \"The American Tobacco Company DIVISION OF AMERICAN BRANDS INC. 265 PARK AVENUE, NEW YORK, NEW YORK 00267\"], \"DATE\": \"3/17/82\", \"DESCRIPTION\": \"30 sheet Posters (White Background)\", \"MEDIUM\": \"Outdoor\", \"AGENCY\": \"corporate Media Department\", \"BRAND\": \"LUCKY STRIKE LOW Tar Filters Box- 100%\", \"PERIOD. FROM\": \"April; THRU; July\", \"Estimated Freight Charges\": \"2.000.00\", \"TOTAL\": \"$ 28,880.00\", \"REMARKS\": \"For posting in Cincinnati, Covington and Tampa/St. Petersburg.; Posters are captioned for identification, \\\"LUCKY STRIKES AGAIN (printed in red) with the word \\\"New\\\" printed in a snipe effect in the upper left corner. These posters have a white background and will be further identified as such in order to differentiate from a second design which will have a solid red background with white lettering.; Posters are printed six colors (four color process and two impressions of red) on white 70# outdoor poster paper.\", \"30 Sheet Posters\": \"$ 26,880,00\", \"Budget Allocation\": \"L- 3a\", \"Authorization No.\": \"M- 49\"}}",
+    "doc_id": "0060068489",
+    "num_fields": 12
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0060077689.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"THE AMERICAN TOBACCO COMPANY\", \"PURCHASE REQUISITION\", \"STATE TAX STATUS\"], \"LOCATION\": \"STAMFORD, CT\", \"REQUISITIONER\": \"Mr. G. Schumacher\", \"SUPPLIER\": \"WEBCRAFT TECHNOLOGIES INC\", \"TERMS\": \"NET 30 Days\", \"DESCRIPTION\": \"CARLTON \\\"Free\\\" Carton\\\" Direct Mail Piece; This Purchase order is to cover all costs incurred to- date listed below.; 42,000 lbs. of 80 lb Sterling C/ 2/ S - 36- 1/ 2\\\" roll; 31,000 lbs. of 80 lb. Sterling C/ 2/ S - 26- 1/ 2\\\" roll; Prep. (line negatives, paper prints, camera/ stripping); Federal Express charges; ALL MATERIALS HAVE BEEN CANCELLED.\", \"PRICE\": \"$15, 190. 00; $431 .25; $48 .75; $20, 580. 00\", \"Attn\": \"Mr. Steven Katz; Route 4 and Adams Station North Brunswick, NJ 08901- 0623\", \"ADMIN CTR/MGMT CTR PURCHASE ORDER NO.\": \"M14789\", \"NOT TO BE CHARGED BY SUPPLIER\": \"☑\", \"BUYER\": \"M. Stock/ smm\", \"DATE\": \"January 3, 1995\", \"DATE OF REQUISITION\": \"January 3, 1995\", \"SHIP TO\": \"NO SHIPPING REQUIRED\", \"SHIPMENT TO ARRIVE NOT LATER THAN\": \"NO SHIPPING REQUIRED.\", \"DEPARTMENT CHARGED\": \"Brand Operations\", \"ACCOUNTING CHARGE NO.\": \"Adv. Expense\", \"EXTRA COPIES TO\": \"D. Barcia\"}}",
+    "doc_id": "0060077689",
+    "num_fields": 17
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0060080406.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"REMARKS\", \"APPROVALS\", \"THE AMERICAN TOBACCO COMPANY\", \"ACCOUNTING DISTRIBUTION\"], \"DESCRIPTION\": \"COLLATERAL MERCHANDISING MATERIALS\", \"BRAND\": \"BULL DURHAM Lights BOX; BULL DURHAM Filter Box\", \"JAN\": \"$ 10.000.\", \"FEB\": \"$ 10.000.\", \"MAR\": \"$ 15,000.\", \"Auth No.\": \"5060\", \"Account Code\": \"10- 320\"}}",
+    "doc_id": "0060080406",
+    "num_fields": 7
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0060091229.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"MARDEN- KANE. INC. 666 FIFTH AVE. NEW YORK, N.Y. 10103 (212) 582-6600\", \"TRAVEL INFORMATION SHEET\"], \"Attention\": \"Ms. L. Sobel\", \"RETURN TO\": \"Harden- Kane, Inc. 666 Fifth Avenue New York, N. Y. 10103\"}}",
+    "doc_id": "0060091229",
+    "num_fields": 2
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0060094595.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"BETWEEN THE ACTS 25 %% mm. Butt\", \"MADISON 25 mm. Butt\", \"P. LORILLARD CO. , INC. RESEARCH DIVISION QUALITY CONTROL DEPARTMENT SMOKE ANALYSIS AND BURNING TEST REPORT WEEKLY PRODUCTION LITTLE CIGARS NON FILTERS WEEK ENDING 11/ 25 /66\"], \"Weight\": \"1 .089; 1 .111; 1 .106; 1 .132\", \"Draw\": \"0. .34; 0 .34; 0 .37; 0 .37\", \"Tar\": \"31 .0; 39. .7; 37 .8; 35 .6\", \"Nicotine\": \"3 .83; 2 2.99; 4 .26; 3 .45\", \"Present Sample\": \"1 .111; 0 .34; 37 .8; 11; 5; 4; 4; 3 .45; Basic\", \"Static -Complete Cigar\": \"23; 23; 0; 11\", \"-1 /2 Cigar\": \"0; 5; 0; 5\", \"-1 /3 Cigar\": \"1; 1; 7; 4\", \"-Went out immediately\": \"0; 0; 4; 12\", \"Mean of Last 12 Samples\": \"1 .132; 0 .37; 23; 1; 0; 0; Basic; 31 .0; 2 2.99\", \"ction to Litmus\": \"Basic; Basic; Basic; Basic\", \"Characteristic Tested\": \"-% Burned Completely; urn Test; Smoke Analysis; Dynamic -Time in seconds\"}}",
+    "doc_id": "0060094595",
+    "num_fields": 12
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0060136394.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Batten, Barton, Durstine & Osborn INCORPORATED CHANGE IN RADIO SCHEDULE\"], \"SIGNED\": \"HOPE MARTINEZ\", \"DATE\": \"APRIL 1,1957\", \"TOTAL\": \"$ 6.600.00\", \"CLIENT\": \"THE AMERICAN TOBACCO COMPANY (LUCKY STRIKE)\", \"PROGRAM\": \"1/2 HOUR PROGRAMES\", \"STATIONS\": \"WHAS LOUISVILLE, KENTUCKY\", \"REVISED CONTRACT TOTALS.\": \"24 @ $ 150.00 TIME; 24 @ $ 125.00 NET TALENT\"}}",
+    "doc_id": "0060136394",
+    "num_fields": 7
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0060165115.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Contract\", \"Research\", \"INBIFO\"], \"DATE\": \"28 Apr. 98\", \"FROM\": \"Dr. Wolf Reininghaus\", \"TO\": \"Dr. Don Leyden, Dept. Scientific Affairs\", \"ADDRESS\": \"Philip Morris Europe Fabriques de Tabac Reunies S. A.; CH- 2003 Neuchatel\", \"Telephone\": \"(0 22 03) 303 -1\", \"Telefax\": \"(0 22 03) 303 -362\", \"Re.\": \"TPM/ Nocotine ratio\", \"TELEFAX MESSAGE No.\": \"2463\", \"Fax no\": \"0041- 32- 888 5776\", \"NUMBER OF FOLLOWING PAGES\": \"21\", \"Trade Register\": \"Cologne HRB 367\", \"General Manager\": \"Dr. Wolf Reninghaus\"}}",
+    "doc_id": "0060165115",
+    "num_fields": 12
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0060173256.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"THE AMERICAN TOBACCO COMPANY\", \"APPROVED MARKETING PROJECT EXPENSE RECOMMENDATION\"], \"Description\": \"Displays\", \"BRANDS\": \"Carlton; Private Stock\", \"Adjustment\": \"$ 0.00\", \"Amount\": \"(31,000.00); 31,000.00\", \"Offer Description\": \"Displays\", \"Date\": \"5/5\", \"Project No\": \"S0002 Supp 2\", \"Current Budget\": \"$ 7,569,000.00\", \"Revised Budget\": \"$ 7,569,000.00\", \"Charge Code\": \"CAR- MMT- DSP; PRV- MMT- DSP\"}}",
+    "doc_id": "0060173256",
+    "num_fields": 10
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0060207528.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"LAURENCE, CHARLES, FREE & LAWSON, INC.\", \"30- SHEET POSTING COMPLETION REPORT FORM\", \"NUMBER OF PANELS\"], \"CONTRACT\": \"A- 530- 1059\", \"CLIENT\": \"THE AMERICAN TOBACCO COMPANY\", \"MARKET\": \"Akron OH.\", \"REGULAR\": \"9\", \"ILLUMINATED\": \"45\", \"TOTAL\": \"54\", \"D.E.C\": \"534.1\", \"DATE\": \"2/ 25/ 89\", \"PLANT AVERAGE\": \"527.6\", \"BRAND NAME\": \"PALL MALL RED LIGHTS\", \"PLANT OPERATOR\": \"Patrick Media Group, Inc\", \"SIZE SHOWING\": \"F 75 GRP\", \"DATE POSTERS RECEIVED FROM LITHOGRAPHER\": \"6/ 27/ 89\", \"POSTER DESIGN\": \"THE TASTE BREAKS THROUGH\", \"SCHEDULED POSTING DATE\": \"7/ 16/ 89\", \"DATE POSTING COMPLETED\": \"7/ 21/ 89\"}}",
+    "doc_id": "0060207528",
+    "num_fields": 16
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0060214859.png",
+    "ground_truth": "{\"gt_parse\": {\"Report\": \"517\", \"REJECTED\": \"XX\", \"Date\": \"10- NOV- 1986\", \"Supplier\": \"OWENS CORNING\", \"Distribution\": \"Mr. L. W. Peterson; Mr. W. B. Scantland; Ms. R. deLacy; Mr. M. D. Shannon; Mr. R. L. McGee; Mr. Lucien L. Bass, III; Dr. L. H. O' Conner\", \"Telephone#\": \"6926\", \"No\": \"436\", \"Material Tested\": \"P- 830 GLASS FIBER\", \"Quantity Received\": \"2 ROLLS\", \"Lot or Sample#\": \"ROLL 34 & 35\", \"Date Received\": \"11- 6- 86\", \"Following physical/ visual properties out of specifications\": \"WEIGHT OUT OF; SPECIFICATIONS ON ROLLS 34 & 35. WT. AV. ROLL 34 (183. 04) ; WT. AV. ROLL 35 (183. 44) : SPECS. 190 -210 GMS/ SQM. LOI OUT DE SPEC. ON ROLL 34 (AV 2. 49%) SPECIFICATIONS (2.6 6- 3. 1% .\"}}",
+    "doc_id": "0060214859",
+    "num_fields": 12
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0060255888.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"AMERICAN BROADCASTING COMPANY TELEVISION NETWORK\", \"Script(s) (and/ or story board(s)) cleared:\"], \"Date\": \"October 9, 1968\", \"Contact\": \"Mr. Mary Goldsmith\", \"Agency\": \"BBDO Inc.\", \"Address\": \"383 Madison Avenue New York 10017\", \"Client\": \"American Tobacco Co.\", \"Products\": \"Tareyton Cigarettes\", \"Phone Booth\": \"60\", \"ECU\": \"60\"}}",
+    "doc_id": "0060255888",
+    "num_fields": 8
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0060262650.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Annual Meeting Los Angeles\", \"READ REVERSE SIDE BEFORE FILLING OUT THIS FORM\", \"FOR ONE SESSION\"], \"Telephone\": \"(202) 842- 9530\", \"TELEPHONE\": \"202/ 457- 4850\", \"AME\": \"Marvin A Kastenbaum\", \"DDRESS\": \"1825 Eye Street, NW Suite 800\", \"Position\": \"Cytogeneticist\", \"resider\": \"Dr. William J. Schull\", \"Affiliation\": \"University of Utah\", \"Topic.\": \"Sister- -Chromatid Exchanges\", \"Topic\": \"The Oncogene, the Fragile Site, and Nonrandom Aberrations\", \"Tοpic\": \"Cyrogeneric Epidemiology\", \"Return this form to\": \"AAAS Meetings Office 1101 Vermont Ave., N W. Washington, D. C. 20005\", \"CITY STATE,\": \"Washington DC 20006\", \"INAL TITLE OF SYMPOSIUM\": \"THE HUMAN CHROMOSOME\", \"- Speaker\": \"Dr. Michael A. Bender\"}}",
+    "doc_id": "0060262650",
+    "num_fields": 14
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0060270727.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"CIGARETTE REPORT FORM\", \"REPORTABLE EXPENDITURES (In Thousands)\"], \"YEAR COVERED\": \"1987\", \"BRAND FAMILY NAME\": \"MALIBU\", \"NONMENTHOL\": \"X (check one)\", \"\\\"TAR\\\"\": \"16 mg\", \"TOTAL REPORTABLE EXPENDITURES FOR VARIETYI\": \"94\", \"NICOTINE\": \"1. 3 mg (Appendix C)\", \"CAT- A - EXPENSES\": \"34\", \"CAT - - EXPENSES\": \"0\", \"CAT - C - EXPENSES\": \"38\", \"CAT - G EXPENSES\": \"1\", \"CAT - J - EXPENSES\": \"20\", \"CAT - M EXPENSES\": \"1\", \"VARIETY DESCRIPTION\": \"King Size, Filter\", \"PRODUCT LENGTH\": \"King Size\", \"SOFT PACK\": \"X (check one)\", \"PACK SIZE SOLD\": \"20' s\", \"VARIETY UNIT SALES\": \"1, 800\", \"VARIETY DOLLAR SALES\": \"59, 791\", \"FIRST SALES DATE\": \"10/ 26/ 87\"}}",
+    "doc_id": "0060270727",
+    "num_fields": 19
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0060302201.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"RESEARCH COMPLETED OR IN PROGRESS WHICH HAS POSSIBILITIES FOR PRESENTATION OR PUBLICATION\"], \"NAME\": \"Ronald. W Davis\", \"COMMENTS\": \"been with applicability; may provide a technique.\", \"DIVISION\": \"Analytical- Radiochemistry\", \"HAS WORK BEEN REPORTED IN MANUSCRIPT\": \"yes\", \"NATURE OF WORK\": \"Total aldehyde analysis in cigarette mainstream\", \"PRESENT STATUS OF WORK (Cite progress reports where appropriate)\": \"Techniques worked out; and reported for pure aldehyde samples; must be adapted for cigarette mainstream smoke by further laboratory work\", \"IF SO, GIVE DATE AND TITLE\": \"MBTH- reagent for analysis of aliphatic aldehydes 7 / 5 / 67\", \"NAMES OF OTHER PERSONS COLLABORATING IN WORK\": \"L. W. McDowell\", \"ESTIMATE OF TIME NEEDED TO COMPLETE WORK\": \"approximately one month\", \"ESTIMATE OF TIME NEEDED TO PREPARE MANUSCRIPT FOR PRESENTATION\": \"several weeks after completion\", \"ESTIMATE OF TIME NEEDED TO PREPARE MANUSCRIPT FOR PUBLICATION\": \"several weeks after completion of work\", \"SCIENTIFIC METING OF CHOICE\": \"none as yet\", \"SCIENTIFIC JOURNAL OF CHOICE\": \"Tobacco Science\"}}",
+    "doc_id": "0060302201",
+    "num_fields": 13
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0060308251.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"From\", \"To\", \"A. T. Co. Tar & Nicotine Change Form\"], \"Date\": \"7/ 24/ 90\", \"NOTE\": \"Use Separate Form For Each Change\", \"Tar (Mg /Cigt)\": \"2\", \"Brand & Style\": \"CARLTON 100's FMSP\", \"Nicotine (Mg /Cigt)\": \"0 .3\", \"Nicotine (Mg/ /Cigt)\": \"0 .2\"}}",
+    "doc_id": "0060308251",
+    "num_fields": 6
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0060308461.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"CIGARETTE REPORT FORM\", \"REPORTABLE EXPENDITURES\"], \"NICOTINE\": \"0.8 mg (Jan. '85 Report)\", \"NONMENTHOL\": \"X (check one)\", \"NONFILTER\": \"(check one)\", \"(1) YEAR COVERED\": \"1985\", \"(4) PRODUCT LENGTH\": \"King\", \"(8) PACK SIZE SOLD\": \"20's\", \"(5) FILTER\": \"X\", \"(6) HARD PACK\": \"X\", \"(13) CAT- A- EXPENSES\": \"2,303\", \"(14) CAT- B- EXPENSES\": \"3,890\", \"(15) CAT- C- EXPENSES\": \"741\", \"(16) CAT- D- EXPENSES\": \"71,445\", \"(18) CAT- F- EXPENSES\": \"193\", \"(17) CAT- E- EXPENSES\": \"-\", \"(19) CAT- G- EXPENSES\": \"12,787\", \"(20) CAT- H- EXPENSES\": \"95,614\", \"(21) CAT- I- EXPENSES\": \"291,095\", \"(22) CAT- J- EXPENSES\": \"155,718\", \"(23) CAT- K- EXPENSES\": \"476,722\", \"(24) CAT- L- EXPENSES\": \"85,208\", \"(25) CAT- M- EXPENSES\": \"26,055\", \"(26) TOTAL REPORTABLE EXPENDITURES FOR VARIETY\": \"1,221,771\", \"(2) BRAND FAMILY NAME\": \"LUCKY STRIKE\", \"(3) VARIETY DESCRIPTION\": \"Low tar, king size, filter, hard pack\", \"SOFT PACK\": \"(check one)\", \"(9) \\\"TAR\\\"\": \"11 mg\", \"(10) VARIETY UNIT SALES\": \"238,282\", \"(11) VARIETY DOLLAR SALES\": \"6,117,778\"}}",
+    "doc_id": "0060308461",
+    "num_fields": 28
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0071032790.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"PROJECT INITIATION FORM\"], \"PROJECT\": \"To develop cigarette Cigarette to utilize a filter tip with longitudinal grooves from the mouth end to the tobacco end in con- junction with perforated tipping paper.\", \"DATE\": \"September 16, 1980\", \"PROJECT CODE\": \"BTF\", \"PROJECT NAME\": \"-\", \"To\": \"Files\", \"EPB\": \"ODL\", \"cc\": \"BMC/RMI/EPB JEM/DEC PRC/DRB\", \"PROJECT LEADER\": \"E. P. Barbee\", \"WORK REQUESTED BY\": \"R. S. Sprinkle, III\", \"OTHER PERSONNEL ASSIGNED\": \"J. E. Mann, Jr.; D. E. Cawthon\", \"Approved by\": \"R. S. Sprinkle, III\"}}",
+    "doc_id": "0071032790",
+    "num_fields": 11
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/0071032807.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Project Initiation Form\"], \"Date\": \"November 15, 1968\", \"Work Requested by\": \"Marketing\", \"Project Leader\": \"Mann\", \"Project Code\": \"CST- N- 68\", \"Project Name\": \"Charcoal Smoking Tobacco\", \"Project Objective\": \"A pipe tobacco containing activated charcoal - must show vapor phase reduction.\", \"Other personnel assigned\": \"PDL and John Brooks preparing charocal impregnated RC.; Analytical Section is doing most of the work on vapor phase.\"}}",
+    "doc_id": "0071032807",
+    "num_fields": 7
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/00836244.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"TA98\", \"TA100\", \"TA1535\", \"SOLVENT\", \"AMES ASSAY FOR MUTAGENICITY\"], \"COMPOUND\": \"2, 4- Dihydroxypyridine\", \"SOURCE\": \"Lorillard - Organic Chemistry\", \"INVESTIGATOR(S)\": \"H. S. Tong & A. A. Poole\", \"LORILLARD\": \"OR61 -2\", \"REPORTED\": \"10 /10 /80\", \"CONCLUSION\": \"This compound is judged non mutagenic in this test system.\", \"TESTED\": \"9 /10 /80 -10 /10 /80\", \"DMSC\": \"☑\", \"TOXICITY (% SURVIVAL)\": \"50; 80; 100\", \"CONCENTRATION 1mgimit\": \".5\", \"REVERSION RATE (TEST REVERSANTS/CONTROL REVERTANTS PER PLATE\": \"1. 00; .90; .96; .92; .85; .88; .97; .92; .92; .79; .83; .97\", \"COMPOUND (US plate)\": \"500; 250; 125\", \"2- AMINOANTHHACENE\": \"4; 2\", \"DATE RECEIVED\": \"9 /3 /80\", \"NOTEBOOK PAGE\": \"BIO7 -24\", \"CONTROL AFVERTANTS PER PLATE (0.05 ml SOLVENT)\": \"4 .67; 8 .00; 123 .00; 135 .33; 3 .33.33; 16 .00\", \"(-) 9\": \"4 .67\", \"(+)\": \"16 .00\", \"(-)\": \"3 .33.33\", \"Copies to the following\": \"Dr. H. J. Minnemeyer Ms. L. B. Gray\"}}",
+    "doc_id": "00836244",
+    "num_fields": 20
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/00836816.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"TO\", \"COMPOUND PHYSICAL PARAMETERS\", \"COMPOUND SENSITIVE\"], \"DATE\": \"8/ 10/ 82\", \"LRC FILE NUMBER\": \"A30\", \"pH\": \"The pH of a 50 % concentration of A30 in (52.6% dioxane/ water was calculated to be 8.13 at 24 C according to the extrapolation procedures by Dr. P. D. Schickedantz, Lorillard Research Center Accession Number 1662, Reference OR 83- 81.\", \"ORAL\": \"Reference OR 100- 32 . 5g A30 soluble in .5 mL corn oil at room temperature.\", \"SOLUBILITY\": \"(See SOE for Biological Solutions)\", \"PHYSICAL STATE\": \"Clear Colorless liquid\", \"ACUTE CARDIOVASCULAR\": \"(See SOP for Determination of Solubility of Materials for Acute Cardiovascular and Respiratory Effects Study in Beagle Dogs) Reference OR 100- 32 .2 mg A30 soluble in .5 mL 10 % propylene glycol solution at 38 C. Add A30 to warm (38 C) propylene glycol; add warm water to make 10 % propylene glycol solution.\", \"STORAGE RECOMMENDATIONS\": \"Refrig erate in amber bottle at no more than 8 C.\"}}",
+    "doc_id": "00836816",
+    "num_fields": 8
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/00837285.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"REACTIVITY\", \"COMPOUND PHYSICAL PARAMETERS\", \"DESCRIPTION OF REACTIVITY\"], \"CLASS\": \"ACID; OTHER; SALT; BASE\", \"LRC COMPOUND CODE\": \"A32\", \"SOLUBILITY\": \"ESTIMATED; WATER; OTHER; MEASURED\", \"WITHOUT HEATING\": \"UNCHANGED; UNCHANGED; UNCHANGED; UNCHANCED; UNCHANGED; UNCHANGED; DECOMPOSITION; DECOMPOSITION; DECOMPOSITION; DECOMPOSITION; DECOMPOSITION; DECOMPOSITION\", \"1) WATER or BRINE\": \"UNCHANGED; DECOMPOSITION; UNCHANGED; UNCHANGED; DECOMPOSITION\", \"2) 5% HCL\": \"DECOMPOSITION; UNCHANGED; DECOMPOSITION; UNCHANGED\", \"3) 5% NaOH\": \"UNCHANGED; DECOMPOSITION; UNCHANGED; DECOMPOSITION\", \"4) ALCOHOLS\": \"UNCHANGED; DECOMPOSITION; UNCHANCED; DECOMPOSITION\", \"5) OXYGEN\": \"DECOMPOSITION; UNCHANGED; DECOMPOSITION; UNCHANGED\", \"6) LIGHT\": \"DECOMPOSITION; UNCHANGED; DECOMPOSITION; UNCHANGED\", \"WITH HEATING (80C)\": \"DECOMPOSITION; DECOMPOSITION; UNCHANGED; UNCHANGED; UNCHANGED; UNCHANGED; UNCHANGED; UNCHANGED; DECOMPOSITION; DECOMPOSITION; DECOMPOSITION; DECOMPOSITION\", \"COMPOUND SENSITIVE TO\": \"AIR; HEAT; LIGHT; MOISTURE; OTHER\", \"COMMENTS\": \"pH- The pH of a 50% concentration of A32 in a 52.6% dioxane/water solution was calculated to be 2.92 at 22°C according to the extra- polation procedures by Dr. P. D. Schickedantz, Lorillard Research Center Accession No. 1662, Reference OR 83- 125.; Solubility (See SOP for Biological Solutions); Oral- 5g A32 forms a suspension with stirring in 10 ml 1% Tween 80 at room temperature. Reference OR 72- 151.; Acute Cardiovascular- Mix 2 mg A32 with 0.2 ml 80% propylene glycol and grind lightly. Add 0.8 ml saline solution. A32 is a suspension in this mixture at room temperature. Reference OR 72- 152.\", \"SIGNATURE\": \"Johnson\", \"DATE\": \"11/1381\", \"AMOUNT\": \"g100ml\", \"MOLECULAR WEIGHT\": \"200. 29\", \"STORAGE RECOMMENDATIONS\": \"NORMAL STORAGE\", \"LORILLARD RESEARCH CENTER\": \"Acute Cardiovascular- Mix 2 mg A32 with 0.2 ml 80% propylene glycol and grind lightly. Add 0.8 ml saline solution. A32 is a suspension in this mixture at room temperature. Reference OR 72- 152.\"}}",
+    "doc_id": "00837285",
+    "num_fields": 19
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/00838511_00838525.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"DECISION TREE ESTIMATION OF TOXIC RISK\"], \"NAME\": \"Paul Schickedantz, Jack Reid\", \"STRUCTURE\": \"OH O\", \"ESTIMATED TOXICITY CLASS\": \"II\", \"COMMENTS\": \"This carbocyclic keto alcohol was placed in estimated toxicity class II due to the direct attachment of the ketone to the cyclic nucleus.\", \"LORILLARD COMPOUND CODE NUMBER\": \"A41\", \"DATE\": \"12- 4- 80\", \"COMPOUND NAME\": \"2-Hydroxycyclododecanone\"}}",
+    "doc_id": "00838511_00838525",
+    "num_fields": 7
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/00851772_1780.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"TYPE\", \"☑\", \"INFORMATION SEARCH SUMMARY\"], \"NAME\": \"Jimmy Bell\", \"COMPOUND\": \"Valerian Fluid Extract\", \"LORILLARD COMPOUND CODE\": \"B73\", \"DATE\": \"May 27, 1982\", \"REGISTRY NUMBER (IF applicable)\": \"N/A\", \"REVIEWED\": \"1974- Jan. 1982 to Dec. 1981; 1957- Dec. 1981; 1929-1966\"}}",
+    "doc_id": "00851772_1780",
+    "num_fields": 6
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/00851879.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Estimated cost of the study will be:\", \"ADDENDUM I DAWSON RESEARCH CORPORATION Protocol Change Order No. 1\"], \"Date\": \"5-13-81\", \"Subject\": \"Change in the time of the Pre- dose Biomicroscopic Examination\", \"Method\": \"Verbal Phone; (Means of communication)\", \"increased\": \"☑\", \"Authorized by\": \"Dr. Connie Stone\", \"Authorized to\": \"Mr. Charles Burns\"}}",
+    "doc_id": "00851879",
+    "num_fields": 6
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/00860012_00860014.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"HAZLETON LABORATORIES AMERICA INC\", \"ORIGINAL SIGNED PROJECT SHEETS TO PSO\", \"FIXED DISTRIBUTION:\", \"HAZARDOUS COMPOUND\", \"PHYSICAL DESCRIPTION:\"], \"PROJECT SHEET NO\": \"4\", \"SOLID\": \"X\", \"COLOR\": \"Brown\", \"DATE ISSUED\": \"December 13, 1983\", \"PROJECT NO.\": \"642 149\", \"RECEIPT DATE (s)\": \"11 18 83\", \"LH NUMBER (s)\": \"21 017\", \"PERFORMING DEPARTMENTS\": \"Acute/ Dermal Toxicology\", \"STORAGE CONDITIONS\": \"☑ REFRIGERATOR 8 C\", \"EXPERIMENTAL PROCEDURES\": \"This project sheet is issued to correct Project Sheet which was issued on December 6, 1983 to Project Sheet No 3 instead of 2.; Material Safety Data Sheet is attached to Project Sheet 1.\"}}",
+    "doc_id": "00860012_00860014",
+    "num_fields": 10
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/00865872.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"COMPOUND PHYSICAL PARAMETERS\"], \"LRC FILE NUMBER\": \"B164\", \"pH\": \"The pH of a 50% concentration of B164 in water was calculated to be 4.82 at 25°C according to the extrapolation procedures by Dr. P. D. Schickedantz, Lorillard Research Center Accession Number 1662.\", \"Reference\": \"BC20- 48\", \"SOLUBILITY\": \"B164 forms a suspension in corn oil at 0.5g/ 1.5 ml Triple dosing is required; (See SOP FOX Biological Solutions)\", \"ACUTE CADCOVASCULAR\": \"(See SOP for Determination of Solubility of Materials for Acute Cardiovascular and Respiratory Effects Study Beagle Dogs); B164 is insoluble according to this procedure\", \"COMPOUND\": \"[] OTHER; [MOISTURE]; [] HEAT\", \"SENSITIVE\": \"[] Air\", \"DATE\": \"8/22/83\", \"PHYSICAL STATE\": \"Brownish- gray powder\", \"STORAGE RECOMMENDATIONS\": \"Refrigerate in amber glass bottle at no more than 8°C\"}}",
+    "doc_id": "00865872",
+    "num_fields": 10
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/00866042.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"HAZLETON LABORATORIES AMERICA INC\", \"PROJECT SHEET\", \"HAZARDOUS, COMPOUND\", \"PHYSICAL DESCRIPTION:\", \"STORAGE CONDITIONS\"], \"LIQUID\": \"X\", \"PROJECT SHEET NO.\": \"1\", \"PROJECT NO.\": \"642-138\", \"SIGNATURE\": \"D.\", \"RECEIPT DATE(s)\": \"9/28/83\", \"LH- NUMBER(s)\": \"20.845\", \"REFRIGERATOR 8 C\": \"☑\", \"TEST MATERIAL(s)\": \"B166\", \"FOLLOW DEPARTMENT AND COMPANY SAFETY MANUALS\": \"☑\", \"DATE ISSUED\": \"Oct. 11, 1983\", \"EXPERIMENTAL PROCEDURES\": \"to performed in Acure/Dermal Toxicology, building 18.\"}}",
+    "doc_id": "00866042",
+    "num_fields": 11
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/00920222.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"TERMS\", \"PURCHASE REQUISITION\"], \"VENDOR\": \"Borriston Laboratories, INC. , 5050 Beech Place Temple Hills, MD 20748\", \"VIA\": \"N /A\", \"Attn\": \"Dr. Connie Stone\", \"NET\": \"15\", \"DATE\": \"March 27, 1984\", \"DESCRIPTION\": \"This is your authorization to perform the \\\"Acute Oral Toxicity Study in the Rat\\\" tests on materials D13 and D23 supplied by Lorillard. The fixed price for each test is $2050 for each material, for a total price of $4100. Studies are to be conducted in accordance with the October 17, 1980 formal agreement between Borriston and Lorillard. All work is to be coordinated with our Dr. Connie Stone (919) 373- 6663.\", \"ACCT. NO.\": \"4111\", \"DEPT. NO.\": \"9590\", \"FOR PURCHASING DEPARTMENT USE ONLY\": \"Borriston Laboratories, INC. , 5050 Beech Place Temple Hills, MD 20748\", \"F. O. B.\": \"N /A\", \"DATE WANTED\": \"As required\", \"SHIP TO (DEPT- BRANCH)\": \"- Lorillard Research Center\"}}",
+    "doc_id": "00920222",
+    "num_fields": 12
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/00920294.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Notes\", \"RJR Mailfile Table Update Sheet\"], \"Alert Number\": \"970220\", \"To\": \"RJR IR - Suz /Art\", \"From\": \"Drew Huyett\", \"Date\": \"3/ 7/ 97\", \"Mailfile Description\": \"Mail Order- Indy Responders\", \"Quantity\": \"273\", \"Maildate\": \"3/ 17/ 97\", \"Program#\": \"700418\", \"Seeds\": \"25\", \"Suppression\": \"5\", \"Mailfile ID\": \"3,\", \"System\": \"Corp/ Multibrand\", \"Program Group\": \"102- Eclipse\", \"Mailfile Cells\": \"HD home delivery; SP sneak preview\"}}",
+    "doc_id": "00920294",
+    "num_fields": 14
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/00922237.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"PURCHASE REQUISITION\"], \"ACCT NO.\": \"4111\", \"DEPT NO.\": \"9590\", \"ISSUED BY\": \"00922237\", \"APPROVED BY\": \"H.J. Minnemeyer\", \"DESCRIPTION\": \"This is your authorization to provide the \\\"1601.013: The Effect of Inhalation of Reference and Test (D3 and D4) Cigarette Smoke on Two Cytogenetic Endpoints in Mice: Chromosome Aberrations and Sister Chromatid Exchange\\\" test for a fixed price of $19,750 Tests will be performed in accordance with the December 21, 1981 formal agreement between Microbiological Associates and Lorillard. All work is to be coordinated with our Dr. Harry Minnemeyer (919) 373-6603\", \"Attn\": \"Dr. Harry Minnemeyer\", \"VENDOR\": \"Microbiological Associates 5221 River Rd., Bethesda MD 20816\", \"TERMS\": \"15 Net F.O.S N/A VIA N/A\", \"DATE WANTED\": \"As required\", \"SHIP TO DEPT BRANCH)\": \"Lorillard Research Center\"}}",
+    "doc_id": "00922237",
+    "num_fields": 10
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/01073843.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"SOLVENT\", \"TA1535\", \"TA100\", \"TA98\", \"AMES ASSAY FOR MUTAGENICITY\", \"TOXICITY (%) (SURVIVAL)\"], \"COMPOUND\": \"Diethyl 3, 3-Dimethyl-2-oxo-1, 4-cyclopentanedicarboxylate\", \"SOURCE\": \"Lorillard - Organic Chemistry\", \"INVESTIGATOR(S)\": \"H. S. Tong & A. A. Poole\", \"OMSO\": \"☑\", \"REPORTED\": \"4/14/81\", \"Streptozotocin\": \"1.0; 0.5\", \"CONCLUSION\": \"This compound is judged non - mutagenic in this test system.\", \"LOT NO\": \"OR67-13\", \"LORILLARD NO\": \"A123\", \"NOTEBOOK PAGE\": \"BC19-25\", \"TESTED\": \"3/18/81-4/8/81\", \"DATE RECEIVED\": \"unknown\", \"CONCENTRATION mg/ml\": \".025\", \"COMPOUND plates\": \"25; 12.5; 6.25\", \"(-)\": \".72; 1.24; 6.41; 2.28; 9.67\", \"CONTROL REVERTANTS PER PLATE TOON MI SOLVENTI\": \"118.00; 127.00; 21.00; 9.00; 9.67; 14.00\", \"(+) 5-9\": \"20.10; 18.81; 21.00\", \"REVERSION RATE TEST REVERTANTS-CONTROL REVERTANTS PER PLATE)\": \".52; 1.07; .71; .86; .65; .87; .78; .82; .88; 1.10; .76; 1.12\", \"(-) 5-9\": \".67; 9.00; .22\", \"2. AMINOANTHRACENE\": \"4.0; 2.0\", \"Copies to the following\": \"H. J. Minnemeyer; L. B. Gray\"}}",
+    "doc_id": "01073843",
+    "num_fields": 21
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/01122115.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"P. LORILLARD CO.\", \"RESEARCH DIVISION\"], \"RE\": \"-339\", \"DATE\": \"11 /2 /61\", \"Remarks\": \"* Special Plasticizer - 1 part LG- 168 - 15 parts Estrobond \\\"B\\\" Union Carbide LG- 168 additive .38%; Sample repeated as RE- 341 because 2. 1/ 58 ,000 tow was used instead of 2. 1/ 42 ,000 tow.\", \"Color\": \"White\", \"Supplier\": \"T. E.\", \"Weight\": \".922 1 .059 .54 .20 20 .2 7 .6 62 .4 1 .07 .41 61 .7\", \"Draw\": \".922 1 .059 .54 .20 20 .2 7 .6 62 .4 1 .07 .41 61 .7\", \"Tars\": \".922 1 .059 .54 .20 20 .2 7 .6 62 .4 1 .07 .41 61 .7\", \"Nicotine\": \".922 1 .059 .54 .20 20 .2 7 .6 62 .4 1 .07 .41 61 .7\", \"% Plasticizer\": \".0; 6\", \"Firmness of Rod\": \"Good\", \"Quality of Bloom\": \"Good\", \"Width of Band\": \"Good\", \"Ref. Paper\": \"#450\", \"Quan of Trays Produced\": \"3\", \"Rods per Min.\": \"1067\", \"Type of Rod\": \"\\\"D\\\"\", \"Circ of Rod\": \"24\", \"Delivery Roller over Tape\": \".844\", \"Tobacco Used\": \"SPRING\", \"Type of Maker\": \"AMF\", \"Length of Cigarettes\": \"85\", \"Type of Tipper\": \"Hauni\", \"SQC -21\": \"(Revised 5/ 9/ 61)\", \"Total Denier as Marked\": \"58 ,000\", \"Maker No.\": \"Research Division\", \"Length of Rod\": \"120 mm.\", \"Mean Draw of Rod\": \"0 .12 (new scale)\", \"Dry Weight\": \"86 .9 gms\", \"Dry Wt. With Adhesive\": \"93 .3 gms.\", \"Wet Weight\": \"99 .2 gms.\", \"Complete Weight\": \"99 .2 gms.\", \"Tape Speed\": \"400 F. P. M.\", \"F. P. M. Delivery Roller\": \"337 .5\", \"F. P. M. No. 1 Roller\": \"477 .5\", \"F. P. M. No. 2 Roller\": \"362 .5\", \"No. 1 Roller over Tape\": \"1 .194\", \"Pump Press. Card Roller\": \"120 psig\", \"Pressure on Air Jet\": \"16 psig\", \"Date Made\": \"11 /3 /61\", \"Smoking Results\": \".922 1 .059 .54 .20 20 .2 7 .6 62 .4 1 .07 .41 61 .7\", \"Recearch Engineer\": \"Benner\", \"Copies to\": \"Dr. C. O. Jensen Mr. R. A. Wagner Mr. J. Berner Dr. A. W. Spears\"}}",
+    "doc_id": "01122115",
+    "num_fields": 43
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/01150773_01150774.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"COVINGTON & BURLING\"], \"Date\": \"January 15, 1997\", \"To\": \"Mark Berlind\", \"From\": \"David H. Remes\", \"Room\": \"803E\", \"TELEPHONE\": \"32 512 7890\", \"TELEFAX\": \"(202) 662-6291\", \"TELEX\": \"89- 193 COVLING WSH\", \"CABLE\": \"COVLING\"}}",
+    "doc_id": "01150773_01150774",
+    "num_fields": 8
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/01191071_1072.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Facsimile Transmission Legal Department 120 Park Avenue New York, NY 10017- 5592\", \"PM PHILIP MORRIS\"], \"PAGE\": \"03\", \"TEL NO.\": \"SHB\", \"Date\": \"11/12/96\", \"Attention\": \"John J. Mulderig C/O Mike Baker\", \"Company\": \"Philip Morris Management Corp.\", \"Subject\": \"Fax Received\", \"FILE FILE TYPE\": \"083 MEMORY TX\", \"Fax #\": \"816/545-7473\"}}",
+    "doc_id": "01191071_1072",
+    "num_fields": 8
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/01197604.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"SAMPLE DESCRIPTION:\"], \"DESCRIPTION\": \"OLD GOLD Straights + 3% KNO3\", \"SMOKER\": \"100 unit\", \"REMARKS\": \"Moisture content of tar .48% as determined by near infrared spectroscopy\", \"Tar Number\": \"195\", \"Batch Number\": \"II\", \"Tobacco Number\": \"Sample No. 1166, RD 308\", \"SAMPLE WEIGHT\": \"300 mm. tar, 100 mm acetone\", \"METHOD OF PREPARATION\": \"Water removed by co- distillation with acetone under vacum at 45 C.\", \"SHIPPED VIA\": \"Railway Express\", \"SHIPPED TO\": \"Dr. Dietrich Hoffman The Kettering New York, New York\", \"DATE SHIPPED\": \"November 2, 1965\", \"REQUIREMENTS /MP.\": \"150 gm\", \"SUPPLIED UNTIL\": \"February, 136\"}}",
+    "doc_id": "01197604",
+    "num_fields": 13
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/01408099_01408101.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"PROJECT STATUS REPORT CONFIDENTIAL\", \"ORIGINAL COMPLETION DATE\", \"MAJOR MKT. AND MKT. RESEARCH STEPS\"], \"DATE\": \"March 1, 1978\", \"PROJECT #\": \"306\", \"PROJECT NAME\": \"True 100's (R&M)\", \"PROJECT LEADER\": \"Williams/ Giordano\", \"GENERAL PROJECT DESCRIPTION\": \"True 100's, Regular and Menthol tar; reduction to the range of 8- 10mg tar. Variations to be: 1) Same taste; characteristics as current True 100's product and, 2) Taste characterist-; ics similar to True King Size, 5mg. tar product.\"}}",
+    "doc_id": "01408099_01408101",
+    "num_fields": 5
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/11508234.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Budgeted:\", \"Project\", \"MARKETING RESEARCH AUTHORI TION\", \"Research Req Attached:\", \"Qualitative Research (Product Test, A & U etc.)\", \"Approved By:\"], \"Date\": \"3/ 3/ 95\", \"Description\": \"LUCKY STRIKE QUALITATIVE ADVERTISING RESEARCH - GATEWAY CITIES\", \"No.\": \"1995- 48D\", \"Yes\": \"X\", \"No\": \"X\", \"Competitive Proposals Obtained\": \"Only two bidders because third supplier has not yet signed B & W; contract.\", \"Supplier\": \"Analytic Insight, Inc.; Goldfarb Consultants\", \"Total Cost\": \"29,500; 31,716\", \"Est. Travel\": \"2,500; 2,500\", \"Cost ($)\": \"27,000; 29,216\", \"Wave(s)\": \"3/ 31/ 95\", \"Waves(s)\": \"3/ 25/ 95\", \"Summary of MRD Budget\": \"1995\", \"Total Area Authorized\": \"500,000\", \"Current Balance Available\": \"382,575\", \"This Change\": \"29,500\", \"This amount: (From Next Year's Budget)\": \"0\", \"New Balance\": \"353,075\", \"Committed to Date: (Current Year)\": \"146,925\", \"Budget Check\": \"Musiclask\", \"Submitted By\": \"Lumea\", \"Original\": \"Project File\", \"cc\": \"H. Williams\", \"Requested by\": \"A. A. Strobel\", \"Internal Init Date\": \"3/ 1/ 95\", \"Recommended Supplier\": \"Analytic Insight, Inc.\", \"Reason(s) for Recommendation\": \"Lowest Bid\"}}",
+    "doc_id": "11508234",
+    "num_fields": 27
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/11875011.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"BROWN & WILLIAMSON TOBACCO CORPORATION BID REQUEST FORM (QUALITATIVE RESEARCH)\"], \"TO\": \"Goldfarb Consultants\", \"DATE REQUESTED\": \"1-23-95\", \"PROJECT NUMBER\": \"1995- 13D\", \"B&W ORIGINATOR\": \"H.L. Williams\", \"DEADLINE FOR BID RECEIPT\": \"1-26-95 9:00 AM EST\"}}",
+    "doc_id": "11875011",
+    "num_fields": 5
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/12052385.png",
+    "ground_truth": "{\"gt_parse\": {\"KOOL\": \"0595- 529- 1510 -0\", \"DESCRIPTION\": \"KMDP ANALYSIS UTILIZING BLACK SWITCHING STUDY DATA\", \"SUPPLIER\": \"Market Facts\", \"PAID OUT OF 1987 BUDGET\": \"JAN\", \"MR PERSONNEL\": \"C. B. Pugh\", \"AUTHORIZED COST\": \"12, 500 (10- 15- 87)\"}}",
+    "doc_id": "12052385",
+    "num_fields": 6
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/12603270.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"CHANGE OF AUTHORIZED COST\", \"PROJECT CANCELLED\"], \"Date\": \"June 21, 1985\", \"Description\": \"Amelia 100's Candidates: (NM-FT and NM- Lights)\", \"Supplier\": \"Market Facts. Inc.\", \"Amt. of Change\": \"Decrease X; Increase\", \"Projected: Field Start\": \"CANCELLED\", \"Total Area Budget\": \"3,669,000\", \"Current Balance Available\": \"252,955\", \"This Change: (From Current Budget)\": \"+58,500\", \"New Balance\": \"311.455\", \"Committed To Date\": \"3,357,545\", \"This Amount\": \"0\", \"Original\": \"Project File S. Willinger\", \"cc\": \"Research Group Manager Bonnie Fuller V. Hansberry (If International)\", \"Project No.\": \"1985-39NP\", \"Brand Name\": \"RICHLAND 100's\", \"Adjusted Total Cost of Protect\": \"$ -0-\", \"Account Name\": \"PRODUCT TESTING\"}}",
+    "doc_id": "12603270",
+    "num_fields": 17
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/12825369.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"TYPE OF DISPLAY\", \"PERMANENT\", \"LAURENCE, CHARLES, FREE & LAWSON, INC. BULLETIN ADVERTISING- INSPECTION REPORT\"], \"MARKET\": \"Lakeland Metro Market\", \"POPULATION\": \"400.400\", \"OPERATOR\": \"The Lamar Corp.\", \"BRAND\": \"Misty\", \"SCHEDULE\": \"2/ 20 & 3/ 20\", \"LOCATION\": \"See attached list\", \"DESIGN ON DISPLAY\": \"(Condition And Rendition of Copy)\", \"ROTARY\": \"☑\", \"COMMENTS\": \"(Description of Location or Rotary Plan, Brand Category Competition); This is a comparatively easy market to cover. It is less than an hour from Tampa airport. Our bulletins are on every major arterial and in all No quadrants of the area. changes were made. Some minor on- premise blocking and trees were noted, but deemed serious enough for correction. not; The only other tobacco in the market was a standing 6 Panel RJR buy currently showing Camel.\", \"COMMENT ON PLANT\": \"The plant is well maintained and covers all parts of the market. Lamar looks like a good citizen here, keeping a good- looking public and carrying lot operation. doing service, a of local advertisers.; (Condition, Structures, Painting Ability, Lighting, Cooperation, etc.)\", \"NO OF ROTARIES\": \"8 RB\", \"AVERAGE DAILY EFFECTIVE CIRCULATION\": \"218, 499\"}}",
+    "doc_id": "12825369",
+    "num_fields": 12
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/13149651.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"State:\", \"Local:\", \"Within Agency's Budget\", \"5. Types of Local Governmental Unit Aflected:\", \"Fund Source Affected\"], \"ORIGINAL\": \"☑\", \"Subject\": \"Regulation of Smoking Public Places\", \"Increase Costs - May Be Possible to Absorb\": \"☑\", \"Yes\": \"☑\", \"GPR\": \"☑\", \"PRO\": \"☑\", \"Agency\": \"University of Wisconsin System\", \"Date\": \"2-2-83\", \"LRB Or Bill No. han Au No\": \"LRB 1946\", \"Asumptions Used in Arriving at Fiscal Estimate\": \"This bill regulates smoking in university buildings which house educational programs and in inpatient health care facilities. Smoking within these or rooms, provided buildings would be allowed only specified facilities designate these \\\"smoking permitted\\\" areas. that signs are posted to; university buildings would each It is estimated that, on the average, The per \\\"smoking signs. sign cost is require about three permitted\\\" This estimate is based on the estimated at $4 50 in 1982-83 dollars. 1981 increased to reflect Inflation from 1981 to 1983. per sign cost, and Thus, the expected one-time cost for the University Systet to implement no be about There are significant the provisions of the bill would $8,000. with the bill's provisions. continuing annual costs associated\"}}",
+    "doc_id": "13149651",
+    "num_fields": 10
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/660978.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"GREY ADVERTISING INC. - MEETING REPORT\"], \"DATE\": \"1/ 19/ 82\", \"PLACE\": \"Telephone\", \"NO.\": \"482 -2 R1\", \"CLIENT\": \"Brown & Williamson\", \"PRODUCT\": \"Viceroy\", \"PRESENT\": \"(For the client); T. Parrack\", \"PH\": \"mg\", \"cc\": \"R. Schoenfein S. Dammers P. Hendricks\", \"DATE OF REPORT\": \"2/ 17/ 82\", \"Written by\": \"P. Hendricks\"}}",
+    "doc_id": "660978",
+    "num_fields": 10
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/71108371.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"PRIORITY\", \"MIS PROJECT REQUEST PART I - CLIENT REQUEST\", \"REQUEST TYPE\", \"REASON CODE\", \"PROBLEM DEFINITION\", \"REQUEST TYPE:\", \"REASON CODE:\"], \"Department\": \"BD & SS\", \"3. Special Processing\": \"x\", \"Phone Number\": \"7970\", \"1. Productivity Improvement\": \"x\", \"High\": \"X\", \"Date Required\": \"4/20/98\", \"Date Submitted\": \"4/17/98\", \"Requested by\": \"Karl Hutchison\", \"Project Number\": \"(assigned by MIS)\", \"Description of Request\": \"Please run job FRMRXUM2 for GPC, Misty, and Kool against file b:\\\\common\\\\khutchi\\\\r892unm.lst. Please place output in the same directory.\", \"Reason for Request\": \"Calculation of 1997 STR volumes for these brands for allocation of Period 2A budgets.\", \"Request Authorized By\": \"Karl Hutchison\", \"REQUEST AUTHORIZED BY\": \"DESIGNATED SYSTEM OWNER BEFORE SUBMISSION TO THE MIS CLIENT SYSTEMS MANAGER.; MUST BE AUTHORIZED BY THE DEPARTMENT DIRECTOR OR THE\"}}",
+    "doc_id": "71108371",
+    "num_fields": 13
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/71190280.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"BROWN & WILLIAMSON TOBACCO CORPORATION B&W\", \"INC\", \"OTT APPROVALS\", \"B&W APPROVALS\"], \"Signature\": \"LKelly\", \"Department\": \"production AE\", \"Date\": \"10/22/98 10/22/98\", \"T&N\": \"8'\", \"WARNING\": \"Exhibt 1(a) Statement A\", \"DATE\": \"10/22/98\", \"TRIM SIZE\": \"33/16\\\"WX21/2\\\"H\", \"BRAND\": \"KOOL Natural\", \"DESCRIPTION\": \"Passport Winter Program Ad- EMRO\", \"JOB NO.\": \"7848\", \"SQ. INCHES/FEET\": \"7.96875 sq inches\"}}",
+    "doc_id": "71190280",
+    "num_fields": 11
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/71202511.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Supplier\", \"Budgeted:\", \"MA ETING RESEARCH AUTHORIZ ON\", \"Research Req. Attached:\"], \"Date\": \"B 90\", \"Description\": \"KOOL Natural Lights Packaging - Round I\", \"Yes\": \"X\", \"Est. Travel\": \"3,000\", \"Total Cost\": \"58,500\", \"No.\": \"1998 -18D\", \"Project Type (Product Test, A & U, etc.)\": \"Qualatative\", \"To Be Deducted from 1999 Budget\": \"$\", \"Original\": \"Project File\", \"CC\": \"MaDonna Sliker\", \"Requested by\": \"Nick Wilkerson\", \"Cost ($)\": \"$ 55,500\", \"Proiected External Authorization Date\": \"2 /26 /98\", \"Field Complete\": \"w /o 3/ 23 /98\", \"Final Supplier Report Due\": \"w/ o 4/ 6/ 98\", \"Total Authorized Project Amount\": \"$ 58,500\", \"To Be Deducted from 1998 Budget\": \"$ 58,500\", \"Sample Size\": \"12 groups\", \"Recommended Supplier\": \"Rabid was selected due to the critical timing of the project and the lack of availability of other suppliers\", \"Reason (s) for Recommendation\": \"Rabid was selected due to the critical timing of the project and the lack of availability of other suppliers\", \"Submitted By\": \"naid\", \"Approved By\": \"Senior VP Marketing (to $ 1,000,000)\", \"Project No.\": \"1998 -18D\"}}",
+    "doc_id": "71202511",
+    "num_fields": 23
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/71206427.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"SIGNATURES:\", \"PROJECT BRIEF\"], \"ITEM\": \"Package Fixture Circle-K Convenient Stores\", \"DATE\": \"June 1, 1990\", \"BRAND\": \"General Merchandising Nonspecific\", \"PROJECT\": \"Attached; See\", \"FUNDING\": \"1990 Customized Merchandising; Services ESPNS\", \"SUPPLIERS BEING CONSIDERED\": \"Chicago Show; Display Equation; Chicago Display; Robert Nielson & Associates\", \"RETURN TO\": \"REQUESTING MANAGER\"}}",
+    "doc_id": "71206427",
+    "num_fields": 7
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/71341634.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Home\", \"Office\", \"Check\", \"Request\", \"For\"], \"Distributor No\": \"20182\", \"Attention\": \"DAVID DRESSER\", \"Address\": \"395 DYSTER POINT BLVD SUITE 415 S. SAN FRANCISCO\", \"Is this a corporation\": \"Yes X; No\", \"Quantity\": \"50, 759; 6. 382\", \"Units\": \"CTNS; CTNS\", \"Amount\": \"$12 784 00; $143 922 80\", \"Promotion Number\": \"288; 296\", \"Promotion Code\": \"725; 725\", \"Date\": \"Check#\", \"Dist/Asgmt C.F. #\": \"39A00A\", \"Vendor#\": \"Check Date\", \"Pay Terms\": \"00000\", \"Pay Method\": \"Check\", \"Separate Pay-\": \"Y\", \"Distribution\": \"Fax to Field Payments at (502) 588- 7826\", \"Account Month\": \"Pay Handling\", \"Requested By\": \"Robert\", \"AVG Rate\": \"$2 00; $2 84\", \"Promo Dates\": \"March 15- 19, 1999\", \"Promotion Name\": \"SEE ATTACHED; GPC BUYDOWN PROGRAMS; Section 18 Narl Chain Walgreens\", \"Charge To Section\": \"PER ATTACHED\", \"Pay To\": \"COREMARK NTERNATIONAL\", \"(Records Retention\": \"30 days)\"}}",
+    "doc_id": "71341634",
+    "num_fields": 24
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/71366499.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"BROWN & WILLIAMSON TOBACCO CORPORATION\", \"OTT APPROVALS\", \"B & W APPROVALS\"], \"BRAND\": \"BKOOL\", \"DESCRIPTION\": \"CMS Amerada Hess Dispenser Sign\", \"DATE\": \"12/ 15/ 97\", \"WARNING\": \"3A 14 1/2\\\" X 8\\\" - 116 sq.\\\"\", \"JOB NO.\": \"7559\", \"T & N\": \"NA\", \"SQ. INCHES/FEET\": \"261 sq\", \"TRIM SIZE\": \"14 1/2 X 18\\\"\"}}",
+    "doc_id": "71366499",
+    "num_fields": 8
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/71563825.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Market Research - Initiating Project Brief\", \"Consumer Segment(s):\", \"By City:\"], \"Date\": \"02/ 12/ 98\", \"Market(s)\": \"Bogotá, Medellin and Barranquilla\", \"Male\": \"60%\", \"Female\": \"40%\", \"Bogotá\": \"KOOL Parent regular smokers 50% -alternate smokers 50%\", \"Medellin\": \"KOOL Parent regular smokers 50% -alternate smokers 50%\", \"Note\": \"In order to establish a quantitative basis for determining the winning product, results will be\", \"Brief Number\": \"#\", \"Client Group\": \"Other; COLOMBIA; KOOL; R. B. U.; Brand Group\", \"Client Contact\": \"Maria Helena Argüelles/ Edwin Garcia\", \"Research Liaison\": \"Camilo Concha/ Andrea Suarez\", \"Project Name/ Description\": \"K001 vs. Marlboro Menthol Lights\", \"Referent Brand(s)\": \"Current Kool Filter King Colombia 1 1 mg tar @ 0. 51% menthol white tipping.; Kool Milds KS Japan 9mg tar @ 0. 56% menthol white tipping; Kool KS. 9 mg tar, @ 0. 51% menthol white tipping; Current Marlboro Lights Menthol King US 9mg tar @ 0. 66% menthol, white tipping.\", \"By age\": \"18 -29 (100%)\", \"BY SEL\": \"AB1 (100%)\", \"B/ quilla\": \"KOOL Parent regular smokers 50% -alternate smokers 50%\", \"weighted as follows\": \"Alternate 60%, Regular 40%.\", \"Background Problem Definition\": \"On September 1 97, PMI simultaneously launched Marlboro Menthol KS Box (16mg tar and Menthol Lights KS Box (9mg tar) in Colombia. These two products became KOOL's direct competitors (Premium Menthol Brands).; At the same time KOOL replaced its product with a milder 11mg cigarette (the same KOOL Milds but with a 27mm cork tipping).\"}}",
+    "doc_id": "71563825",
+    "num_fields": 18
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/71601299.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"(s)\", \"Marketing Research - CPT Initiating Brief\", \"Consumer Segment\"], \"Date\": \"15. 03. 2000\", \"Number\": \"to be assigned by Brown & Williamson USA\", \"Client Group\": \"BAT Korea\", \"Client Contact\": \"Alberto Marcheggiano Kyu Yeon Hwang\", \"Research Liaison\": \"Subi. Jeong\", \"Project Name/ Description\": \"Dunhill Lights, CPT\", \"Market (s) / Zone (s)\": \"South Korea\", \"Referent Brand\": \"Dunhill Lights Kent Super Lights Mild 7 This\", \"Own Brand - Dunhill Smokers\": \"150 Males, 25 ~ 39 years old, ABC+ who live Seoul/ Pusan\", \"Competitors Brands - Mild7 Lights Smokers\": \"150 Males, 25 ~ 39 years old, ABC+ who live\", \"Source of Business - This\": \"250 Males, (100 smokers 25 ~ 29 years old, 150 smokers, 30 ~ 39 years old); ABC+ who are not rejectors of imported cigarette and live in Seoul/ Pusan\", \"Source of Business - Local Premium KS Smokers\": \"250 Males (100 smokers, 25 ~ 29 years old, 150; smokers, 30 ~ 39 years old ABC+ who are not rejectors of imported cigarette and live in Seoul/ Pusan\", \"Background / Problem Definition\": \"1999 showed that imported cigarettes are recovering from the 1997 / 1998 economic crisis and we forecasted continuos growth over the company's plan period.; BAT objective is to substantially increase its market share with growth coming primarily from its first priority brand: Dunhill Lights; To achieve growth we consider fundamental to have a superior product in terms of acceptability among potential source of business as well as for our current franchise\"}}",
+    "doc_id": "71601299",
+    "num_fields": 13
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/716552.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"REPLACEMENT\", \"BROWN & WILLIAMSON TOBACCO CORPORATION MATERIAL SPECIFICATION DESIGN CHANGE AUTHORIZATION\", \"NEW ITEM\", \"TYPE CHANGE:\", \"If a material or dimensional change also involved?\"], \"DESCRIPTION\": \"VICEROY Rich Lights 100' s 20' s Label\", \"NO\": \"☑\", \"UPC NO\": \"272972\", \"DOMESTIC\": \"☑\", \"USE\": \"(GRAVURE); CUSTOMER SPEC.\", \"OFFICIAL\": \"☑\", \"LOUISVILLE\": \"10/ 30/ 81\", \"DESIGN NO.\": \"15\", \"UPC NO.\": \"272972\", \"COMMENTS\": \"Material # 50 -034 A has been assigned to the VICEROY Rich Lights 100' s 20' s Label with new bottom panel. Bottom now incorporates shield. On both side and bottom panels, \\\"VICEROY\\\" and \\\"Rich Lights\\\" have been inverted. Cartons and labels must change design simultaneously. The current design cannot be used in production after 10/ 30/ 81.\", \"QNED\": \"S. T. BEASLEY (MRS )/ jlf\", \"DATE\": \"9/ 17/ 8181\", \"BRAND (S)\": \"VICEROY Rich Lights\", \"MATERIAL NO.\": \"50 -034A\", \"DELIVERY DATE\": \"10/ 16/ 81\", \"SCHEDULE: DATE OR INVENTORY DEPLETION\": \"1010/ 30/ 8181\", \"MATERIAL NO\": \"50- 034\", \"INVENTORY DEPLETION DATE\": \"10/ 30/ 81\", \"Copies to\": \"J. F. Banks C. Lamb C. L. Domeck Webb L. C. Lanham Branch QC Branch Supply\"}}",
+    "doc_id": "716552",
+    "num_fields": 19
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/80310840a.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Date: PROJECT APPROVAL MARKET PLANNING AND INFORMATION DEPARTMENT\", \"Approved by:\"], \"Job#\": \"5543/295\", \"Revision\": \"☑\", \"Reason\": \"Lower Incidence\", \"Project Title\": \"Newport Lights; Direct Mail Conversion Research\", \"Marketing and or Research Objectives\": \"Determine the level of interest and conversion opportunities among pompotitive smokers. receiving a Direct Mail offer for Newport Lights.; Provide insight into the reasons for offer acceptance or rejection of offer and examine consumer perceptions about Newport Lights.\", \"Research Design\": \"The total sample size is 2,250. All smokers 21+ years of age.; Group 1= Best redeeming customers (2+ paid coupons): n= 750 Group 2= Paid redeoming customers 1 paid coupon) n= 750 Group 3= Non- redeeming customers (no redemption) n= 750\", \"Respondent Incidence\": \"38% revised from 70%\", \"Screener Questionnaire\": \"5 minutes; 10 minutes\", \"Research Firm\": \"A & G Research\", \"Cost Estimate\": \"$100 600\", \"Revised From\": \"$76 600\", \"Prepared by\": \"S. R. Benson\", \"Fieldwork Schedule\": \"Start Field w/o 11 /13 /95\", \"Reporting Schedule\": \"Topline w/o 12 /18 /95 Final Report 12/ 31/ 95\"}}",
+    "doc_id": "80310840a",
+    "num_fields": 14
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/80707440_7443.png",
+    "ground_truth": "{\"gt_parse\": {\"CLIENT\": \"LORILLARD CORPORATION\", \"PRODUCT\": \"Kent, Newport, True and Old Gold\", \"PUBLICATION\": \"Daily Newspapers\", \"ISSUE\": \"August 19, 1969\", \"SPACE\": \"1000 lines B&W 1750 lines 2- color\", \"DATE\": \"8/ 8/ 69\", \"ALTERNATIVES\": \"Los Angeles Football Fans Chicago Football Fans\", \"HEADLINE\": \"Pick The Winners And Win Up $ 5 ,000\", \"ILLUSTRATION\": \"Line Drawings of Football Scenes\", \"LEAD- IN\": \"New York Football Fans\", \"BOLD SUB- HEAD\": \"1st Prize $ 5,000 2nd Prize 2,000 3rd Prize 1,000 4th Prizes 500 fans will receive copies of \\\"The Golden Anniversary of Pro- Football\\\"\", \"TEXT: Over 500 Prizes To Be Awarded\": \"Now you can win up $ 5,000 for simply picking the winners of the games listed below. Just check the box next to the team you think will win. Allow for the point spread in your selections. (For example, if a team is quoted as +7 pts. this means they must win the game by at least 7 points.) Prizes will be awarded by random drawings to those who have the greatest official number of winning selections. Full details are in the Rules.\"}}",
+    "doc_id": "80707440_7443",
+    "num_fields": 12
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/80718412_8413.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"FEDERAL DISTRIBUTING CORPORATION CIGARETTE SAMPLING PROGRAM\", \"ORIENTATION MEETING:\"], \"MARKET\": \"Boston\", \"PRODUCT\": \"Old Gold Lights\", \"QUANTITIES\": \"270, 000\", \"Date\": \"October 3rd\", \"Place\": \"Boston Park Plaza Room 412 64 Arlington Street Boston, Mass 02117 617/ 426- 2000\", \"Time\": \"9: 30 a. m.\", \"NUMBER OF SUPERVISORS\": \"3\", \"SAMPLING DATES: *\": \"October 3 through October 5\", \"SAMPLING HOURS: *\": \"9: 30 a. m. - 5: 30 p. m.\", \"NUMBER OF SAMPLING PERSONNEL\": \"24 per day\", \"FDC REPRESENTATIVES\": \"Tony Anari\"}}",
+    "doc_id": "80718412_8413",
+    "num_fields": 11
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/80728670.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"FIELD TRIP\", \"Method of travel:\"], \"TO\": \"J. R. Mueller\", \"FROM\": \"Mary Anne Kayiatos\", \"DATE\": \"2 /28 /84\", \"Division (s) to be contacted\": \"Boston\", \"Hotel /Motel reservations needed\": \"XX\", \"Sales Representative\": \"X\", \"Please make the necessary Field Trip arrangements for\": \"Ted van de kamp\", \"Purpose of trip\": \"To evaluate Satin's overall performance and results of; Special Cities.\", \"Dates of contact\": \"Tuesday 3 /13 and Wednesday, 3 /14\", \"Arrival date and time (include airline and flight no.)\": \"Monday, 3 /12; Evening Shuttle\"}}",
+    "doc_id": "80728670",
+    "num_fields": 10
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/81186212.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"New Competitive Activity\"]}}",
+    "doc_id": "81186212",
+    "num_fields": 0
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/81310636.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"COMPOUND STRUCTURE\"], \"Genetic Assay No.\": \"6692\", \"COMPOUND CODE\": \"B83\", \"Chem Abstr#\": \"N/ A\", \"Compound Name\": \"Proprietary Mixture\", \"ASSAY RESULT\": \"M. Lymph: negative with S9 activation, positive without S9 activation; Rerun: negative without S9 activation, border- line positive with S9 activation -Technical problems with the\", \"PH (CALCULATED 50%)\": \"5. 26\", \"PHYSICAL APPEARANCE\": \"Yellow liquid\", \"bp/mp\": \"N/ A\", \"REGULATORY STATUS\": \"N/ A\"}}",
+    "doc_id": "81310636",
+    "num_fields": 9
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/81574683.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Cicarettes\", \"Wrapping\", \"Responsibility\", \"Sample No. 1078-84 Type of Cigarette NP Control 85 Batch Size As needed\"], \"Date\": \"3/27/84\", \"BLEND\": \"1077-84\", \"CASING\": \"7773\", \"RECASING\": \"7774\", \"FINAL FLAVOR\": \"attached\", \"Maker\": \"MK 9\", \"Length\": \"126 mm\", \"Circumference\": \"24.8 mm\", \"Weight\": \"81.0 g/100\", \"Paper\": \"E- 554\", \"MENTHOL\": \"8098\", \"Section B\": \"mm\", \"Section A\": \"21mm; 3.3 35,000y; RE- 2218; 126 mm; 81.0 g/100; 7% Kent; 370mm; 24.7mm; 626; 1509C\", \"Pressure Drop\": \"370mm\", \"Circunference\": \"24.7mm\", \"Plug Wrap\": \"626\", \"Plug Wrap Por.\": \"1509C\", \"Labels\": \"white\", \"Closures\": \"blue\", \"Cartons\": \"white\", \"Markings\": \"code #1746\", \"Tear Tape\": \"white\", \"Shipping\": \"- -\", \"Other\": \"1100 pks.\", \"Filter Production\": \"production\", \"Tip. Paper Por.\": \"4260\", \"Air Dilution\": \"NA\", \"Kind\": \"3.3 35,000y\", \"Plast.\": \"7% Kent\", \"ginal Request Made By\": \"T. Jessup on 2/13/84\", \"Purpose of Sample\": \"Mkt. Research Newport\", \"Sample Specifications Written By\": \"W. Barnes\", \"Tip. Paper\": \"51mm cork- Ecusta; TOD 01042-4 lines perf.\", \"Glue Roller\": \"Mk II 85\", \"Tobacco Blend\": \"production, Barnes\", \"Making & Packing\": \"Barnes, Fernald\", \"Sample Requistion\": \"T. Skinner\", \"Requirements Laboratory\": \"30 ctns.\", \"Laboratory Analysis\": \"Moisture analysis Menthol analysis Tar & nicotine analysis\", \"Special Requirements\": \"1. Cigts. to be packed in white labels printed with \\\"20 Class A. ATF Auth. #47 sample not for sale, all applicable state taxes paid, and code No. 746.\\\"; 2. Cigts. to be inspected, placed in pk. mailers and shipped Inc., for Mkt. Rsh. Study.\"}}",
+    "doc_id": "81574683",
+    "num_fields": 40
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/81619486_9488.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"REGION:\", \"SUBMISSION DATE\"], \"TO\": \"S. P. ZOLOT\", \"FROM\": \"R. W. Richardson\", \"AUG 10\": \"x\", \"FULL\": \"X\", \"SUBJECT\": \"MAVERICK SPECIALS EXPANSION MARKETS PROGRESS REPORT\", \"# REPS\": \"7\", \"Number of Stores\": \"70; 121\", \"DIVISION NAME\": \"Detroit East\", \"Name of Account\": \"Meijer Gas; Ultra Diamond\", \"Ind/ Lor Volume\": \"245/ 19; 223/ 25\"}}",
+    "doc_id": "81619486_9488",
+    "num_fields": 10
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/81619511_9513.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"GEOGRAPHY\", \"REGION:\", \"DIVISION:\", \"SUBMISSION DATE\", \"DISTRIBUTION DIRECT ACCOUNTS AND CHAINS HEADQUARTERED WITHIN THE REGION (15+ STORES) STOCKING NO MAVERICK SPECIALS MENTHOL\", \"DIRECT ACCOUNTS AND CHAINS HEADQUARTERED OUTSIDE THE REGION (15+ STORES) STOCKING NO MAVERICK SPECIALS MENTHOL\"], \"TO\": \"S.P. Zolot\", \"FROM\": \"C.J. Leiker\", \"SEP 22\": \"☑\", \"SUBJECT\": \"MAVERICK SPECIALS MENTHOL- PROGRESS REPORT\", \"FULL\": \"x\", \"NO. OF STORES\": \"31; 17; 15; 39; 25; 460; 79; 17; 112\", \"NAME OF ACCOUNT\": \"_7-Eleven\", \"IND. LOR VOLUME\": \"139/ 27; 202/ 22; 126/ 26; 176/ 13; 98/ 17\"}}",
+    "doc_id": "81619511_9513",
+    "num_fields": 8
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/81749056_9057.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"DISTRIBUTION\", \"SUBMISSION DATE\", \"COMPETITIVE PROMOTIONAL ACTIVITY\"], \"TO\": \"S. P. ZOLOT\", \"FROM\": \"S. P. McBride\", \"SUBJECT\": \"MAVERICK SPECIALS NON- MENTHOL- EXPANSION PROGRESS REPORT\", \"DEC 8\": \"X\", \"NAME OF ACCOUNT\": \"None\", \"PACKING\": \"BOX 80's; LT. BOX 80's; LT. 100's; K. S.; LT. K. S.; 100's\", \"%\": \"36%; 36%; 34%; 35%\", \"TOTAL # OF SP EMPHASIS OUTLEIS WITH DISTRIBUTION\": \"542; 475; 479; 451\", \"TOTAL # OF NUMBER ONE CLUB OUTLETS WITH DISTRIBUTION\": \"365; 346; 371; 355\", \"TOTAL # OF INDEPENDENT SPECIAL EMPHASIS OUTLETS\": \"2.471\", \"TOTAL # OF INDEPENDENT NEWPORT #1 CLUB OUTLETS\": \"1,020\", \"PACKS\": \"30; 20; 30\", \"DORAL\": \"3.00; 30\", \"BASIC\": \"$ 2.00; 20\", \"G.P.C\": \"$ 3.00; 30\", \"CARTONS\": \"3.00; $ 2.00; $ 3.00\", \"AREA REGION\": \"1/ 20\"}}",
+    "doc_id": "81749056_9057",
+    "num_fields": 17
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/82254638.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"#CASES\", \"ITEMS\", \"1997 SPECIAL EVENT REQUEST FORM\", \"SHIP TO:\", \"NYO ONLY:\"], \"TO\": \"SAM ZOLOT\", \"FROM\": \"W. R. KNIGHT - MCA\", \"DATE TO CORP\": \"7/11/97\", \"NEWPORTKS K.S.\": \"1\", \"WATER BOTTLES\": \"29-980-7; 400; 400\", \"BASEBALL CAP\": \"400\", \"QUANTITY REQUIRED\": \"400; 400; 400; 400\", \"Any Other Items Available\": \"400\", \"DATE FORWARDED TO PROMOTION SERVICES\": \"7/11/97\", \"CUSTOMER SHIPPING NUMBER\": \"198-820-0003\", \"DIV. NAME/ NO\": \"ST. LOUIS, MO\", \"NAME OF EVENT\": \"Lorillard Metro Golf Outing 1997\", \"*DATE OF EVENT\": \"September 10, 1997 Marcus Hellenic Spirit Charities Golf Classic September 18, 1997\", \"SAMPLES/ ITEMS REQUIRED\": \"SAMPLE 10'S (400 PACKS PER CASE)\", \"KENT III 100\": \"1\", \"KENT K.S.\": \"1\"}}",
+    "doc_id": "82254638",
+    "num_fields": 16
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/87533049.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"COUPON CODE REGISTRATION FORM\", \"FOR CONTROL USE ONLY :\"], \"FROM\": \"J. La Valle\", \"TO\": \"S. A. Rapisarldi\", \"cc\": \"R. G. Ryan\", \"Brand (s) Applicable\": \"TRUE\", \"Media Name\": \"N/A\", \"*Issue Frequency / Year\": \"N/A\", \"* Space / Color\": \"N/A\", \"Coupon Value\": \"$2.00\", \"Pack and / or Carton?\": \"Carton\", \"ANALYTICAL\": \"Break - out separately byl packing as indicated\", \"REQUIREMENTS\": \"Break - out separately byl packing as indicated\", \"Code Assigned\": \"530430\", \"Job Number\": \"1112\", \"Media Type\": \"ON - Carton Instant Redeemable\", \"Coupon Issue Date\": \"10 / 90\", \"Coupon Expiration Date\": \"6 / 30 / 91\", \"Circulation (#)\": \"1. 213, 400\", \"Geographical Area (s)\": \"National\", \"* Advertising Creative Title\": \"True Filter King Carton\", \"Date Initiated\": \"May 3, 1990\"}}",
+    "doc_id": "87533049",
+    "num_fields": 20
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/87672097.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"ACUTE TOXICITY IN MICE\", \"ROUTE OF COMPOUND ADMINISTRATION\", \"COMPOUND VEHICLE\"], \"COMPOUND\": \"Mapleine\", \"SOURCE\": \"Camm Research\", \"TESTED\": \"3 /12 /81 -3 /24 /81\", \"REPORTED\": \"3 /30 /81\", \"LORILLARD NO\": \"B75\", \"MALE\": \"X\", \"P.\": \"☑\", \"OTHER\": \"pure solution; ☑\", \"GROUP NO.\": \"1; 2; 3; 4; 5\", \"% SOLUTION\": \"100; 100; 100; 100; 100\", \"DOSAGE (mg/kg) BODY WEIGHT\": \"5000; 6000; 7200; 8640; 10368\", \"CONCLUSION\": \"Higher doses were impractical. The recommended safe dose for; trial inhalation in man is 80. 6, 40. 3, or 26. 8 mg per cigarette . when smoked 1, 2 or 3 cigarettes per hour, respectively.\", \"DATE RECEIVED\": \"12 /4 /80\", \"NOTEBOOK PAGE\": \"BC19 -15\", \"INVESTIGATOR (S)\": \"H. S. Tong & A. A. Poole\", \"STRAIN OF MICE\": \"Swiss- Webster\", \"AVERAGE WEIGHT RANGE (GM)\": \"16- 30\", \"RESULTS (NO DEAD/NO TESTED\": \"0 /6; 0 /6; 0 /6; 0 /6; 0 /6\", \"REFERENCE FOR CALCULATION\": \"Weil, Carrol S., Biometrics, Vol. 8, No. 3., Sept. 1952,; p. 249.\", \"LD50 95% CONFIDENCE\": \"LD0 = 10, 368 mg /kg\", \"Copies to the following\": \"H. J. Minnemeyer L. B. Gray\"}}",
+    "doc_id": "87672097",
+    "num_fields": 21
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/87682908.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"46th Tobacco Chemists' Research Conference\", \"TH 46 TCRC REGISTRATION FORM\"], \"Advance Registration Fee: (prior to August 10)\": \"$ 170.00\", \"Late Registration Fee: (after August\": \"$ $185.00\", \"Mail to\": \"Ms. Susan Mathison Canadian Tobacco Manufacturers Council 701- 99 Bank Street Ottawa, Ontario, Canada K1P 6B9 (613) 238- 2799\"}}",
+    "doc_id": "87682908",
+    "num_fields": 3
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/88057519.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"New SATIN 100's\"], \"BRAND\": \"Satin Filter 100's; Satin Menthol 100's\"}}",
+    "doc_id": "88057519",
+    "num_fields": 1
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/88547278_88547279.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Quotation Request\", \"APPLIED GRAPHICS\"], \"Sizes\": \"19.750 X 11\", \"Binding\": \"Leave in Full Sheets\", \"Date\": \"July 7, 1993\", \"Qty\": \"89,725\", \"TEL\": \"(212) 627 4111\", \"FAX\": \"(212) 627- 8602\", \"Quotation To\": \"Lorillard One Park Avenue New York, NY 10016 Attn: Neil Toumey\", \"Estimate No\": \"4854- 5\", \"Account Executive\": \"Peter Faucetta Jr.\", \"Quantities and Description\": \"H/D 8 Pk. Wide Header 4 C/P + 2 Hits Day- Glo + Spot Varnish\", \"Paper and Materials\": \"24 pt. Carolina C/1/S\", \"Preparation and Composition\": \"Final Film Supplied Combined Blue\", \"Process and Colors\": \"6/1 1/1\", \"Packing and Distribution\": \"Bulk in cartons, FOB Oceanside Please allow 14 working days for delivery\", \"Prices and Schedule\": \"$16, 158\", \"Authorized Signature\": \"Applied Graphics Technologies 50 West 23rd Street, N.Y.C. 10010\"}}",
+    "doc_id": "88547278_88547279",
+    "num_fields": 16
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/89368010.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"FINAL REPORT AMENDMENT\"], \"DATE\": \"16/3/82\", \"APPROVALS\": \"03 June 1982; 3 June 1982; 3 June 1982\", \"ACCEPT/ REJECT (as per 58.185 (c))\": \"Accept; Accept; Accept\", \"Study Name\": \"Acute Toxicity of Reference Cigarette Smoke lafter Inhalation in Mice.\", \"Study Number\": \"I- 1725.001\", \"Initiation Date\": \"25 March 1982\", \"Date of Final Report (Review Completed Date)\": \"27 April 1982\", \"Part of Final Report to be Amended (Exact location)\": \"The attached is an addition to the I- 1725.001 Final Report\", \"Reason for the Amendment\": \"Survival after repeated doses over a 14 day period; may not be accurately predicted from survival after a single day's exposure.\", \"Amendment (Attach additional sheets as necessary)\": \"The report of the results of; A 14 Day Repeated Dose Assay for Reference Cigarette Smoke in Mice (I- 1725.001- M1 is attached.\"}}",
+    "doc_id": "89368010",
+    "num_fields": 10
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/89386032.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"EPL\", \"EXPERIMENTAL PATHOLOGY LABORATORIES, INC.\", \"QUALITY ASSURANCE REPORT CERTIFICATION\"], \"Test Article\": \"Multiple\", \"Client Study No.\": \"1419A\", \"Species\": \"Mice\", \"Client Name\": \"Borriston Laboratories, Inc.\", \"Study Director\": \"Dr. William O. Iverson Pathologist Dr. Charley E. Gilmore\", \"Study Title\": \"Bioassay of Cigarette Smoke Condensates for potential Tumorigenic Activity on Mouse Skin (Revised Pathology Report)\"}}",
+    "doc_id": "89386032",
+    "num_fields": 6
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/89817999_8002.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"SUBMISSION DATE:\", \"PROMOTIONAL IMPACT:\"], \"TO\": \"R. H. ORCUTT\", \"FROM\": \"J. J. BUXTON\", \"SUBJECT\": \"STYLE LIGHTS PROGRESS REPORT\", \"DISTRIBUTION\": \"EFFECTIVENESS OF PRE- SELL (REPORT ON FEB. 17 ONLY).\", \"MAR 16\": \"☑\", \"% OF DISTRIBUTION ACHIEVED IN RETAIL OUTLETS\": \"62% CLASSIFIED CALLS; 10% ANNUAL CALLS\", \"20 CENTS OFF PACK COUPON/STICKER\": \"HAS PROVEN TO BE AN EXCELLENT TOOL IN GENERATING PACK TRIAL IN BOTH HIGH AND LOW DEVELOPMENT PRICE VALUE MARKETS. MANY DISPLAYS SELLING OUT BEFORE RECONTACT.\", \"SALES FORCE 20'S\": \"ADDITIONAL SUPPLY WOULD BE HELPFUL. INITIAL QUANTITIES WERE QUICKLY DEPLETED\", \"$1.50 OFF CARTON COUPON\": \"CARTON MOVEMENT SPOTTY AT THIS POINT. SUPPLIES ARE MORE THAN ADEQUATE AND THE NEED IS MOSTLY PACKAGE SUPPORT AT THIS TIME.\", \"EFFECTIVENESS OF ADVERTISING\": \"OUTDOOR AND PRINT ADS HAVE BEEN EFFECTIVE IN; CREATING CONSUMER AWARENESS IN THOSE ARE EYE CATCHING AND CONSUMERS ARE MORE AWARE OF THE PRODUCT IN THOSE MARKETS WITH ADVERTISING.\"}}",
+    "doc_id": "89817999_8002",
+    "num_fields": 10
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/89867723.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"MARKETING RESEARCH PROJECT APPROVAL\", \"+ - 10% Contingency Final Report Inc.\"], \"PRODUCT\": \"New Products\", \"JOB#\": \"5546/ 1481\", \"yes\": \"X\", \"Facility\": \"1. 500. 00\", \"Agency\": \"816. 00\", \"DATE\": \"April 27, 1981\", \"PROJECT TITLE\": \"No Side Stream Smoke Focus Groups\", \"Cost Estimate\": \"$ 6.816\", \"Research Firm\": \"Ruth Manko Assoc.\", \"Moderators fee\": \"$ 4. 500. 00\"}}",
+    "doc_id": "89867723",
+    "num_fields": 10
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/91104867.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"DEPARTMENT EXPENSE BUDGET SUMMARY\", \"PROJECTED CURRENT YEAR EXPENSES 19\"], \"ACTUAL 8 MONTHS\": \"17,000; 8.000; 16.000; 19.000; 60,000\", \"TOTAL YEAR\": \"92,500; 25,500; 18,000; 20,000; 29,000\", \"PROJECTED 4 MONTHS\": \"32,500; 4,000; 10,000; 8,500; 10.000\", \"ACCOUNT NO.\": \"6450; 6460; 6470; 6560\", \"ITEM\": \"Consumer; Consumer; Consumer; Special\", \"BUDGET YEAR 19\": \"120,000; 30,000; 28,000; 20,000\", \"VS. CURRENT YEAR (INCR.) DECR.\": \"4,500); (10,000); (13,000); 27,500\", \"Division\": \"Sales\", \"Department\": \"Domestic Tax Free\"}}",
+    "doc_id": "91104867",
+    "num_fields": 9
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/91161344_91161347.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"PRODUCT\", \"1. STATES AND CITIES* SELECTED TO RECEIVE PRODUCT:\", \"2. ESTIMATED TEST PRODUCT QUANTITIES (PER MARKET)\", \"2a. ESTIMATED TOTALS BY PRODUCT ALL MARKETS COMBINED\"], \"TO\": \"Mr. Flinn; Mr. Donahue (Loews); Mr. Hudson (Greensboro); Dr. Schultz (Greensboro; Mr. Tucker (Greensboro); Dr. Jones (Greensboro); Mr. Gaalman; Mr. Goldbrenner; Mr. Duffy (Loews); Mr. Miele (Loews)\", \"PRODUCT\": \"EF1\", \"MRD #\": \"5546/478\", \"Alabama\": \"x\", \"Arizona\": \"x\", \"California\": \"x\", \"Colorada\": \"x\", \"Connecticut\": \"x\", \"Delaware\": \"x\", \"Georgia\": \"x\", \"D. C.\": \"x\", \"Louisiana\": \"x\", \"Maine\": \"x\", \"Maryland\": \"x\", \"Michigan\": \"x\", \"Minnesota\": \"x\", \"Mississippi\": \"x\", \"Missouri\": \"x\", \"Montana\": \"x\", \"Nebraska\": \"x\", \"New Hampshire\": \"x\", \"New Jersey\": \"x\", \"New Mexico\": \"x\", \"New York\": \"x\", \"North Carolina\": \"x\", \"North Dakota\": \"x\", \"Ohio\": \"x\", \"Oregon\": \"x\", \"Pennsyl vania\": \"x\", \"Rhode Island\": \"x\", \"South Carolina\": \"x\", \"Tennessee\": \"x\", \"Utah\": \"x\", \"Vermont\": \"x\", \"Virginia\": \"x\", \"West Virginia\": \"x\", \"Wisconsin\": \"x\", \"Wyoming\": \"x\", \"*Chicago, Ill.\": \"x\", \"*NYC, N. Y.\": \"x\", \"Illinois\": \"x\", \"Kansas\": \"x\", \"Kentucky\": \"x\", \"QUANTITY\": \"1920 Packs; 1920 Packs; 960 Packs; 960 Packs; 1920 Packs; 1920 Packs; 1920 Packs\", \"PRODUCT Code #\": \"462; 741; 753; 827\", \"Code #\": \"519; 934; 639\", \"Today's Date\": \"3/20/78\", \"PROJECT ORIGINATED BY\": \"William Doyle\", \"(4's, 5's, 20's etc.)\": \"All are 20's\"}}",
+    "doc_id": "91161344_91161347",
+    "num_fields": 49
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/91315069_91315070.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"SUBMISSION DATE:\", \"DIRECT ACCOUNT AND CHAIN VOIDS (USE X TO INDICATE A VOID).\", \"% OF DISTRIBUTION ACHIEVED IN RETAIL OUTLETS:\", \"PROMOTIONAL IMPACT:\"], \"TO\": \"R. H. ORCUTT\", \"SUBJECT\": \"HARLEY- DAVIDSON 100'S CIGARETTES PROGRESS REPORT\", \"DISTRIBUTION\": \"EFFECTIVENESS OF PRE- SELL (REPORT ON OCT. 3 ONLY).\"}}",
+    "doc_id": "91315069_91315070",
+    "num_fields": 3
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/91355841.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"COMPETITIVE ACTIVITIES AND PROMOTIONS\"], \"DATE\": \"SEPT. 27, 1991\", \"MANUFACTURER\": \"BROWN & WILLIAMSON\", \"CC\": \"A. H. TISCH; R. H. ORCUTT; M. A. PETERSON; M. L. ORLOWSKY; L. GORDON; J. P. MASTANDREA; G. R. TELFORD; R. G. RYAN; N. P. RUFFALO; T. L. ACHEY; P. J. McCANN; A. J. GIACOIO; J. J. TATULLI; L. H. KERSH; J. R. SLATER; S. T. JONES; R. S. GOLDBRENNER; N. SIMEONIDIS; S. F. SMITH\", \"REPORTED BY\": \"A. L. EVERETT, MANAGER, CHAIN ACCOUNTS - ATLANTA, GA\", \"BRAND (S) PROMOTED\": \"KOOL CIGARETTES\", \"TYPE OF PROMOTION\": \"SEE ATTACHMENTS\"}}",
+    "doc_id": "91355841",
+    "num_fields": 6
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/91356315.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"COMPETITIVE ACTIVITIES AND PROMOTIONS\"], \"DATE\": \"4/ 26/ 91\", \"MANUFACTURER\": \"PHILIP MORRIS\", \"CC\": \"M. L. ORLOWSKY; L. GORDON; J. P. MASTANDREA; L. H. LAKERSH; J. R. SLATER; S. T. JONES; R. S. GOLDBRENNER; S. F. SMITH; G. R. TELFORD; R. G. RYAN; N. P. RUFFALO; T. L. ACHEY; P. J. McCANN; A. J. GIACOIO; J. J. TATULLI; A. H. TISCH; R. H. ORCUTT; M. A. PETERSON\", \"REPORTED BY\": \"VAL THURMAN, DIVISION MANAGER, LOUISVILLE, KY\", \"SOURCE OF INFORMATION\": \"SHORT STOP FOOD MARTS. LOUISVILLE, KY\", \"BRAND (S) PROMOTED\": \"MARLBORO CIGARETTES\", \"TYPE OF PROMOTION\": \"CARTON PROMOTION SWEEPSTAKES (SEE ATTACHMENTS)\"}}",
+    "doc_id": "91356315",
+    "num_fields": 7
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/91361993.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"NEW COMPETITIVE PRODUCTS\"], \"DATE\": \"10 /5 /92\", \"MANUFACTURER\": \"R. J. REYNOLDS\", \"REPORTED BY\": \"C. M. WIECHMANN, D. M. , LUBBOCK, TX\", \"BRAND NAME\": \"CARDINAL CIGARETTES (11 PACKINGS)\", \"OTHER INFORMATION\": \"SEE ATTACHMENT\"}}",
+    "doc_id": "91361993",
+    "num_fields": 5
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/91372360.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Lorillard TOBACCO COMPANY\", \"FACSIMILE COVER PAGE\", \"PLEASE TRANSMIT THIS DOCUMENT TO:\", \"THIS DOCUMENT IS FROM:\"], \"DATE\": \"11/4/93\", \"TIME\": \"3:28 CST\", \"NAME\": \"R F\", \"OFFICE\": \"Oklahoma City. OK\", \"COMMENTS\": \"The attached Competitive information was secured in Oklahoma today. If you should have any questions.\", \"cc\": \"Mr. R. B. Spell; Mr. S. L. Enloe\", \"FAX PHONE NUMBER\": \"(400) 840- 0639\"}}",
+    "doc_id": "91372360",
+    "num_fields": 7
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/91391286.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"COUPON CODE REGISTRATION FORM\", \"ANALYTICAL REQUIREMENTS:\"], \"FROM\": \"THOM SMITH\", \"TO\": \"VINCE LOSITO\", \"CC\": \"T. BAYLIES, L GIORDANO, V. LINDSLEY, M. MCGLYNN, S RAPISARLDI,\", \"MEDIA\": \"MAGAZINE- HOT ROD\", \"CIRCULATION\": \"25,461\", \"ISSUE FREQUENCY/ YEAR\": \"1\", \"COUPON ISSUE DATE\": \"5/19/93\", \"COUPON EXPIRATION DATE\": \"11/30/93\", \"PACK AND OR/ CARTOCARTON\": \"PACK\", \"DATE INITIATED\": \"2/3/93\", \"CODE ASSIGNED\": \"8482\", \"EST. REDEMPTION\": \"1.54\", \"JOB NUMBER\": \"9076\", \"BRANDS(S) APPLICABLE\": \"HARLEY- DAVIDSON\", \"SPACE/ COLOR\": \"FULL PAGE\", \"GEOGRAPHICAL AREA(S)\": \"TOTAL HOUSTON, GALVESTON, MINNEAPOLIS, ST. PAUL, DULUTH\", \"COUPON VALUE\": \"$ .75 OFF 1 PACK\", \"ADVERTISING CREATIVE THEME\": \"BLUE SKY\", \"FOR CONTROL USE ONLY\": \"93- 056\"}}",
+    "doc_id": "91391286",
+    "num_fields": 19
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/91391310.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"COUPON CODE REGISTRATION FORM\", \"HARLEY -DAVIDSON DTS CPNS\", \"ANALYTICAL REQUIREMENTS:\"], \"FROM\": \"M. BORSINI\", \"TO\": \"VINCE LOSITO\", \"CC\": \"T. BAYLIES, L. GIORDANO V. LINDSLEY, J. SCHNEFF, S. RAPISARLDI, N, DISCENZA E LUNDBERG\", \"MEDIA\": \"COUPON\", \"CIRCULATION\": \"2,852,100 - 47.200\", \"ISSUE FREQUENCY/YEAR\": \"OCR-DEC\", \"COUPON ISSUE DATE\": \"10/11/93\", \"COUPON EXPIRATION DATE\": \"6/30/94\", \"GEOGRAPHICAL AREA(S)\": \"NATIONAL\", \"COUPON VALUE\": \"$.50\", \"PACK AND OR/CARTON\": \"PACK\", \"DATE INITIATED\": \"8/06/93\", \"CODE ASSIGNED\": \"8470\", \"JOB NUMBER\": \"916\", \"EST, REDEMPTION\": \"80%\", \"SIGNATURE OF INITIATOR\": \"Marine B\", \"BRANDS(S) APPLICABLE\": \"HARLEY- DAVIDSON\"}}",
+    "doc_id": "91391310",
+    "num_fields": 17
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/91581919.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"AFFIDAVIT OF PERFORMANCE\"], \"Account\": \"Harley Davidson Cigarettes\", \"Agency\": \"Lorillard Media Service\", \"Date\": \"1/31/88\", \"Column Inches\": \"Insert\", \"Sworn to and subscribed before me this\": \"4th\", \"We hereby certify charges shown above on dates per attached bill are true and correct as billed to the account in upper right hand corner of the affidavit and are exclusive\": \"New; Albany\", \"who being duly sworn, says that (he) (she) is\": \"Bookkeeper\", \"From Newspaper\": \"New Albany Tribune\", \"State of\": \"Indiana )\", \"County of\": \"Floyd )\", \"Before me a Notary Public, personally appeared\": \"Holly Inzer\", \"the month of\": \"January ,1988\", \"Exclusive advertising for\": \"Harley Davidson Cigarettes\", \"day of\": \"March ,1988\", \"MY COMMISSION EXPIRES\": \"2-9-90 Betty J. murphy (Notary Public)\"}}",
+    "doc_id": "91581919",
+    "num_fields": 15
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/91856041_6049.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"HOURS:\", \"SPECIFICS:\", \"SPECIAL EVENT INFORMATION SHEET\", \"GENERAL INFORMATION:\", \"SUPERVISOR INFORMATION:\", \"Newport pleasure\"], \"# OF BOOTH(S)\": \"☑\", \"PREMIUMS ONLY\": \"☑\", \"EVENT NAME\": \"The USO Spring Festival\", \"EVENT LOCATION\": \"42nd- 57th Street, New York NY\", \"EVENT DATES\": \"June 3, 1995\", \"SATURDAY- SUNDAY\": \"llam- 6pm\", \"NAME OF ALLWAYS SUPERVISOR\": \"Jerome Curry\", \"PHONE NUMBER\": \"(201) 923-9208\", \"BEEPER NUMBER\": \"(201) 698- 780\"}}",
+    "doc_id": "91856041_6049",
+    "num_fields": 9
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/91903177.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"ITEMS\", \"SPECIAL EVENT REQUEST FORM\", \"# CASES\", \"SHIP TO:\", \"NYO ONLY:\"], \"TO\": \"K. A. SPARROW\", \"SAMPLES/ ITEMS REQUIRED\": \"SAMPLE 10'S (400 PACKS PER CASE)\"}}",
+    "doc_id": "91903177",
+    "num_fields": 2
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/91914407.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"COMPANY\", \"TOBACCO\", \"Lorillard\", \"FACSIMILE COVER PAGE\", \"PLEASE DELIVER TRANSMISSION TO:\", \"THIS DOCUMENT IS FROM:\"], \"DATE\": \"6- 29- 94\", \"NAME\": \"Fred Paternostro\", \"TOTAL PAGES\": \"14\", \"COMMENTS\": \"The attached was obtained from Mackoul Dist.\", \"CC\": \"R. E. KLEIN\", \"FAX TELEPHONE NUMBER\": \"(904) 464- 0744\"}}",
+    "doc_id": "91914407",
+    "num_fields": 6
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/91939637.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"PACKING\", \"PACKING\", \"MERCHANDISE:\", \"TRUE $3.00 CARTON COUPON PROMOTION\", \"TYPE DISPLAY\"], \"DATE\": \"TO; FROM\", \"DISPLAY BRANDS\": \"TRUE\", \"PROMOTIONAL PERIOD\": \"May- June 1992\", \"CONSUMER OFFER\": \"$3 Off Store Redeemable Carton Coupon\", \"DISPLAY AGREEMENT\": \"Lorillard Representative will supply all display materials and assemble display. Display containing deals will be placed on a self- service basis for a two- week period.\"}}",
+    "doc_id": "91939637",
+    "num_fields": 5
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/91974562.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"COUPON CODE REGISTRATION FORM\", \"ANALYTICAL REQUIREMENTS:\"], \"FROM\": \"THOM SMITH\", \"TO\": \"VINCE LOSITO\", \"CC\": \"D. WEST, L. GIORDANO, V. LINDSLEY, A. SADOVNICK S. RAPISARLDI B. DAVIN. A. Pasheluk\", \"BRANDS(S) APPLICABLE\": \"KENT\", \"ISSUE FREQUENCY/ YEAR\": \"1\", \"MEDIA\": \"DIRECT MAIL\", \"CODE ASSIGNED\": \"00862\", \"JOB NUMBER\": \"490\", \"EST. REDEMPTION\": \"890\", \"COUPON ISSUE DATE\": \"10/ 13/ 95\", \"COUPON EXPIRATION DATE\": \"12/ 17/ 95\", \"GEOGRAPHICAL AREA(S)\": \"Regions 11, 17, 21\", \"COUPON VALUE\": \"$2 off 3 Pcks or Crtn\", \"PACK AND OR/ CARTON\": \"PACK OR CARTON\", \"DATE INITIATED\": \"6/ 8/ 95\"}}",
+    "doc_id": "91974562",
+    "num_fields": 15
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/92039708_9710.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"SUBMISSION DATE\", \"Average Coupon Buydown Value On Targeted Brands (Doral/ Basic/ Monarch/ Cambridge/ GPC\"], \"TO\": \"R. B. SPELL\", \"SUBJECT\": \"MAVERICK SPECIALS- PROGRESS REPORT\", \"EFFECTIVENESS OF\": \"Pre- Sell Booklet /Coupon Maverick /Harley B1 G1 F\"}}",
+    "doc_id": "92039708_9710",
+    "num_fields": 3
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/92081358_1359.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"URBAN CENTER INITIATIVE ASSIGNMENT PROFILE\", \"POPULATION COMPOSITION:\"], \"DIVISION\": \"Chicago South\", \"% BLACK =\": \"80%\", \"% OTHER\": \"5%\", \"% HISPANIC =\": \"5%\", \"% WHITE =\": \"10%\", \"% TOTAL =\": \"100%\", \"# CALLS\": \"0; 8; 162; 76; 57; 303\", \"50/ YR\": \"0; 0%\", \"%\": \"0%; 3%; 53%; 25%; 100%; 19%\", \"25/ YR\": \"8; 3%\", \"12/ YR\": \"162; 53%\", \"6/ YR\": \"76; 25%\", \"TOTAL\": \"303; 100%\", \"ANNUALS\": \"57; 19%\", \"SECONDARY CLASS OF TRADE\": \"Liquor\", \"% OF RETAIL CALLS\": \"247- classifIed; 57- annual\", \"APPROXIMATE % OF RETAIL CALLS SECURED BY GLASS\": \"45% (136 calls)\", \"PRIMARY CLASS OF TRADE\": \"Convenience/ Grocery\", \"PRIMARY DISTRIBUTION CHANNEL (E. G. JOBBER, SUB- JOBBER MEMBERSHIP\": \"*Jobber/ Membership\", \"CLUB, CASH & CARRY, ETC...)\": \"*Jobber/ Membership\"}}",
+    "doc_id": "92081358_1359",
+    "num_fields": 20
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/92091873.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Invitations:\", \"Attendees:\", \"NEWPORT RACING EVENT SURVEY\", \"Promotion Quantity:\", \"#Displays Placed:\", \"Quality of Hospitality Tent:\"], \"Location\": \"Leguna Seca, Monterey, Ca\", \"Division\": \"San Jose/ 933\", \"Mugs\": \"720\", \"Posters\": \"100\", \"Displays (8)\": \"40\", \"Floor (40)\": \"20\", \"#Requested\": \"50\", \"Date Ordered\": \"Unknown\", \"Date\": \"6/; 12/; 95\", \"Rec'd\": \"6/; 12/; 95\", \"Counter\": \"15\", \"Floor\": \"9\", \"#Customers Invited\": \"40\", \"#Customers Attended\": \"35\", \"#Lorillard Personnel\": \"10\", \"Food\": \"X\", \"Cleanliness\": \"X\", \"Service\": \"X\", \"cc\": \"R. P. Bonomo\", \"Division Mgr\": \"T. L. Roberts\", \"Date (s)\": \"September 10, 1995\", \"Date Submitted\": \"September 26 1995; (submit by 30 days after event)\", \"Date Notified\": \"9/ 5/ 95\", \"Date Rec'd\": \"9/ 6/ 95\", \"Invitees' Comments\": \"\\\"The races were great the Newport Hospitality area was terrific\\\". Coremark, Sacramento, California.; \\\"Thank You very much for the tickets, we had a great time\\\" Rogers Liquor, Marina California.; \\\"We really appreciate Lorillard thinking us.\\\" Shiffert's Wholesale, Visalia, California.; \\\"Thank you so much for the invitations... We had a great time.\\\" Mission Trail Oil Company (Rotten Robbie Stores) San Jose California.\", \"Race Day Info\": \"Event Attendance 100, 000 Hospitality Tent Attendance 35- 40\", \"Suggestions/ Recommendations\": \"Perhaps the tickets could be sent but a little sooner This year the tickets arrived on Thursday and the race was Sunday. This made it difficult to get the tickets to customers on tine.\"}}",
+    "doc_id": "92091873",
+    "num_fields": 27
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/92094746.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"SCOPE:\", \"SPECIAL PROMOTION EVALUATION\", \"CHAIN ACCEPTANCE:\", \"INDEPENDENT ACCEPTANCE:\", \"CONSUMER ACCEPTANCE:\", \"EFFICIENCY RATING:\", \"WERE QUANTITIES APPROPRIATE?\", \"SHOULD PROMOTION BE REPEATED\"], \"DATE\": \"9 /8 /95\", \"PROMO #\": \"28\", \"OTHER*\": \"x\", \"FAIR\": \"x\", \"#ITEMS/ DEALS RECEIVED\": \"28728\", \"YES\": \"x\", \"COMMENTS\": \"This item was perceived by retailers and consumers as a low; quality item. Several Sales Reps reported that on occasion our consumers would pass up the deal or leave the glasses in the store.\", \"*EXPLAIN\": \"Special Emphasis Calls\", \"AREA/ REGION/ DIVISION\": \"2 13\", \"PROMOTIONAL PERIOD\": \"June/ July\", \"ITEM/ BRAND\": \"Sunglasses / Newport\", \"IF YES, CAN IT BE IMPROVED?\": \"The Promotion can be improved by upgrading; the quality of the sunglasses\"}}",
+    "doc_id": "92094746",
+    "num_fields": 12
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/92094751.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"LORILLARD\", \"SCOPE:\", \"SPECIAL PROMOTION EVALUATION\", \"CHAIN ACCEPTANCE:\", \"INDEPENDENT ACCEPTANCE:\", \"CONSUMER ACCEPTANCE:\", \"EFFICIENCY RATING:\", \"WERE QUANTITIES APPROPRIATE?\", \"SHOULD PROMOTION BE REPEATED?\"], \"DATE\": \"9/ 8 /95\", \"*EXPLAIN\": \"Chain stores will not accept multiple Newport Promotions; (Tier system) at the same time.\", \"OTHER*\": \"x\", \"POOR\": \"x\", \"COMMENTS\": \"Premiums packaged to large to store on a van. Could not get; enough on a van to sell all day. Retailers only accepted small quantities of deals. Consumers perceived value and not meet expectations.\", \"YES\": \"X\", \"NO\": \"x\", \"PROMO #\": \"28\", \"AREA REGION DIVISION\": \"03/ 07/ 415415 & 418418\", \"PROMOTIONAL PERIOD\": \"June /July 1995\", \"ITEM/ BRAND\": \"Newport Sunglasses\", \"#ITEMS/ DEALS RECEIVED\": \"22, 320 (Indy East & West) NO SHOW SAMPLES\", \"IF NO, EXPLAIN\": \"This model/ type of sunglass was not received well at; consumer/ retail level.\", \"IF YES, CAN IT BE IMPROVED?\": \"Velcro on strap did not hold. Two right; sides of velcro on same glass did not adhere.\"}}",
+    "doc_id": "92094751",
+    "num_fields": 14
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/92298125.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"AB Research Associates, Inc.\", \"TELECOPIER TRANSMITTAL COVER SHEET\"], \"TO\": \"MARY MAZZA\", \"FROM\": \"Pam Churchill\", \"DATE\": \"JAN 19. 1995\", \"RE\": \"CIGARETTE QUESTIONNAIRE\"}}",
+    "doc_id": "92298125",
+    "num_fields": 4
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/92314414.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"LOEWS/ LORILLARD PUBLIC AFFAIRS COMMITTEE CONTRIBUTION IDENTITY CARD\", \"THE FOLLOWING INFORMATION MUST BE FURNISHED:\"], \"530\": \"274- 38- 3042\", \"PAYROLL\": \"700\", \"OTHER\": \"$20.00\", \"(Date)\": \"1 November 1991\", \"1. Full Name\": \"Andrew H. Tisch (Print or type)\", \"2. Residence Address\": \"26 East 63rd Street, New York, N. Y. 10021 (Include state and zip code)\", \"3. Business Address\": \"One Park Avenue, New York, N. Y. 10016\", \"4. Occupation\": \"Chairman/ CEO - Lorillard Tobacco Company (Job title or position)\"}}",
+    "doc_id": "92314414",
+    "num_fields": 8
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/92327794.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Lorillard TOBACCO COMPANY\", \"VIA FACSIMILE\"], \"TO\": \"(919) 378- 001 Ron Goldbrenner\", \"FROM\": \"Becky Hayden\", \"DATE\": \"July 22, 1993\", \"NUMBER OF PAGES (INCLUDING COVER SHEET)\": \"8\", \"OUR FAX NUMBER IS\": \"(919) 373- 6917\"}}",
+    "doc_id": "92327794",
+    "num_fields": 5
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/92433599_92433601.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"PRELIMINARY FACT SHEET NEW FILING - ASBESTOS LITIGATION\", \"1. Name, address and telephone number of law firm representing claimant:\", \"2. Names of first named plaintiff and first named defendant on the caption of the complaint:\", \"4. Case involves (check appropriate boxes):\"], \"Name\": \"BRAYTON, GISVOLD. & HARLEY\", \"Address\": \"999 Grant Avenue, P. O. Box 2109\", \"City\": \"Novato\", \"State\": \"CA\", \"Telephone\": \"(415) 898- 1555\", \"Defendant\": \"ABEX CORPORATION, et al.\", \"Plaintiff\": \"CHARLES WOODWARD\", \"(a) Injury\": \"X\", \"(c) Consortium\": \"X\", \"Zip Code\": \"94948\", \"3. Date of claimant's birth\": \"June 19, 1921\", \"5. Specify the nature or type of asbestos- related injury alleged by the claimant. (E. q., Asbestosis; Lung Cancer- adenocarcinoma Lung Cancer- Mesothelioma; Pleural Thickening; Fibrosis; etc.)\": \"Mesothelioma and other asbestos- related lung disease\"}}",
+    "doc_id": "92433599_92433601",
+    "num_fields": 12
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/92586242.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"HOURS:\", \"SPECIFICS:\", \"Newport pleasure!\", \"SPECIAL EVENT INFORMATION SHEET\", \"GENERAL INFORMATION:\", \"SUPERVISOR INFORMATION:\"], \"PREMIUMS ONLY\": \"☑\", \"# OF BOOTH\": \"☑\", \"EVENT NAME\": \"Upper Madisor Avenue Festival\", \"EVENT LOCATION\": \"68th -86th Street New York, NY\", \"EVENT DATES\": \"June 4, 1995\", \"SATURDAY- SUNDAY\": \"11 am - 6 pm\", \"NAME OF ALLWAYS SUPERVISOR\": \"Jerome Curry\", \"PHONE NUMBER\": \"(201) 923 -9208\", \"BEEPER NUMBER\": \"(201) 698 1780\"}}",
+    "doc_id": "92586242",
+    "num_fields": 9
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/92657311_7313.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"SUBMISSION DATE:\", \"DIRECT ACCOUNT AND CHAIN VOIDS (USE X TO INDICATE A VOID).\", \"PROMOTIONAL IMPACT:\"], \"TO\": \"R. B. SPELL\", \"FROM\": \"S. J. Farnham\", \"SUBJECT\": \"HARLEY DAVIDSON 100'S CIGARETTES PROGRESS REPORT\", \"DISTRIBUTION\": \"EFFECTIVENESS OF SELL (REPORT ON OCT 3 ONLY).\", \"JAN 23, 1995\": \"X\", \"ACCOUNT\": \"NONE\", \"% OF DISTRIBUTION ACHIEVED IN RETAIL OUTLETS\": \"9 0 % CLASSIFIED CALLS 2 % ANNUAL CALLS\", \"$ 50 OFF PACK\": \"Excellent movement when couponed. Without coupons, movement slows dramatically!\", \"SALES FORCE 20'S\": \"Excellent but quickly depleted.\", \"$ 5.00 OFF CARTON\": \"Excellent. Continues to drive all carton business\"}}",
+    "doc_id": "92657311_7313",
+    "num_fields": 10
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/92657391.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Lorillard\", \"FACSIMILE COVER PAGE\", \"PLEASE TRANSMIT THIS DOCUMENT TO:\", \"THIS DOCUMENT IS FROM:\"], \"DATE\": \"12/ 28/ 94\", \"TIME\": \"10: 15\", \"The following document, including cover page is\": \"3\", \"NAME\": \"J. L. McGinnis - Region 9\", \"OFFICE\": \"Lorillard Tobacco Company Houston N., Texas\", \"COMMENTS\": \"Harley Davidson 100's Progress Report.\", \"cc\": \"A. J. Giacoio; P. J. McCann; S. L. Enloe; T. L. Achey; R. B. Spell\", \"FAX PHONE NUMBER\": \"(713) 591 0204\"}}",
+    "doc_id": "92657391",
+    "num_fields": 8
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/93213298.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Invitations:\", \"Attendees:\", \"NEWPORT RACING EVENT SURVEY\", \"Promotion Quantity:\", \"# Displays Placed:\", \"Race Day Info:\", \"Quality of Hospitality Tent:\"], \"Division\": \"Detroit - MCA\", \"Location\": \"DETROIT GRAND PRIX\", \"Mugs\": \"0\", \"Posters\": \"0\", \"Counter\": \"0\", \"Floor\": \"0\", \"Food\": \"X\", \"Cleanliness\": \"X\", \"Service\": \"X\", \"# Requested\": \"10\", \"# Customers Invited\": \"8\", \"# Customers Attended\": \"8\", \"# Lorillard Personnel\": \"2\", \"Displays (8)\": \"0\", \"Floor (40)\": \"0\", \"Event Attendance\": \"10\", \"Hospitality Tent Attendance\": \"10\", \"Division Mgr\": \"R. L. Lavoie\", \"Date (s)\": \"June 11, 1995\", \"Date Submitted\": \"July 6, 1995\", \"Date Rec'd\": \"05/ 01/ 95\", \"Invitees Comments\": \"Invitees stated the Newport hospitality tent was very; difficult to locate. Also, the Indy Lights Paddock area was not clearly identified Most Invitees were looking for the hospitality tent in a separate identified area away from the Paddock Brea and the Newport car transporter.\", \"Suggestions/ Recommendations\": \"In the future, please specify where the; Newport hospitality area will be located - at the Newport car trans- porter site or in a separate area . Specific directions will be needed.\"}}",
+    "doc_id": "93213298",
+    "num_fields": 23
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/93329540.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"NEW COMPETITIVE PRODUCTS\"], \"DATE\": \"8/ 13/ 93\", \"MANUFACTURER\": \"AMERICAN TOBACCO COMPANY\", \"cc\": \"A. H. Tisch; R. H. Orcutt; M. A. Peterson; M. L. Orlowsky; L. Gordon; G. Telford; V. Norman; A. W. Spears; A. J. Giacoio; N. P. Ruffalo; T. L. Achey; R. B. Spell; P. J. McCann; J. J. Tatulli; L. H. Kersh; J. R. Slater; A. Pasheluk; R. S. Goldbrenner; N. Simeonidis; S. F. Smith; K. P. Augustyn; V. D. Lindsley; R. C. Bondy; R. D. Hammer\", \"REPORTED BY\": \"A. REID, DIVISION MANAGER, SAN FRANCISCO, CA\", \"BRAND NAME\": \"SPECIAL 10' s\", \"OTHER INFORMATION\": \"SEE ATTACHED COPY OF CIRCULAR NO. 4848\"}}",
+    "doc_id": "93329540",
+    "num_fields": 6
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/93351929_93351931.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"MEDIA\", \"COUPON CODE REGISTRATION FORM\", \"SPACE/ COLOR\", \"ANALYTICAL REQUIREMENTS:\"], \"FROM\": \"JESSICA ARATO\", \"TO\": \"VINCE LOSITO\", \"CC\": \"K. AUGUSTYN. L. GIORDANO, M. McGLYNN, S. RAPISARLDI\", \"ISSUE FREQUENCY/ YEAR\": \"September\", \"PACK AND OR/ CARTON\": \"Pack\", \"ADVERTISING CREATIVE THEME\": \"Rebecca\", \"Magazines\": \"People, Rolling Stone, Cosmopolitan,; Mademoiselle, New York Magazine\", \"Newspapers\": \"1/ 2 B/ W\", \"Newspaper\": \"Village Voice\", \"BRANDS (S) APPLICABLE\": \"All Kent Family Packings\", \"COUPON ISSUE DATE\": \"September 1, 1992\", \"COUPON EXPIRATION DATE\": \"December 31, 1992\", \"CIRCULATION\": \"1, 221, 000\", \"GEOGFIAPHICAL AREA(S)\": \"Tier\", \"COUPON VALUE\": \"Free Pack\", \"DATE INITIATED\": \"May 14, 1992\", \"CODE ASSIGNED\": \"221782\", \"JOB NUMBER\": \"414\", \"EST. REDEMPTION\": \"3 %\"}}",
+    "doc_id": "93351929_93351931",
+    "num_fields": 19
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/93380187.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"COUPON CODE REGISTRATION FORM\", \"FOA CONTROL USE ONLY:\"], \"FROM\": \"MICHELLE LEPRE\", \"TO\": \"V. M. LOSITO\", \"CC\": \"S. A. RAPISARLDI; J BAYLIES; K. P. AUGUSTYN; M. McGLYNN\", \"- BRAND(S) APPLICABLE\": \"TRUE\", \"- CIRCULATION\": \"560,000\", \"TRUE CORE AREAS\": \"PROVIDENCE; CAMDEN; CONCORD; SPRINGFIELD; BALTIMORE; HARTFORD; SYRACUSE; ROCHESTER; BUFFALO; WILMINGTON; ALBANY; TOTAL NEW YORK; TOTAL NEW JERSEY; NEW HAVEN; TOTAL BOSTON; TOTAL SAN FRANCISCO; TOTAL PHILADELPHIA; TOTAL CHICAGO; REGION 15 x SAN BERNADINO; TOTAL WASHINGTON; TOTAL DETROIT; PORTLAND, ME\", \"CODE ASSIGNED\": \"57288\", \"JOE NUMBER\": \"1143\", \"- MEDIA TYPE\": \"SALES FORCE APPLIED - IRC\", \"- COUPON ISSUE DATE\": \"MAY 1992\", \"- COUPON EXPIRATION DATE\": \"8 /31 /92\", \"- GEOGRAPHICAL AREA(S)\": \"TRUE CORE MARKETS *\", \"- COUPON VALUE\": \"50c\", \"- PACK AND/OR CARTON\": \"PACK\", \"- SIGNATURE OF INITIATOR\": \"Michell\", \"- -DATE INITIATED\": \"JANUARY 8, 1992\", \"EST. REDEMPTION\": \"80 %\"}}",
+    "doc_id": "93380187",
+    "num_fields": 17
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/training_data/images/93455715.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"COMPETITIVE ACTIVITIES AND PROMOTIONS\"], \"DATE\": \"4/7/88\", \"MANUFACTURERS\": \"R. J. REYNOLDS AND PHILIP MORRIS\", \"cc\": \"Mr. J. R. Ave; Mr. T. L. Achey; P. J. McCann; Mr. A. J. Giacoio; Mr. L. H. Kersh; Mr. R. G. Ryan; Mr. P. A. Lawless; Mr. J. E. Daghlian; Mr. R. S. Goldbrenner; Ms. E. R. Harrow; Ms. S. F. Smith; Mr. N. P. Ruffalo; Mr. C. Toti; Dr. S. T. Jones; Mr. G. R. Telford; Mr. L. Gordon; Mr. J. P. Mastandrea; Ms. S. Ridgway; Mr. M. A. Peterson Mr. T. H. Mau; Mr. R. H. Orcutt\", \"REPORTED BY\": \"R. E. Klein, Regional Sales Manager, Cleveland, OH\", \"SOURCE OF INFORMATION\": \"Best Cigarette Co., Mentor, OH\", \"TYPE OF PROMOTION\": \"SEE ATTACHED CORRESPONDENCE REGARDING:; - R. J. REYNOLDS SPRING DIRECT ACCOUNT INCENTIVE PROGRAM; - Philip Morris- SPECIAL PROMOTIONS ON MAKLBORO AND CAMBRIDGE CIGARETTES\"}}",
+    "doc_id": "93455715",
+    "num_fields": 6
+  }
+]

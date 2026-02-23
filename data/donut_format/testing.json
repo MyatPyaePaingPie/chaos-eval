@@ -1,0 +1,302 @@
+[
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/82092117.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Attorney General Betty D. Montgomery\", \"CONFIDENTIAL FACSIMILE TRANSMISSION COVER SHEET\", \"IF YOU DO NOT RECEIVE ANY OF THE PAGES PROPERLY, PLEASE CONTACT SENDER AS SOON AS POSSIBLE\"], \"TO\": \"George Baroody\", \"DATE\": \"12 /10 /98\", \"NUMBER OF PAGES INCLUDING COVER SHEET\": \"3\", \"Fax\": \"614 -466 -5087\", \"NOTE\": \"THIS MESSAGE IS INTENDED ONLY FOR THE USE OF THE INDIVIDUAL OR ENTITY TO WHOM IT IS ADDRESSED AND MAY CONTAIN INFORMATION THAT IS PRIVILEGED. CONFIDENTIAL, AND EXEMPT FROM DISCLOSURE UNDER APPLICABLE LAW. If the reader of this message is not the intended recipient of the employee or agent responsible for delivering the message to the intended recipient, you are hereby notified that any dissemination, distribution, copying, or conveying of this communication in any manner is strictly prohibited. If you have received this comunication in error, please notify us immediately by telephone and return the original message to us at the address below via the U. S. Postal Service. Thank you for your cooperation.\", \"FAX NO.\": \"(614) 466- 5087\", \"FAX NUMBER\": \"(336) 335- 7392\", \"PHONE NUMBER\": \"(336) 335- 7363\", \"SENDER /PHONE NUMBER\": \"June Flynn for Eric Brown/ (614) 466- 8980\"}}",
+    "doc_id": "82092117",
+    "num_fields": 9
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/82200067_0069.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"DIVISION:\", \"LORILLARD PTLD\"], \"TO\": \"K. A. Sparrow\", \"FROM\": \"T. D. Blachly\", \"SEP 15\": \"x\", \"DIVISION\": \"Helena # REPS: 4\", \"REGION\": \"(ONLY IF PARTIAL REGION CONTINUE WITH DIVISION (S) SCOPE)\", \"NO. OF STORES\": \"225; 27; 15; 31; 18; 19; 20\", \"NAME OF ACCOUNT\": \"Texaco Seattle; Texaco Portland; Maid -O Clover; Dari Mart; Zip Trip; Maverick; Astro Gas\", \"VOLUME\": \"105 / 5; 61 / 3; 20 / 2; 125 / 5; 106 / 4; 77 / 1; 600 / 7\"}}",
+    "doc_id": "82200067_0069",
+    "num_fields": 8
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/82250337_0338.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"COMPETITIVE PRODUCT INTRODUCTION PROGRESS REPORT\", \"REPORTING PERIODS:\"], \"TO\": \"Sam Zolot\", \"FROM\": \"D. J. Landro\", \"DATE\": \"2- Dec- 97\", \"MANUFACTURER\": \"B&W\", \"BRAND\": \"Kool Waterfall\", \"Nov.\": \"X\", \"TYPE OF PACKINGS\": \"All Packings\", \"TEST MARKET GEOGRAPHY\": \"Divisions 621 and 627 wisconsin\", \"PRICE POINT\": \"FULLS $ P/ V $\", \"SALES FORCE INVOLVEMENT\": \"They have crew- worked distribution, and it is reported that they may crew- work it again Sales force has been busy promoting old style backs to clean up inventory. All POS is being converted to \\\"B\\\" Kool.\", \"DISTRIBUTORS ACCEPTANCE INTRO TERMS INTRO DEALS INVOLVEMENT\": \"All accounts have the new packaging. It was not a problem obtaining new distribution. All accounts appear to have 100% distribution of new packings.\", \"CHAINS ACCEPTANCE/ MERCHANDISING\": \"This has not been a problem. New packaging is just following on the old \\\"packaging\\\".\", \"INDEPENDENTS ACCEPTANCE/ MERCHANDISING\": \"Very well received. The packs are peing consolidated and promoted in select retail locations at 40 off $4 00 off cartons.\", \"ADVERTISING EFFECTIVENESS OF P. O. S.\": \"The theme \\\"B\\\" Kool has replaced all previous POS. They have effectively replaced all old POS. New door signage, hour signs, poster mats, and clocks have the new design. \\\"B\\\" Kool also appears on billboards in llinois.\"}}",
+    "doc_id": "82250337_0338",
+    "num_fields": 14
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/82251504.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Retail Excel Progress Report\", \"Acceptance/ Response:\", \"Hardware Evaluation/ Effectiveness:\"], \"Region\": \"17\", \"cc\": \"D. O. S.\", \"From\": \"Kent B. Mills\", \"Area\": \"5\", \"Chains\": \"This program has been successful to date with chains where our \\\"Flex; Payment\\\". was not place. The chains where were using the \\\"Flex Payment\\\" system we have not been las successful. The P. O. S. requirements of the P- 1 Plan with Oil Companies is difficult to obtain.\", \"Independents\": \"Additional P. V. merchandising is being secured quickly,\", \"Distribution by/ to\": \"DM to RSM 1st of Month RSM to R W. C. 10th\", \"Comment on the assembly of displays and\": \"The displays are easily assembled and durable. Some questions have been raised conceming the inability to be flush with the counter and/ or against the register. As well as the ability to place this or the Back Bar if the settlement goes through\", \"application of shields\": \"The displays are easily assembled and durable. Some questions have been raised conceming the inability to be flush with the counter and/ or against the register. As well as the ability to place this or the Back Bar if the settlement goes through\", \"Pemanent Advertising Evaluation/ Effectiveness/ Acceptance: (P- 1/ P- 5 & C 5 Plans Only\": \"Not available at this time\"}}",
+    "doc_id": "82251504",
+    "num_fields": 10
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/82252956_2958.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"DIVISION:\", \"GEOGRAPHY\", \"DISTRIBUTION\", \"SUBMISSION DATE\"], \"# REP\": \"7\", \"TO\": \"K. A. Sparrow\", \"FROM\": \"D. J. Landro\", \"SUBJECT\": \"OLD GOLD MENTHOL LIGHTS & ULTRA LIGHTS 100'S PROGRESS REPORT\", \"IND/LOR VOLUME\": \"144/14\", \"NO. OF STORES\": \"93\", \"DIVISION NAME\": \"Milw. North\", \"NAME OF ACCOUNT\": \"Walgreen Drug\"}}",
+    "doc_id": "82252956_2958",
+    "num_fields": 8
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/82253058_3059.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"COMPETITIVE PRODUCT INTRODUCTION\", \"REPORTING PERIODS:\"], \"TO\": \"MRS. K. A. SPARROW\", \"FROM\": \"R. G. Ryan\", \"DATE\": \"12/ 10/ 96\", \"NOV\": \"X\", \"MANUFACTURER\": \"R. J. Reynolds\", \"BRAND\": \"Camel Menthol\", \"TYPE OF PACKINGS\": \"Full Flavor Box and Light Box\", \"TEST MARKET GEOGRAPHY\": \"All of Region 7.\", \"PRICE POINT\": \"FULL $ 11.89 P/ V $ (Indicate Distributor's Cost Per Carton)\", \"SALES FORCE INVOLVEMENT\": \"Merchandising the top tray of permanent counter displays and labeling; carton fixtures in the Camel section. Also placing metal signs and temporary counter displays.\", \"DISTRIBUTORS - ACCEPTANCE/ INTRO TERMS/ INTRO DEALS\": \"Product is being introduced to all Direct: Accounts in the Region. Acceptance is spotty at this time.\", \"DISTRIBUTOR INVOLVEMENT\": \"Assembly of promotional products and shipment to retail Indianapolis Direct Accounts are reported to be receiving B1G1F product.\", \"CHAINS - ACCEPTANCE/ MERCHANDISING ALLOWANCE\": \"Chain acceptance has been very good.\", \"INDEPENDENTS - ACCEPTANCE/ MERCHANDISING ALLOWANCE\": \"Acceptance is better at high volume locations than at lower volume retail calls.\"}}",
+    "doc_id": "82253058_3059",
+    "num_fields": 14
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/82253245_3247.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"SUBMISSION DATE\", \"STYLE LOW PRICE PROGRESS REPORT\"], \"TO\": \"K. A. Sparrow\", \"FROM\": \"R. E. Lane\", \"JUNE 30\": \"X\", \"SELL\": \"Overall pre- sell efforts were successful Retail accounts that previously stocked; Style Full Price accepted the introduction of the low price\", \"NAME OF ACCOUNT\": \"W H Smith; 7- 11 318 Zon; Dairy Marts; Widman Drugs; Kroger; cvs; Rich Oil; Super America\", \"NO. OF STORES\": \"18; 150; 183\", \"NO OF STORES\": \"21; 82; 106; 87; 5; 23; 35; 43\", \"BIGIF 2 FOR 1\": \"Proved to be an excellent tool for pulling the balance of Style Full Price packs through; the system. This aided the field greatly during the transition\", \"$ 7.00 CARTON COUPON/ BUYDOWN\": \"Effective in those retail calls that we could not exchange product out of.; Those situations were limited.\", \"IND/ LOR VOLUME\": \"104/ 22; 521/ 42; 137/ 20\"}}",
+    "doc_id": "82253245_3247",
+    "num_fields": 10
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/82253362_3364.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"GEOGRAPHY\", \"REGION:\", \"DIVISION:\", \"DISTRIBUTION\", \"SUBMISSION DATE\"], \"TO\": \"K. A. Sparrow\", \"FROM\": \"J. L. McGinnis\", \"SUBJECT\": \"MAVERICK SPECIALS MENTHOL - PROGRESS REPORT\", \"SEP 22\": \"☑\", \"FULL\": \"X\", \"NO. OF STORES\": \"115; 38; 217; 38; 27; 70; 177\", \"NAME OF ACCOUNT\": \"Sac N Pac; ACO Texaco; Lone Star\", \"IND/ LOR VOLUME\": \"75/ 2; 95/ 3; 76/ 3\"}}",
+    "doc_id": "82253362_3364",
+    "num_fields": 8
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/82254765.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"1997 SPECIAL EVENT REQUEST FORM\", \"SHIP TO:\", \"NYO ONLY:\"], \"TO\": \"K. A. SPARROW\", \"FROM\": \"S. Reindel\", \"DATE TO NYO\": \"1/24/97\", \"NEWPORT K. S.\": \"2\", \"NEWPORT LTS K. S.\": \"1\", \"TRUE K. S.\": \"1\", \"KENT K. S.\": \"1\", \"ITEMS\": \"WATER BOTTLES; BASEBALL CAP\", \"DATE FORWARDED TO PROMOTION SERVICES\": \"zbulan\", \"QUANTITY REQUIRED\": \"1500; 500\", \"DIV. NAME/ NO\": \"Nassau/ 107\", \"NAME OF EVENT\": \"H. Levinson Tradeshow\", \"\\\"DATE OF EVENT\": \"3/18/97\", \"SAMPLES/ ITEMS REQUIRED\": \"SAMPLE 10'S (400 PACKS PER CASE)\", \"CUSTOMER SHIPPING NUMBER\": \"198- 1160006\"}}",
+    "doc_id": "82254765",
+    "num_fields": 15
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/82491256.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"CASE FORM\"], \"COURT\": \"San Francisco Superior Court - No. 996378\", \"CASE TYPE\": \"Asbestos\", \"CASE NAME\": \"Wanda G. Robinson and Carroll Robinson v Raybestos- Manhattan, et al.\", \"LORILLARD ENTITIES\": \"Lorillard Tobacco Company\", \"DATE FILED\": \"July 23, 1998\", \"DATE SERVED\": \"August 3, 1998\", \"PLAINTIFF COUNSEL\": \"Wartnick, Chaber, Harowitz, Smith & Tigerman Madelyn J. Chaber 101 California Street, Suite 2200 San Francisco, California 94111 415 986- 5566\"}}",
+    "doc_id": "82491256",
+    "num_fields": 7
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/82504862.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"CASE FORM\"], \"COURT\": \"San Francisco Superior Court- No. 996382\", \"CASE TYPE\": \"Asbestos\", \"CASE NAME\": \"Donald D. Sellers and Robin J. Sellers v. Raybestos Manhattan et al.\", \"LORILLARD ENTITIES\": \"Lorillard Tobacco Company\", \"DATE SERVED\": \"August 3, 1998\", \"PLAINTIEE'S COUNSEL\": \"Wartnick Chaber, Harowitz, Smith& Tigerman StephenM. Tigerman 101 California Street Suite 2200 San Francisco California 94111\"}}",
+    "doc_id": "82504862",
+    "num_fields": 6
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/82562350.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Fax\", \"LORILLARD TOBACCO COMPANY\"], \"To\": \"Mr. Randy Spell\", \"CC\": \"Mr. Fred Paternostro\", \"Re\": \"Legal- lowa\", \"From\": \"Rick Redfield\", \"Date\": \"May 1, 2000\", \"Fax\": \"952 894- 9690\", \"Pages\": \"4\", \"Comments\": \"Attached is the Iowa Department of Revenue and Finance Minimum Legal Prices on Cigarettes as of April 3, 2000. I am attempting to obtain a copy of the actual Fair Trade Law and will forward as soon as obtained. Rick\", \"Telephone\": \"(952) 694-2238\"}}",
+    "doc_id": "82562350",
+    "num_fields": 9
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/82573104.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"COVINGTON & BURLING\"], \"Date\": \"December 9, 1999\", \"To\": \"Haney H. Bell, Esq.\", \"From\": \"David H. Remes (202) 778 5212 - direct fax\", \"Room\": \"803E // Pages (including cover)\"}}",
+    "doc_id": "82573104",
+    "num_fields": 4
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/82837252.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"NEW COMPETITIVE PRODUCTS\"], \"DATE\": \"8/ 10/ 90\", \"MANUFACTURER\": \"B & W\", \"cc\": \"G. Telford F. J. Schultz A. W. Spears N. P. Ruffalo T. Achey P. J. McCann A. J. Giacolo; J. J. Tatulli L. H. Kersh J. R. Slater S. T. Jones R S. Goldbrenner E. R. Harrow; A. H. Tisch R. H. Orcutt M. A. Peterson T. H. Mau L. Gordon J. P. Mastandrea\", \"REPORTED BY\": \"BOBBY MILLS, REGIONAL SALES MGR., INDIANAPOLIS, IN\", \"SOURCE OF INFORMATION\": \"HALL RODECAP, NOBLESVILLE, IN\", \"BRAND NAME\": \"VICEROY KING BOX AND VICEROY LIGHTS KING BOX\", \"OTHER INFORMATION\": \"SEE ATTACHED INFORMATION SHEET\"}}",
+    "doc_id": "82837252",
+    "num_fields": 7
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/83443897.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"FAX TRANSMISSION\", \"HARD COPY TO FOLLOW\"], \"DATE\": \"January 11, 1999\", \"COMPANY\": \"Lorillard Tobacco Company\", \"PHONE\": \"202/ 828- 2259 and 202/ 828 2241\", \"FROM\": \"Andy Zausner and Rob Mangas\", \"MESSAGE\": \"JAN 1 2 1999; The following is for your review\", \"NO\": \"X\", \"PAGES (including Cover Sheet)\": \"2\", \"CLIENT NO.\": \"L8557 002\", \"MESSAGE TO\": \"Dewey Tedder\", \"FAX NUMBER\": \"336/ 373- 6917\"}}",
+    "doc_id": "83443897",
+    "num_fields": 10
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/83553333_3334.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"DAVIS POLK & WARDWELL\"], \"Sender\": \"Charles Duggan\", \"Date\": \"November; 1999\", \"To\": \"Joseph F. Rice; Robert V. Costello Jeffrey D. Woolf; Richard M. Heimann; Michael P. Thornton; Thomas M. Sobol\", \"Reference\": \"17555 002\", \"Number of Pages (this page included)\": \"6\", \"Fax Transmittal\": \"450 Lexington Avenue New York, NY 10017 212- 450- 4000\", \"Sender Voice Number\": \"212- 450- 4785\", \"If problems receiving this fax, call\": \"212- 450- 4785\", \"Sender Fax Number\": \"212- 450- 3785\", \"Fax Number\": \"843- 720- 9290; 617- 722- 0286; 415- 956- 1008; 617- 720- 2445; 617- 439- 3278\", \"Company\": \"Ness, Motley, Loadholt, Richardson & Poole; Thomton, Early & Naumes; Schneider, Reilly, Zabin & Costello; Lieff, Cabraser & Heimann; Brown Rudnick Freed & Gesmer\", \"Recipient Phone Number\": \"843- 720 9000; 617- 720- 1333; 415- 956- 1000; 617- 227- 7500; 617- 330- 9000\", \"Confidentiality Note\": \"This only for the person or entity may besi pavilegedal; of otherwis protected from disclosos. Disscnlation, distribution popying of the facile the information herein by anyone other than the poupil, waployee responsible for delivering the message the prohibited. You thisfacsimile in error please notify as immediately by telephone and return the facsimile by mail.\"}}",
+    "doc_id": "83553333_3334",
+    "num_fields": 13
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/83573282.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Urgent!\", \"Deliver\", \"Immediately\", \"HAGENS BERMAN\", \"HAGENS BERMAN Attorney Law\", \"FACSIMILE COVER SHEET\"], \"Date\": \"January 14, 1999\", \"From\": \"Steve W. Berman\", \"Re\": \"Tobacco - Fee Payment Agreement and Release\", \"Recipient(s)\": \"Mr. Stephen R. Patton; Mr. Charles A. Blixt; Mr. Ronald Milstein; Mr. F. Anthony Burke; Mr. Martin Barrington; Mr. Arthur F. Golden; Mr. Meyer G. Koplow\", \"Company\": \"Wachtell, Lipton, Rosen & Katz; Davis, Polk & Wardwell; Philip Morris Inc.; Brown & Williamson Tobacco Corp.; Lorillard Tobacco Co.; R. J. Reynolds Tobacco Co; Kirkland & Ellis\", \"No. of Pages\": \"37 (including this page)\", \"File No.\": \"1129. 01\", \"Phone No.\": \"(312) 861- 2000; (212) 450- 4000; (212) 403- 1000\", \"Fax No.\": \"(212) 403- 2000; (212) 450- 4800; (917) 663- 5399; (502) 568- 7297; (336) 335- 7707; (336) 741- 2998; (312) 861- 2200\"}}",
+    "doc_id": "83573282",
+    "num_fields": 9
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/83594639.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"ROPER STARCH\", \"Fax Fax Fax Fax Fax Fax Fax Fax Fax\"], \"Date\": \"September 22, 1997\", \"To\": \"Ron Milstein\", \"Company\": \"Lorillard\", \"From\": \"\\\"JJ\\\" Klein\", \"Pages (Including cover page)\": \"3\", \"Fax Number\": \"(910) 335 7707\"}}",
+    "doc_id": "83594639",
+    "num_fields": 6
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/83624198.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"FAX TRANSMISSION\", \"HARD COPY TO FOLLOW:\"], \"DATE\": \"February 25, 1998\", \"COMPANY\": \"Lorillard Tobacco Company\", \"PHONE\": \"202 /828 -2259\", \"FROM\": \"Andy Zausner\", \"MESSAGE\": \"See attached fax from the Committee on Commerce just received in my office. Call me discuss.\", \"PAGES (including Cover Sheet)\": \"12\", \"Tel\": \"202 785 9700\", \"Fax\": \"202 -887 -0589\", \"CLIENT NO.\": \"L8557 002\", \"MESSAGE TO\": \"Ronald S. Milstein\", \"FAX NUMBER\": \"910/ 335- 7707\"}}",
+    "doc_id": "83624198",
+    "num_fields": 11
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/83635935.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"LOEWS CORPORATION\", \"FAX CONFIDENTIAL\"], \"DATE\": \"June 4, 1997\", \"TO\": \"Dr. Spears/ A. J. Stevens/ R. Milstein\", \"FROM\": \"Barry Hirsch\", \"OUR FAX NUMBER\": \"(212) 935 6801\"}}",
+    "doc_id": "83635935",
+    "num_fields": 4
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/83641919_1921.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"DISTRIBUTION\", \"DIVISION:\", \"REGION:\", \"GEOGRAPHY\", \"SUBMISSION DATE\"], \"Number of Stores\": \"142; 237; 102; 39; 184; 32; 40; 31\", \"Ind/Lor Volume\": \"196/13\", \"DIVISION NAME\": \"Detroit West\", \"PARTIAL\": \"X\", \"# REPS\": \"13\", \"TO\": \"S. P. ZOLOT\", \"FROM\": \"R. W. RICHARDSON\", \"SUBJECT\": \"OLD GOLD- LIGHT BOX 100'S PROGRESS REPORT\", \"DEC 21\": \"X\", \"Name of Account\": \"Speedy Q\"}}",
+    "doc_id": "83641919_1921",
+    "num_fields": 10
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/83772145.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"LAW OFFICES SHOOK HARDY & BACON L. L. P.\"], \"#\": \"392\", \"TO\": \"JACK REILLY\", \"FROM\": \"JIM DALEY\", \"DATE\": \"JANUARY 31, 1997\", \"TELECOPY NO\": \"212/ 545- 3297\", \"SHB Client Matter No\": \"LORI 45048\", \"Special Instructions\": \"If you experience any problems, please call extension 21000\", \"COMMENTS/ MESSAGE\": \"Per your request, attached is a memo regarding the process of labeling reviewed diskettes for the purpose of later identification Please call me if you have any questions regret I cannot join you and the electronic document collection team for lunch today. I hope you agree they have done an outstanding job! I look forward to seeing you on February 5 for the Legal Edge presentation. Best Regards, Jim Daley\"}}",
+    "doc_id": "83772145",
+    "num_fields": 8
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/83823750.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"DAVIS POLK & WARDWELL\"], \"Date\": \"November 11, 1997\", \"To\": \"Robert H. Shaw, Esq.\", \"Number of Pages (this page included)\": \"2\", \"Company\": \"Lorillard Tobacco Company\", \"Sender\": \"Charles Duggan\", \"Reference\": \"17560 -188\", \"Fax Number\": \"910 -335- 7077\", \"Voice Number\": \"910 -335- 7720\", \"Sender Voice Number\": \"212 -450- 4785\", \"Sender Fax Number\": \"212 -450 -5578\"}}",
+    "doc_id": "83823750",
+    "num_fields": 10
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/83996357.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"COUPON CODE REGISTRATION FORM\"], \"TO\": \"KELLI SCRUGGS\", \"FROM\": \"LEONARD JONES\", \"CC\": \"V. LOSITO M. TAHMASEB G. BAROODY L. STEVENS B. VON DER LIPPE D. Risling\", \"PACK/CARTON\": \"PACK\", \"REQUIREMENTS\": \"REDEMPTION RESULTS\", \"JOB#\": \"594\", \"CODE ASSIGNED\": \"07809\", \"EST. REDEMPTION\": \"14%\", \"BRAND(S) APPLICABLE\": \"OLD GOLD\", \"MEDIA TYPE\": \"DIRECT MAIL\", \"COUPON ISSUE DATE\": \"10/ 4/ 99\", \"COUPON EXPIRATION DATE\": \"3/ 31/ 00\", \"COUPON VALUE\": \"$1 00 OFF PACK\", \"GEOGRAPHICAL AREA(S)\": \"DISCOUNT SMOKERS OG GROUPS IANDII\", \"CIRCULATION DATES\": \"OCTOBER 1999\", \"CIRCULATION(#)\": \"201, 500\"}}",
+    "doc_id": "83996357",
+    "num_fields": 16
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/85201976.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Marden - Kane, Inc.\"]}}",
+    "doc_id": "85201976",
+    "num_fields": 0
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/85240939.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"THE TOBACCO INSTITUTE FIFTH ANNUAL COLLEGE TOBACCO KNOWLEDGE REGISTRATION FORM\"], \"NAME\": \"GEORGE R. TELFORD\", \"TITLE\": \"Brand Manager\", \"COMPANY\": \"Lorillard\", \"ADDRESS\": \"666 Fifth Avenue, New York, NY 10019\", \"PHONE\": \"(212) 841- 8787\", \"CHECK ONE\": \"X I will my own housing arrangements.; Please reserve a room for me at the Sheraton- Carlton\", \"ARRIVAL DATE AND TIME\": \"2/18/80 7:00 P. M.\", \"DEPARTURE DATE AND TIME\": \"2/21/80 4:00 P. M.\", \"Any questions?\": \"Call Connie Drath or Carol Musgrave at 800/424- 9876.\"}}",
+    "doc_id": "85240939",
+    "num_fields": 9
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/85540866.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"MEDIA CONTACT SHEET\"]}}",
+    "doc_id": "85540866",
+    "num_fields": 0
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/85629964.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"CIGARETTE REPORT FORM\", \"ADVERTISING EXPENDITURES (SEE EXPLANATION)\"]}}",
+    "doc_id": "85629964",
+    "num_fields": 0
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/86075409_5410.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"FOR CONTROL USE ONLY\"], \"From\": \"Lynnette Stevens\", \"To\": \"Kelli Scruggs\", \"CC\": \"Vincent Losito George Baroody\", \"Circulation(#)\": \"APPROX 600. 000 AR. AZ.A K CA CO FL ID IA. CT, ME, MASS, MN, MT, NE,\", \"Don Kisling\": \"S. Tesh C. Hill\", \"Brand(s) Applicable\": \"Newport Parent, Lights. & 120's\", \"Media Type\": \"Direct Mail\", \"Media Name\": \"Competitive 21- 34 years\", \"Coupon Issue Date\": \"4/ 14/ 00\", \"Coupon Expiration Date\": \"9 /30 00\", \"Coupon Value\": \"NV, NM, NY ND, DK, OR, RL, SD, WA, DC, WY $1. 50 OFF PACK\", \"Pack and/ or Carton?\": \"NV, NM, NY ND, DK, OR, RL, SD, WA, DC, WY $1. 50 OFF PACK\", \"Signature of Initiator\": \"21- Jan 00\", \"Code Assigned\": \"05787\", \"Est. Redemption\": \"13%\"}}",
+    "doc_id": "86075409_5410",
+    "num_fields": 15
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/86079776_9777.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"SPECIFICS\", \"OBJECTIVE\", \"TARGET\", \"COMMUNICATION\", \"PLATFORM\", \"CREATIVE INPUT DOCUMENT\", \"Why are we advertising? What do we plan to achieve?\"], \"Date/ Time\": \"10/30/98 1:46 PM\"}}",
+    "doc_id": "86079776_9777",
+    "num_fields": 1
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/86220490.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"LORILLARD TOBACCO COMPANY Market Planning and Information Department\"], \"To\": \"Mike Mozina\", \"Firm\": \"MSA\", \"FAX\": \"Autodial\", \"From\": \"Susan Smith\", \"Date\": \"8/ 31/ 98\", \"FAX #\": \"335- 7733\", \"Phone #\": \"335- 7150\", \"# Pages\": \"3 (including this cover page)\"}}",
+    "doc_id": "86220490",
+    "num_fields": 8
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/86230203_0206.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"GEOGRAPHY\", \"REGION:\", \"DIVISION:\", \"DISTRIBUTION\", \"SUBMISSION DATE\"], \"TO\": \"K. A. Sparrow\", \"FROM\": \"F. Strickland\", \"SUBJECT\": \"MAVERICK SPECIALS- PROGRESS REPORT\", \"DEC 13\": \"X\", \"FULL\": \"x\", \"NAME OF ACCOUNT\": \"Winn Dixie; Schwegmann; Aurry Greer; Double; Huber Oil; Morris Corp; K&B; Delchamps; Litco\", \"NO. OF STORES\": \"23; 23; 22; 180; 130; 85; 39; 36; 36\", \"NO OF STORES\": \"20; 19; 18; 18; 17; 16\"}}",
+    "doc_id": "86230203_0206",
+    "num_fields": 8
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/86236474_6476.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"SUBMISSION DATE:\", \"NEWPORT LIGHTS HEAVY UP PROGRESS REPORT\", \"EFFECTIVENESS OF DISTRIBUTION ALLOWANCE:\", \"PROMOTIONAL ACTIVITY\"], \"TO\": \"Mrs. K. A. Sparrow\", \"FROM\": \"R. G. Ryan\", \"JUNE7\": \"☑\", \"DIRECT ACCOUNT/ WHOLESALERS\": \"Distribution allowance was very effective in accomplishing our objectives. All accounts have purchased introductory products.\", \"DIRECT ACCOUNT CHAINS\": \"Eagle Foods is the only Void.\", \"NON- DIRECT ACCOUNT CHAINS\": \"Reception from these accounts is most positive with a solid incentitive to purchase.\", \"EFFECTIVENESS OF THE RETAIL (1 00 OFF CARTON) DISTRIBUTION ALLOWANCE\": \"Has been most helpful in acquiring desireable distribution when needed by Sales Reps.\", \"40c OFF PACK- GENERAL MARKET\": \"The 40c off promotions continue to be well received at the retail stores and by consumers, as well.\"}}",
+    "doc_id": "86236474_6476",
+    "num_fields": 8
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/86244113.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"DIRECT ACCOUNT STATUS REPORT\"], \"BRAND\": \"STYLE LIGHT 100'S; STYLE LIGHT MENTHOL 100'S; STYLE LIGHT BOX 100'S; STYLE MEN. LIGHT BOX 100'S; STYLE SLIM LIGHT 100's; STYLE SLIM MEN. LT. 100's\", \"NOTE\": \"REPORT STYLE INVENTORY ONLY. SUBMIT REPORT ONLY IF STYLE IS STILL ON HAND IN THIS ACCOUNT.\", \"CC\": \"REGIONAL SALES MANAGER, ALL DIVISIONS SERVICED BY THIS ACCOUNT.\"}}",
+    "doc_id": "86244113",
+    "num_fields": 3
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/86263525.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"RECORDS RETENTION SCHEDULE RECONCILIATION RECORDS MANAGEMENT DEPARTMENT - M /C\"], \"DATE\": \"7 /25 /90\", \"COST CENTER NUMBER\": \"141\", \"RETENTION & RECOMMENDATION FILE REORGANIZED AND RE- LABELED BY\": \"/A\", \"BOXES CREATED FOR HARD COPY PERMANENT RETENTION RECORDS BY\": \"N; /A\", \"DEPARTMENT NAME\": \"SCIENCE & TECHNOLOGY\", \"INDEX BINDERS CONSOLIDATED BY\": \"N /A\", \"INDEX BINDER RE- LABELED BY\": \"Mallery\", \"RECORDS RETENTION SCHEDULE PLACED IN INDEX BINDER AND IN FILE BY\": \"Wayne Boughan\", \"RECORDS TRANSFER INVENTORY FORMS UPDATED BY\": \"Wayne Baughan\"}}",
+    "doc_id": "86263525",
+    "num_fields": 9
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/86328049_8050.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"TELECOPY INFORMATION HUNTON & WILLIAMS Riverfront Plaza 951 East Byrd Street Richmond, Virginia 23219 -4074 (804)788-8200 2nd Floor Telecopier\", \"Original to follow in mail:\"], \"Name\": \"Andy McGaan\", \"Pages (Including Cover)\": \"4\", \"No\": \"☑\", \"Telecopier Nos.\": \"(804) 788- 8218 (804) 788- 8219 (804) 788- 8669\", \"FAX NO\": \"312- 558- 5700\", \"FAX NO.\": \"212- 450- 4800\", \"FAX NOc.\": \"415- 772- 6268\", \"FAX NOv\": \"336- 741- 0671\"}}",
+    "doc_id": "86328049_8050",
+    "num_fields": 8
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/87086073.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"DECISION TREE ESTIMATION OF TOXIC RISK\"], \"DATE\": \"August 14, 1990\", \"STRUCTURE\": \"CH3CH2O OH\", \"COMMENTS\": \"This ethoxy substitued aromatic falls into class III.\", \"COMPOUND NAME\": \"Vanitrope\", \"ESTIMATED TOXICITY CLASS\": \"III\", \"LORILLARO COMPOUND CODE NUMBER\": \"B134\"}}",
+    "doc_id": "87086073",
+    "num_fields": 6
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/87093315_87093318.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"Filters\", \"Cigarettes\", \"Wrapping\", \"Responsibility\", \"Requirements\", \"Laboratory\", \"Analysis:\"], \"Date\": \"3/14/90\", \"on\": \"2/15/90\", \"BLEND\": \"Attached\", \"CASTING\": \"None\", \"RECASING\": \"Attached\", \"MENIHOL\": \"None\", \"Maker\": \"MK 8\", \"Length\": \"99.0 mm\", \"Circumference\": \"24.45 mm\", \"Weight\": \"75.3 30g / 100\", \"Paper\": \"81- 01- 07\", \"Kind\": \"3.3/ 35,000; OG Lt.\", \"Plast.\": \"7 % Kent\", \"FINAL FLAVOR\": \"None\", \"Section B\": \"mm\", \"Tip. Paper Por.\": \"430\", \"Glue Roller\": \"G\", \"Labels\": \"White\", \"Closures\": \"Blue\", \"Tear Tape\": \"White\", \"Cartons\": \"White\", \"Making & Packing\": \"James\", \"Sample Requistion (Form 02: 20: 06)\": \"James\", \"Filter Production\": \"MFG.\", \"Markings\": \"Sample No. on each Carton\", \"Sample No.\": \"1194- 90\", \"Type of Cigarette\": \"100 mm Filter\", \"Batch Size\": \"47.5 lbs.\", \"Original Request Made By\": \"J. H. Bell\", \"Purpose of Sample\": \"Cigarette Modification B- 451\", \"Sample Specifications Written By\": \"C. W. Lassiter\", \"Filter Length\": \"27 mm\", \"Tip. Paper\": \"25- 04- 07; 67 mm White\", \"Air Dilution\": \"13.0 %\", \"Section A\": \"27 mm; 3.3/ 35,000; OG Lt.; 108 mm; 400 mm; 24.45 mm; 75.3 30g / 100; 7 % Kent; 84- 52- 28; 655\", \"Rod Length\": \"108 mm\", \"Pressure Drop\": \"400 mm\", \"Plug Wrap\": \"84- 52- 28\", \"Plug Wrap Por.\": \"655\", \"Tobacco Blend\": \"Lassiter/ Douglas\", \"Laboratory Other\": \"1 Tray\"}}",
+    "doc_id": "87093315_87093318",
+    "num_fields": 41
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/87125460.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"FINAL REPORT AMENDMENT\"], \"APPROVALS\": \"8/ 7/ 87\", \"DATE\": \"08/ 14/ 87\", \"STUDY NAME\": \"Induction of Hepatic Enzymes in rats (B202)\", \"STUDY NUMBER\": \"I- 7016. 401\", \"INITIATION DATE\": \"October 27, 1986\", \"DATE OF FINAL REPORT\": \"February 26, 1987\", \"PART OF FINAL REPORT TO BE AMENDED (EXACT LOCATION)\": \"Page 14 and Table 4\", \"REASON FOR THE AMENDMENT\": \"Request from sponsor\", \"AMENDMENT (Attach additional sheets as necessary)\": \"see attached\"}}",
+    "doc_id": "87125460",
+    "num_fields": 9
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/87137840.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"TEST ARTICLE RECEIPT\"], \"DATE\": \"03 /02 /90\", \"DATES\": \"03 /01 /90\", \"CONDITION OF SHIPMENT\": \"GOOD\", \"TA #\": \"T07281A\", \"SPONSOR'S NAME\": \"Lorillard\", \"LOT #\": \"012590\", \"NO. OF CONTAINERS\": \"One\", \"TEST ARTICLE IDENTIFICATION\": \"B220\", \"SHIPPED VIA\": \"Direct Exress\", \"PHYSICAL DESCRIPTION\": \"Clear brown liquid\", \"GROSS WEIGHT\": \"Not provided\", \"NET WEIGHT (if provided)\": \"100 g\", \"EXPIRATION DATE\": \"Not provided\", \"SPECIAL HANDLING REQUIREMENTS\": \"Store refrigerated in dark.\", \"STUDY DIRECTOR /DEPARTMENT\": \"Ray David\"}}",
+    "doc_id": "87137840",
+    "num_fields": 15
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/87147607.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"PURCHASE REQUISITION\"], \"VENDOR\": \"Piedmont Research Laboratory 2748 Patterson Ave., Greensboro,\", \"TERMS\": \"27407 NET 15 F. O. B. N/A VIA N/A\", \"DESCRIPTION\": \"This is your authorization to prepare cigarette smoke condensate according to the protocol \\\"Standard Operating Procedure før the Preparation of Smoke Condensate for Mouse Skin Bioassay,\\\" for the period April 1, 1988 through December 31, 1988. Condensate will be prepared acording to a time schedule provided by Lorillard. The fixed price for condensate collection will be at a rate of $1, 750/10, 000 cigarettes smoked. Piedmont will pay the cost of consumable supplies. This work is to be conducted in accordance with the December 10, 1984 formal agreement between Piedmont Reseach Laboratories and Lorillard. All work is to be coordinated with our Mr. Neil Thaggard (919) 373-6628\", \"DATE\": \"April 19, 1988\", \"Prev.\": \"or Recommended Supplier\", \"ACCT. NO.\": \"4111\", \"DEPT. NO.\": \"8700\", \"SHIP TO (DEPT BRANCH)\": \"Lorillard Research Center; N. A. Thaggard\", \"DATE WANTED\": \"As required\"}}",
+    "doc_id": "87147607",
+    "num_fields": 9
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/87332450.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"47th TCRC REGISTRATION FORM\"], \"Telephone\": \"(615) ) 638- 5532\", \"FAX\": \"(615) ) 638- 6458\", \"Advance Registration Fee\": \"$135 00\", \"Late Registration Fee\": \"$150 00\", \"Ground Transportation (round trip)\": \"$ 30. 00\", \"Mail to\": \"Dr. Phil P. Hunter U. T. Tobacco Experiment Station Route 5 Box 113 Greeneville, TN 37743\"}}",
+    "doc_id": "87332450",
+    "num_fields": 6
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/87428306.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"COMPOUND PHYSICAL PARAMETERS\", \"COMPOUND SENSITIVE TO\"], \"pH\": \"The pH of a 50 % concentration of A221 in water was theoretically calculated to be 7.26 at 22 C from a 0.5 % solution in 79.5 % aqueous dioxane according to the extrapolation procedures of Dr. P. D. Schickedantz, Lozillard Accession Number 1662. Referenced 45- 10- 1.\", \"SOLUBILITY\": \"MUTAGENICITY SOLVENTS A221 is soluble EtOH at 0.2 g/ ml, with stirring, at room temperature. Reference BC30- 88.\", \"ORAL\": \"A221 forms a solution in corn oil at 0.5 g/ 0.5 mL, with stirring at room temperature. Reference BC30- 88.\", \"LRC FILE NUMBER\": \"A221\", \"PHYSICAL STATE\": \"A crystalline solid at room temperature which melts at > 56 C.\", \"SPECIFIC GRAVITY\": \"Not Determined.\", \"ACUTE CARDIOVASCULAR\": \"A221 is insoluble for this procedure. Reference BC30- 38\", \"STORAGE RECOMMENDATIONS\": \"Refrigerate in an amber glass bottle at no more than 8 C.\"}}",
+    "doc_id": "87428306",
+    "num_fields": 8
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/87528321.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"REQUEST FOR CHANGE\", \"Description of Problem\"], \"Change\": \"8410059\", \"Other\": \"X\", \"Routine\": \"X\", \"Page\": \"1 of 1\", \"Date\": \"B-17-88\", \"Date Prepared\": \"8-17-88\", \"RFC\": \"880029\", \"DATE\": \"8-17-88\", \"Proposed Effective Date\": \"9/8/88\", \"ORIGINATOR Name\": \"Dan Straka\", \"Received By\": \"D. Marsh\", \"Department Name and Location\": \"611- 13 3rd Floor\", \"Glass Mat\": \"Delete C- glass from Iten description. Change glass softening point to 756 + / - 10 degrees from 750. Change rolls per pallet to 2 from 1.\", \"slit Glass Mat\": \"Delete C- glass from item description Change bobbins per stack to 47 from 45. Add outside diameter specs of 30.0, 26.0 - 31.0 inches.\", \"Proposed Solution\": \"Change the current MSS specifications as outlined above.\"}}",
+    "doc_id": "87528321",
+    "num_fields": 15
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/87528380.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"PROPOSAL\", \"MATERIAL:\", \"HOLES:\", \"CORNERS:\", \"EDGES:\", \"PACKING:\", \"BILLING:\", \"WAREHOUSING:\", \"CONDITIONS:\", \"STOUT INDUSTRIES, INC.\", \"DROP SHIPPING:\"], \"FOR\": \"Metal \\\"Pack\\\" Plaque\", \"DATE\": \"October 16, 1987\", \"TO\": \"Lorillard Corporation\", \"ADDRESS\": \"666 Fifth Avenue\", \"CITY\": \"New York\", \"STATE\": \"New York 10103\", \"Attn\": \"Mr. Robert Kennedy\", \"ITEM\": \"Harley Davidson Metal Plaque\", \"ALUMINUM\": \"☑\", \"SIZE\": \"171/4 x 231/2 \\\"\", \"GAUGE\": \".025\\\"\", \"COLORS\": \"Transparent gold, opaque black, white and orange\", \"YES\": \"☑\", \"EMBOSSED\": \"☑\", \"SQUARE\": \"☑\", \"OTHER\": \"Price is based on reproduction of customer supplied \\\"Pack\\\" box.\", \"BASE COLOR\": \"Aluminum\", \"SINGLE FACE\": \"☑\", \"NUMBER OF\": \"4\", \"STAMP FRAME\": \"☑\", \"Tooling\": \"Form die, brass emboss die to achieve detail on eagle.\", \"QUANTITIES\": \"500 Plaques\", \"PRICE\": \"$ 9.18 each\", \"BILL AS MANUFACTURE\": \"☑\", \"SHIP IMMEDIATELY\": \"☑\", \"PER CARTON\": \"10\", \"YOUR REPRESENTATIVE\": \"Mr. A. D. Steinberg\", \"One time tooling\": \"@ $ 3,015.00\", \"Steel tips\": \"$ 1,045.00\"}}",
+    "doc_id": "87528380",
+    "num_fields": 29
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/87594142_87594144.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"APPLICATION FOR RESEARCH CONTRACT\"], \"(C) City\": \"Baltimore\", \"(G) STATE/ZIP\": \"21205\", \"THRU\": \"12/31/96\", \"(A) 1ST 12 MONTH PERIOD\": \"01/01/94\", \"INCLUSIVE DATE\": \"01/01/94; 01/01/95; 01/01/96\", \"(B) 2ND 12 MONTH PERIOD IF REQUIRED\": \"01/01/95\", \"(C) 3RD 12 MONTH PERIOD IF REQUIRED\": \"01/01/96\", \"(E) DATE\": \"5/26/93\", \"1. PRINCIPAL INVESTIGATOR NAME, TITLE, TELEPHONE # AND MAILING ADDRESS.\": \"Steven R. Kleeberger, Ph. D.\", \"(a) TITLE\": \"Associate Professor\", \"(c) TELEPHONE\": \"(410) 955-3515/955-0299\", \"(E) INSTITUTION\": \"Johns Hopkins University, School of Hyg. & Pub. Hlth.\", \"(D) DEPARTMENT\": \"Environmental Health Sciences\", \"(F) MAILING\": \"615 North Wolfe Street, Baltimore, Maryland\", \"(A) INSTITUTION\": \"Johns Hopkins University\", \"(a) STREET\": \"615 North Wolfe Street\", \"(D) STATE/ZIP\": \"Maryland 21205\", \"TOTAL COST\": \"210, 910; 212, 481; 220, 416\", \"(A) NAME\": \"Alan M. Goldberg, Ph. D.\", \"(B) TITLE\": \"Assoc. Dean for Research\", \"(C) TELEPHONE\": \"(410) 955-9253\"}}",
+    "doc_id": "87594142_87594144",
+    "num_fields": 21
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/89856243.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"MARKETING RESEARCH RPROJECT APPROVAL\"], \"PRODUCT\": \"Triumph\", \"Date\": \"October 17, 1979\", \"Incidence\": \"-\", \"# Open\": \"4\", \"# Reports\": \"1\", \"Topline\": \"2 wks from start of fid.\", \"Final\": \"4 wks from start of fld\", \"PROJECT TITLE\": \"Triumph Disaster Check Study\", \"Key Criteria for Analysis\": \"-Triumph switchers asked why no longer smoking Triumph; -Present smokers of Triumph asked reasons for switching to Triumph; -Mentions of \\\"harshness\\\"\", \"Research Limitations\": \"Due to sample size and experience we feel 25 respondents will presently be Triumph smokers. An action standard of 75% should be utilized for judgments on product negatives only among this group; If 75% of Triumph smokers mention harshness we could consider it a 50- 75% problem If of Triumph smokers mention \\\"harshness\\\" we could it a look consider possible problem at other areas).; If below 50% of Triumph smokers mention \\\"harshness\\\" we could consider it at a problem\", \"Research Firm\": \"The Data Group. Inc\", \"Lenght Int\": \"10 minutes\", \"Cost Estimate + - 10% Contingency Final Report Inc.\": \"$ 2.250\"}}",
+    "doc_id": "89856243",
+    "num_fields": 13
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/91814768_91814769.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"\\\"CORRECTED FORM\\\" The Commonwealth of Massachusetts OFFICE OF CAMPAIGN AND POLITICAL FINANCE\", \"REPORT OF CORPORATE TREASURER\", \"(CHECK ONE)\", \"EXPENDITURES OR DISBURSEMENTS\"], \"submitted to the voters on\": \"November; 3,; 1992\", \"on the\": \"Massachusetts\", \"*Note\": \"If this expenditure is made to influence a local ballot question, a copy of this form should be filed with the city or town clerk or election commission.\", \"19\": \"92\", \"Address\": \"P. O. B03 5979 Boston, MA 0212; P. O. Box 5979. Boston, MA 02114\", \"Date\": \"March 30, 1993\", \"Purpose\": \"Oppose Tax increas; Oppose Tax Increase\", \"Final\": \"☑\", \"File with\": \"Director, Office of Campaign & Political Finance One Ashburton Place, Boston, MA 02108\", \"1. Name of Treasurer\": \"M. Alfred Peterson; Assistant Treasurer Peter J. Marzullo\", \"2. Name of Corporation\": \"Lorillard Tobacco Company\", \"3. Address of Corporation\": \"One Park Avenue New York. NY 10016 -5895\", \"4. Question No.\": \"1 relating to Tobacco Excise Tax Increase\", \"Reporting Period Beginning\": \"October 16,\", \"and Ending\": \"November 5. 1992\", \"Date Paid\": \"10/ 26/ 92; 10/ 30/ 92\", \"To Whom Paid (Alphabetical Listing Mandatory)\": \"Committee Against Unfair Taxes; Committee Against Unfair Taxes\", \"Amount or Value**\": \"28, 482. 00; 19, 503 00\", \"Total Expenditures or Disbursements on This Report\": \"48, 585 00\", \"Total Expenditures for Disbursements Previously Reported\": \"508. 789 00\", \"Total Expenditures or Disbursements to Date\": \"556 874. 00\"}}",
+    "doc_id": "91814768_91814769",
+    "num_fields": 21
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/92380595.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"PRENTICE HALL CORPORATE SERVICES\", \"NOTICE OF SERVICE OF PROCESS\", \"PAPERS TRANSMITTED TO CLIENT\"], \"DATE\": \"Monday next 20 days from date of service\", \"TO\": \"LORILLARD, INC. ONE PARK AVENUE 18TH FL NEW YORK, N. Y. 10016\", \"ATTN\": \"MR. ARTHUR STEVENS, ESQ A. J. STEVENS\", \"RE\": \"LORILLARD, INC.\", \"OR STATUTORY\": \"x\", \"MOTOR CARRIER\": \"x\", \"Account #\": \"033052\", \"Personal Service\": \"x\", \"Other\": \"CITATION AND FIRST ORIGINAL PETITION; X\", \"vs.\": \"R. J. REYNOLDS TOBACCO COMPANY, ET AL\", \"Case No.\": \"475,592\", \"Phone\": \"512/478- 4873\", \"Fed X\": \"X\", \"We enclose the following documents which were served upon\": \"UNITED STATES CORPORATION COMPANY IN TEXAS\", \"as registered agent for the above- captioned corporation on\": \"12- 13- 89\", \"TITLE OF ACTION\": \"WEBSTER CRECC\", \"COURT OR JURISDICTION\": \"345th Judicial District Court Travis County. Tx\", \"ATTORNEYS FOR CLAIMANT\": \"Mary Ellen Felps 1000 West Ave. Austin, Tx. 78701\", \"FORM PREPARED BY\": \"PAT HIGGINS\", \"Date Received\": \"12/ 14/ 89\"}}",
+    "doc_id": "92380595",
+    "num_fields": 20
+  },
+  {
+    "image": "/mnt/c/Users/myatp/OneDrive/Desktop/ClaudeCodePlay/chaos-eval/data/funsd/dataset/testing_data/images/93106788.png",
+    "ground_truth": "{\"gt_parse\": {\"_headers\": [\"LORILLARD MEDIA SERVICES ONE PARK AVENUE, NEW YORK, NY 10016- 5896 MAGAZINE INSERTION ORDER\"], \"TO\": \"ESSENCE 1500 BROADWAY NEW YORK, NY 10036\", \"ATTN\": \"JOYCE WINSTON\", \"DATE\": \"JUNE 1995\", \"ADVERTISER\": \"LORILLARD\", \"PRODUCT\": \"NEWPORT\", \"AD#\": \"NPT- 533- 7\", \"CAPTION\": \"FOUNTAIN COUPLE\", \"SPACE\": \"P5CE\", \"PO\": \"#77219\"}}",
+    "doc_id": "93106788",
+    "num_fields": 9
+  }
+]

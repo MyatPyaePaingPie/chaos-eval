@@ -20,8 +20,20 @@ env/
 data/funsd/
 data/sroie/
 data/nod/
+data/augmented/
+data/augmented_v3/
 !data/samples/
+!data/donut_format/
 !data/.gitkeep
+
+# Model weights (large)
+donut-funsd-lora/
+donut-funsd-lora-v2/
+donut-funsd-lora-v3/
+donut-funsd-merged/
+donut-funsd-merged-v2/
+donut-funsd-merged-v3/
+augraphy_cache/
 
 # Results (can be large)
 results/

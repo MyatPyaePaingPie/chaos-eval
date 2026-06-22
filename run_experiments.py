@@ -40,6 +40,7 @@ from src.utils import create_chaos_gradient, add_noise_to_image
 # Configuration
 MAX_DOCS_PER_TEST = 10  # Limit for quick testing (increase for full run)
 CHAOS_LEVELS = 6  # 0-5
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.0-flash")  # vision-capable, free tier
 
 
 def print_section(title: str):
@@ -159,6 +160,87 @@ def extract_with_claude(image: Image.Image, prompt: str, doc_id: str) -> dict:
         }
 
 
+def extract_with_gemini(image: Image.Image, prompt: str, doc_id: str) -> dict:
+    """
+    Drop-in replacement for extract_with_claude that uses Google Gemini.
+    Same return contract: raw_response, parsed_data, success, latency_ms, tokens_in/out.
+    Vision-capable, runs on the free tier. Key read from GEMINI_API_KEY.
+    """
+    import google.generativeai as genai
+
+    api_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
+    genai.configure(api_key=api_key)
+    model = genai.GenerativeModel(GEMINI_MODEL)
+
+    print(f"    Sending to Gemini API ({GEMINI_MODEL})...")
+    print(f"    Image size: {image.size}")
+    print(f"    Prompt length: {len(prompt)} chars")
+
+    img = image.convert("RGB") if image.mode != "RGB" else image
+    start_time = time.time()
+
+    # Simple backoff for free-tier rate limits (429/quota)
+    last_err = None
+    for attempt in range(4):
+        try:
+            response = model.generate_content([prompt, img])
+            latency_ms = (time.time() - start_time) * 1000
+            raw_response = response.text or ""
+
+            parsed_data = None
+            try:
+                text = raw_response.strip()
+                if text.startswith("```json"):
+                    text = text[7:]
+                elif text.startswith("```"):
+                    text = text[3:]
+                if text.endswith("```"):
+                    text = text[:-3]
+                text = text.strip()
+                start = text.find("{")
+                end = text.rfind("}") + 1
+                if start != -1 and end > start:
+                    parsed_data = json.loads(text[start:end])
+            except json.JSONDecodeError as e:
+                print(f"    ⚠️  JSON parse error: {e}")
+
+            usage = getattr(response, "usage_metadata", None)
+            tokens_in = getattr(usage, "prompt_token_count", 0) if usage else 0
+            tokens_out = getattr(usage, "candidates_token_count", 0) if usage else 0
+
+            print(f"    ✓ Response received in {latency_ms:.0f}ms")
+            print(f"    Tokens: {tokens_in} in, {tokens_out} out")
+
+            return {
+                "raw_response": raw_response,
+                "parsed_data": parsed_data,
+                "success": parsed_data is not None,
+                "latency_ms": latency_ms,
+                "tokens_in": tokens_in,
+                "tokens_out": tokens_out,
+            }
+
+        except Exception as e:
+            last_err = e
+            msg = str(e).lower()
+            if any(s in msg for s in ("429", "quota", "rate", "resource", "exhaust")):
+                wait = 8 * (attempt + 1)
+                print(f"    ⏳ Rate limited, retrying in {wait}s (attempt {attempt+1}/4)...")
+                time.sleep(wait)
+                continue
+            break
+
+    latency_ms = (time.time() - start_time) * 1000
+    print(f"    ✗ Error: {last_err}")
+    return {
+        "raw_response": "",
+        "parsed_data": None,
+        "success": False,
+        "latency_ms": latency_ms,
+        "error": str(last_err),
+    }
+
+
 def evaluate_extraction(extracted: dict | None, ground_truth: dict | None, doc_id: str) -> dict:
     """
     Evaluate extraction against ground truth.
@@ -229,7 +311,7 @@ def run_test_1_baseline_extraction():
 
         # Extract
         img = doc.load_image()
-        extraction = extract_with_claude(img, FUNSD_EXTRACTION_PROMPT, doc.id)
+        extraction = extract_with_gemini(img, FUNSD_EXTRACTION_PROMPT, doc.id)
 
         # Show what was extracted
         if extraction["parsed_data"]:
@@ -306,7 +388,7 @@ def run_test_2_chaos_gradient():
             print(f"\n  Chaos Level {level}:")
 
             # Extract
-            extraction = extract_with_claude(chaos_img, FUNSD_EXTRACTION_PROMPT, f"{doc.id}_chaos{level}")
+            extraction = extract_with_gemini(chaos_img, FUNSD_EXTRACTION_PROMPT, f"{doc.id}_chaos{level}")
 
             # Evaluate
             evaluation = evaluate_extraction(extraction["parsed_data"], doc.ground_truth, doc.id)
@@ -395,7 +477,7 @@ def run_test_3_detailed_example():
     print(FUNSD_EXTRACTION_PROMPT)
 
     print_subsection("Claude Response")
-    extraction = extract_with_claude(img, FUNSD_EXTRACTION_PROMPT, doc.id)
+    extraction = extract_with_gemini(img, FUNSD_EXTRACTION_PROMPT, doc.id)
 
     print("\nRaw Response:")
     print(extraction["raw_response"][:2000])

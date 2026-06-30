@@ -94,17 +94,35 @@ class ClaudeExtractor(BaseExtractor):
         self._client = None
 
     @property
+    def _use_bedrock(self) -> bool:
+        return bool(os.getenv("AWS_BEARER_TOKEN_BEDROCK") or os.getenv("USE_BEDROCK"))
+
+    @property
     def client(self):
         if self._client is None:
             import anthropic
-            self._client = anthropic.Anthropic(
-                api_key=os.getenv("ANTHROPIC_API_KEY")
-            )
+            if self._use_bedrock:
+                # Route Claude through Amazon Bedrock. Auth comes from the AWS
+                # credential chain (AWS_BEARER_TOKEN_BEDROCK, or access key/secret).
+                region = os.getenv("AWS_REGION", "us-east-1")
+                if os.getenv("BEDROCK_CLIENT", "mantle").lower() == "legacy":
+                    self._client = anthropic.AnthropicBedrock(aws_region=region)
+                else:
+                    self._client = anthropic.AnthropicBedrockMantle(aws_region=region)
+            else:
+                self._client = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
         return self._client
 
     @property
     def model_name(self) -> str:
         return f"claude:{self.model}"
+
+    @property
+    def _effective_model(self) -> str:
+        """On Bedrock, use the Bedrock model id (anthropic.-prefixed); override via BEDROCK_MODEL_ID."""
+        if self._use_bedrock:
+            return os.getenv("BEDROCK_MODEL_ID") or f"anthropic.{self.model}"
+        return self.model
 
     def extract(self, document: Document, prompt: str | None = None) -> ExtractionResult:
         """Extract data using Claude's vision capabilities."""
@@ -120,7 +138,7 @@ class ClaudeExtractor(BaseExtractor):
             image_data = document.to_base64()
 
             response = self.client.messages.create(
-                model=self.model,
+                model=self._effective_model,
                 max_tokens=4096,
                 messages=[
                     {

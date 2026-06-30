@@ -66,7 +66,7 @@ class DataLoader:
 
             ground_truth = None
             if ann_path.exists():
-                with open(ann_path) as f:
+                with open(ann_path, encoding="utf-8") as f:
                     ann_data = json.load(f)
                     # Parse FUNSD format into our format
                     ground_truth = self._parse_funsd_annotation(ann_data)
@@ -160,7 +160,7 @@ class DataLoader:
             "total": None
         }
 
-        with open(entities_path) as f:
+        with open(entities_path, encoding="utf-8") as f:
             lines = f.read().strip().split("\n")
 
         if len(lines) >= 4:
@@ -201,7 +201,7 @@ class DataLoader:
             gt_path = img_path.with_suffix(".txt")
             ground_truth = None
             if gt_path.exists():
-                with open(gt_path) as f:
+                with open(gt_path, encoding="utf-8") as f:
                     ground_truth = {"text": f.read().strip()}
 
             yield Document(

@@ -24,7 +24,7 @@ def parse_funsd_annotation(annotation_path: str) -> dict:
 
     We follow the linking to create question→answer pairs.
     """
-    with open(annotation_path, 'r') as f:
+    with open(annotation_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
     elements = {item['id']: item for item in data['form']}
@@ -155,7 +155,7 @@ if __name__ == '__main__':
 
         # Save dataset
         output_file = output_dir / f'{split}.json'
-        with open(output_file, 'w') as f:
+        with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(dataset, f, indent=2, ensure_ascii=False)
         print(f"  Saved to: {output_file}")
 

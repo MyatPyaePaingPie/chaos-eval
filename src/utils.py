@@ -18,18 +18,18 @@ def save_results(results: list[dict], filepath: str | Path, append: bool = False
     filepath.parent.mkdir(parents=True, exist_ok=True)
 
     if append and filepath.exists():
-        with open(filepath) as f:
+        with open(filepath, encoding="utf-8") as f:
             existing = json.load(f)
         if isinstance(existing, list):
             results = existing + results
 
-    with open(filepath, "w") as f:
+    with open(filepath, "w", encoding="utf-8") as f:
         json.dump(results, f, indent=2, default=str)
 
 
 def load_results(filepath: str | Path) -> list[dict]:
     """Load results from JSON file."""
-    with open(filepath) as f:
+    with open(filepath, encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -89,7 +89,7 @@ class ExperimentLogger:
         timestamp = datetime.now().isoformat()
         line = f"[{timestamp}] {message}\n"
 
-        with open(self.log_file, "a") as f:
+        with open(self.log_file, "a", encoding="utf-8") as f:
             f.write(line)
 
         console.print(f"[dim]{timestamp}[/dim] {message}")
